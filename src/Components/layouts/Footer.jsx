@@ -20,7 +20,7 @@ class Footer extends Component {
         <div>
         <p style={{color:"white"}}> POWERBALL FANATASY 2020 ALL RIGHTS RESERVERD</p>
         </div>
-        <div className="text-center"><FaFacebook/> <AiFillInstagram/><AiFillTwitterCircle/></div>
+        <div className="text-center"><FaFacebook style={{color:"white"}}/> <AiFillInstagram style={{color:"white"}}/><AiFillTwitterCircle style={{color:"white"}}/></div>
 
         </div>
         <div className="col-lg-4">
