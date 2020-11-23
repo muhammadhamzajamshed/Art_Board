@@ -4,7 +4,7 @@ import header from '../../Assets/Images/Header.png'
 import { Avatar, Image } from 'antd';
 import { UserOutlined } from '@ant-design/icons';
 import 'antd/dist/antd.css';
-
+import profilePic from '../../Assets/Images/Ellipse 1.png'
 class Header extends Component {
     render() {
         return (
@@ -30,7 +30,9 @@ class Header extends Component {
 
                 
                 <div className="col-lg-2">
-                <Avatar size={44} style={{ color: '#f56a00', backgroundColor: '#141413' }}>U</Avatar></div>                
+        {/*<Avatar size={44} style={{ color: '#f56a00', backgroundColor: '#141413' }}>U</Avatar>*/}
+                <img src={profilePic} style={{height:"50px"}}/> 
+                </div>                
                 
                 
                 </div>
@@ -40,7 +42,7 @@ class Header extends Component {
                 </div>
 
             </div>
-            <div className="row" style={{backgroundColor:"#e6e4d8"}}>
+            <div className="row" style={{backgroundColor:"#FFFFFF"}}>
             
             <div className="col-lg-4">
             </div>
@@ -48,7 +50,7 @@ class Header extends Component {
                         <div className="row">   
                         <div className="col-lg-2" >
                         <h6>Joes_Club</h6>
-                        <p>2-0-1</p>
+                        2-0-1
                         </div>              
                         <div className="col-lg-2">
                         <h6>My Team</h6>

@@ -8,7 +8,7 @@ class DraftRulesPage extends Component {
             <div style={{backgroundColor:"#F1F1F1"}}>
              
 
-            <div className="row" style={{ marginLeft:"35px",marginRight:"5px" ,paddingLeft:"15px" ,paddingRight:"15px"}} >
+            <div className="row" style={{ marginLeft:"5px",marginRight:"5px" ,paddingLeft:"150px" ,paddingRight:"150px"}} >
             
                  <div class="card container  my-3 py-3 z-depth-1  col-lg-12 col-md-8 col-sm-8">
  
@@ -35,8 +35,8 @@ class DraftRulesPage extends Component {
 <br/>
 <br/>
     <div className="row">
-    <div className="col-lg-1"></div>
-    <div className="col-lg-2"><h6>SEC</h6>
+    <div className="col-lg-1 col-md-0 col-sm-0"></div>
+    <div className="col-lg-2  col-md-4 col-sm-6"><h6>SEC</h6>
     <p></p>
     <p>Alabama</p>
     <p>LSU</p>
@@ -52,7 +52,7 @@ class DraftRulesPage extends Component {
    <p>OLE MISS</p>
      
     </div>
-    <div className="col-lg-2"><h6>BIG 10</h6>
+    <div className="col-lg-2  col-md-4 col-sm-6"><h6>BIG 10</h6>
     <p>IOWA</p>
     <p>NORTHWESTERN</p>
     <p>INDIANA</p>
@@ -70,7 +70,7 @@ class DraftRulesPage extends Component {
     
     
     </div>
-    <div className="col-lg-2">
+    <div className="col-lg-2  col-md-4 col-sm-6">
     <h6>BIG 12</h6>
     <p>WEST VIRGINIA</p>
     <p>BAYLOR</p>
@@ -87,7 +87,7 @@ class DraftRulesPage extends Component {
     
     
     </div>
-    <div className="col-lg-2"><h6>ACC</h6>
+    <div className="col-lg-2 col-md-4 col-sm-6"><h6>ACC</h6>
     <p>BOSTON COLLEGE</p>
     <p>CLEMSON</p>  
     <p>DUKE</p>
@@ -106,7 +106,7 @@ class DraftRulesPage extends Component {
     
     
     </div>
-    <div className="col-lg-2"><h6>PAC 12</h6>
+    <div className="col-lg-2  col-md-4 col-sm-6"><h6>PAC 12</h6>
     <p>WASHINGTON STATE</p>
     <p>WASHINGTON</p> 
     <p>COLORADO</p>
@@ -121,7 +121,7 @@ class DraftRulesPage extends Component {
     <p>USC</p> 
     
     </div>
-    <div className="col-lg-1"></div>
+    <div className="col-lg-1 col-md-0 col-sm-0"></div>
     </div>
     
     <h6>INDEPENDENT</h6>
@@ -130,7 +130,7 @@ class DraftRulesPage extends Component {
     
     <p>NOTRE DAME</p>
  
- 
+    <hr/>
  </div>
  
  
