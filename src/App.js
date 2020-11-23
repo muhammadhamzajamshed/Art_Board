@@ -1,24 +1,33 @@
 import logo from './logo.svg';
+import React, { Component } from "react";
+import 'bootstrap/dist/css/bootstrap.css';
 import './App.css';
+import 'antd/dist/antd.css';
+import 'font-awesome/css/font-awesome.min.css';
+import { Route, Switch } from "react-router-dom";
+// import "bootstrap-css-only/css/bootstrap.min.css";
+import "./App.css";
 
+
+import Header from './Components/layouts/Header.jsx'
+import Footer from './Components/layouts/Footer';
+
+import DraftRulesPage from './Components/DraftRulePage.jsx'
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <React.Fragment>
+        
+        <div>
+        <Header/>
+          <Switch>
+           <Route path="/header" component={Header}/>
+           <Route path="/DraftRulePage" component={DraftRulesPage}/>
+            
+          </Switch>
+          <Footer/>
+        </div>
+        
+        </React.Fragment>
   );
 }
 
