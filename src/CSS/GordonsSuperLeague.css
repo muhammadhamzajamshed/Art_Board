@@ -1,0 +1,50 @@
+.GordonsSuperLeague{
+margin-top: 25px;
+padding-top: 15px;
+padding-left: 20px;
+/* padding-right: 10px; */
+font-family: 'Bebas Neue', cursive;
+margin-left: 300px;
+    margin-right: 300px;
+    
+}
+.h5{
+    font-size: 58px;
+}
+.h6{
+ font-size: 40px;
+}
+.para{
+
+font-weight: bold;
+color: #CBCBCB;
+padding-top: -5px;
+font-size: 23px;
+line-height: 1px;
+
+} 
+.tableHeader{
+    background-color:#00002E ;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 29px;
+}
+.table{
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+
+.tableData{
+
+font-size: 32px;
+font-weight:bold;
+
+}
+
+.imgStyle{
+    width:54px;
+    height:49px;
+    margin-left: 4px;
+    margin-right: 4px;
+}
