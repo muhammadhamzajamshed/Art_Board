@@ -7,7 +7,7 @@ class LeagueScheduleResults extends Component {
 	render() {
 		return (
 			<div className="card LeagueSchedule ">
-				<div className="row heading lg-12">
+				<div className="w3-card heading lg-12">
 					<h5 className="headingFont">LEAGUE SCHEDULE AND RESULTS</h5>
 				</div>
 				<div className="row  ">
@@ -26,9 +26,9 @@ class LeagueScheduleResults extends Component {
 						</a>
 					</div>
 					<p className="para alignContent">Week</p>
-					<span className="dropdown">
+					<div className="dropdown">
 						<a
-							class="btn  dropdown-toggle"
+							class="btn btn-secondary  dropdown-toggle dropDown"
 							href="#"
 							role="button"
 							id="dropdownMenuLink"
@@ -38,7 +38,7 @@ class LeagueScheduleResults extends Component {
 						>
 							Upcoming
 						</a>
-					</span>
+					</div>
 				</div>
 				<h6 className="h6"> WEEK 4</h6>
 
