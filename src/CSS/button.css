@@ -1,0 +1,68 @@
+.buttonLanding{
+  background-color: black;
+  color: white;
+  border: 1px solid black;   
+  border-radius: 0px;
+  letter-spacing: 1px;
+  width: 40%;
+}
+
+.buttonLandingScoring{
+    background-color: rgb(3, 172, 54);
+    border: 1px solid rgb(3, 172, 54);
+    border-radius: 0px;
+    letter-spacing: 1px;
+}
+
+
+.socialButton{
+    text-align: center;
+}
+
+.fa {
+    padding: 10px;
+    margin: 5px;
+    font-size: 18px;
+    width: 40px;
+    border-radius: 100%;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* Add a hover effect if you want */
+  /* .fa:hover {
+    opacity: 0.7;
+  } */
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background-color: black;
+    color: white;
+  }
+  
+  
+  .fa-instagram {
+    background-color: black;
+    color: white;
+  }
+
+  /* Twitter */
+  .fa-twitter {
+    background-color: black;
+    color: white;
+  }
+
+  .fa-facebook:hover {
+    background-color: rgb(59, 89, 152);
+    color: white;
+  }
+  .fa-instagram:hover {
+    background-color: rgb(76, 95, 215);
+    color: white;
+  }
+  .fa-twitter:hover {
+    background-color: rgb(29, 161, 242);
+    color: white;
+  }

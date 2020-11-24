@@ -1,0 +1,16 @@
+.landingBody{
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 1px;
+  background-image: url('../Assets/Images/Landing.png');
+  background-size: contain;
+  
+}
+
+.innerLandingBody{
+    justify-content: center;
+    background-image: url('../Assets/Images/MaskGroup.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-color: white;
+}
