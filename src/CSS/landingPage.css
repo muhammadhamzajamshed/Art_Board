@@ -13,4 +13,17 @@
     background-repeat: no-repeat;
     background-position-x: right;
     background-color: white;
+    
+}
+
+.leftcol{
+  margin-left: 100px;
+}
+.rightCol{
+  margin-right: 100px;
+}
+
+input{
+  box-shadow:outset 0 0 5px 5px rgb(68, 60, 60);
+  background: #fff;
 }
