@@ -25,9 +25,12 @@ font-size: 23px;
 line-height: 1px;
 
 } 
+
+
 .tableHeader{
     background-color:#00002E ;
     color: #FFFFFF;
+    font-family: 'Bebas Neue', cursive;
     font-weight: bold;
     font-size: 29px;
 }
@@ -61,3 +64,4 @@ color:#03AC36 ;
      height:"37px";
 margin-left:"5px"
 }
+

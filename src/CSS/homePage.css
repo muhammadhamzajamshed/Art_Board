@@ -14,3 +14,16 @@
 .site-card-border-less-wrapper {
    background: #ececec;
   }
+
+
+  .homePagetableBody{
+      font-size: small;
+  }
+
+  .homePagetableHeader{
+    background-color:#00002E ;
+    color: #FFFFFF;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: bold;
+    font-size: 20px;  
+}

@@ -26,6 +26,7 @@ function App() {
            <Route path="/home" component={Home}/>
            <Route path="/GordonsSuperLeague" component={GordonsSuperLeague}/>
           </Switch>
+          <br/><br/>
           <Footer/>
         </div>
         
