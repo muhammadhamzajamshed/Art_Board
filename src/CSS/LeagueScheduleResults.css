@@ -1,8 +1,8 @@
 .LeagueSchedule{
     margin-top: 25px;
     margin-bottom:25px;
-    padding-top: 15px;
-    padding-left: 20px;
+    
+    
     
     /* padding-right: 10px; */
     font-family: 'Bebas Neue', cursive;
@@ -10,22 +10,13 @@
         margin-right: 300px;
         
     }
-    .h5{
-        font-size: 58px;
-    }
-    .h6{
-     font-size: 40px;
-    }
-    .para{
     
-    font-weight: bold;
-    color: #CBCBCB;
-    padding-top: -5px;
-    font-size: 23px;
-    line-height: 1px;
-    
-    } 
+  
+   
+.para{
+font-family: "Gilroy";
 
+}
     .heading{
         background-color:#00002E ;
         color: #FFFFFF;
@@ -33,14 +24,10 @@
         font-size: 40px;
         font-weight: bold;
     }
-    .tableHeader{
-        background-color:#00002E ;
+    .headingFont{
+       
+        font-size: 40px;
         color: #FFFFFF;
-        font-weight: bold;
-        font-size: 29px;
-    }
-    .table{
-        padding-right: 10px;
-        padding-left: 10px;
+       font-weight:  bold;
     }
     

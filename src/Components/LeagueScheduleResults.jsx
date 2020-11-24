@@ -7,53 +7,19 @@ class LeagueScheduleResults extends Component {
     render() { 
         return ( 
             <div className="card LeagueSchedule ">
-            <div className="row heading">
-            <h5>LEAGUE SCHEDULE AND RESULTS</h5>
+            <div className="row heading lg-12">
+            <h5 className="headingFont">LEAGUE SCHEDULE AND RESULTS</h5>
             </div>
-            <div className="row table">
+            <div className="row">
             
-            
-            
-            
-            <table class="table table-striped">
-  <thead className="tableHeader">
-    <tr>
-      <th scope="col"></th>
-      <th scope="col">TEAMS</th>
-      <th scope="col">WINS</th>
-      <th scope="col">LOSES</th>
-      <th scope="col">TIES</th>
-      <th scope="col">.PCT</th>
-      <th scope="col">GB</th>
-    </tr>
-  </thead>
-  <tbody className="tableData">
-    <tr>
-      <th scope="row"></th>
-      <td><span className="count">1</span><img className="imgStyle" src={object1}/> JOE'S CLUB</td>
-      <td>3</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      
-    </tr>
-    <tr>
-      <th scope="row"></th>
-      <td><span  className="count">2</span><img className="imgStyle" src={object2}/>JOE'S CLUB</td>
-      <td>2</td>
-      <td>1</td>
-      <td>1</td>
-      <td>1</td>
-      <td>1</td>
-      
-    </tr>
-    
-  </tbody>
-</table>
+            <p>By Team</p> <span><div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div></span>
             
             </div>
-
+            
 
             </div>
          );
