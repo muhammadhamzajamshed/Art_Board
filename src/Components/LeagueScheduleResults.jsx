@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import '../CSS/LeagueScheduleResults.css';
 import object1 from '../Assets/Images/object1.png';
 import object2 from '../Assets/Images/object2.png';
+
+import revert from '../Assets/Images/reverrtHelmet.png'
 class LeagueScheduleResults extends Component {
 	state = {};
 	render() {
@@ -42,8 +44,8 @@ class LeagueScheduleResults extends Component {
 				</div>
 				<h6 className="h6"> WEEK 4</h6>
 
-				<div className="row">
-					<div className="row tableRow">
+				
+					<div className="row lg-12 tableRow">
 						<div className="col-lg-6 ">
 							<div className="row lg-12">
 								<div className="col-lg-4">
@@ -57,12 +59,12 @@ class LeagueScheduleResults extends Component {
 						</div>
             <div className="col-lg-6" >
             <div className="row lg-12">
-								<div className="col-lg-4">
-									<img className="imgStyle" src={object2} />
-								</div>
 								<div className="col-lg-8">
-									<h4>TEAM NAME</h4>
-									<h6>Manager ID</h6>
+								<h4>TEAM NAME</h4>
+									<h6>Manager ID</h6>	
+								</div>
+								<div className="col-lg-4">
+                <img className="imgStyle" src={revert} />
 								</div>
 							</div>
             
@@ -70,7 +72,7 @@ class LeagueScheduleResults extends Component {
             </div>
 					</div>
 				</div>
-			</div>
+			
 		);
 	}
 }
