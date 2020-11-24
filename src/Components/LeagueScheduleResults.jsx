@@ -10,9 +10,9 @@ class LeagueScheduleResults extends Component {
 				<div className="row heading lg-12">
 					<h5 className="headingFont">LEAGUE SCHEDULE AND RESULTS</h5>
 				</div>
-				<div className="row  leftPadding">
+				<div className="row  ">
 					<p className="para alignContent">By Team</p>
-					<span className="dropdown">
+					<div className="dropdown">
 						<a
 							className="btn btn-secondary dropdown-toggle dropDown"
 							href="#"
@@ -24,7 +24,7 @@ class LeagueScheduleResults extends Component {
 						>
 							All Team
 						</a>
-					</span>
+					</div>
 					<p className="para alignContent">Week</p>
 					<span className="dropdown">
 						<a
