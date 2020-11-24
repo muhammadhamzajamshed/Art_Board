@@ -11,7 +11,7 @@ import "./App.css";
 import LandingPage from './Components/landingPage'
 import Header from './Components/layouts/Header.jsx'
 import Footer from './Components/layouts/Footer';
-
+import Home from './Components/HomePage'
 import DraftRulesPage from './Components/DraftRulePage.jsx'
 function App() {
   return (
@@ -19,11 +19,15 @@ function App() {
         
         <div>
         <Header/>
+        <br/>
           <Switch>
            <Route path="/header" component={Header}/>
            <Route path="/DraftRulePage" component={DraftRulesPage}/>
            <Route path="/landingPage" component={LandingPage}/>
+           <Route path="/home" component={Home}/>
           </Switch>
+          <br/>
+          <br/>
           <Footer/>
         </div>
         

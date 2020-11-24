@@ -13,6 +13,7 @@ function LandingPage() {
                 <div className="container">
             <div className="row">
             <div className="col-5">
+                <div className="leftcol">
                 <h1>
                     <b>
                         UNIQUE RULES.<br/>
@@ -36,12 +37,14 @@ function LandingPage() {
                     fontFamily: 'sans-serif',
                     letterSpacing: '0px'
                 }}>For more information<br/>email us at: <b>inquires@powerball.com</b></p>
+                </div>
             </div>
             <div className="col-3">
 
             </div>
             <div className="col-4">
-                <div style={{
+                <div className="rightCol">
+                    <div style={{
                     textAlign: 'center',
                 }}>
                 <h3>
@@ -53,7 +56,8 @@ function LandingPage() {
                         SIGN UP
                     </Button>
                     <Divider plain style={{
-                        color: 'lightgrey'
+                        color: 'lightgrey',
+                        fontFamily: 'sans-serif'
                     }}>OR</Divider>
                     <h3>
                     <b>
@@ -72,6 +76,9 @@ function LandingPage() {
                    <Button size={'large'} type='primary' block className="buttonLanding">
                         LOG IN
                     </Button>
+                    <br/>
+                    <br/>
+                </div>
                 </div>
             </div>
             </div>
