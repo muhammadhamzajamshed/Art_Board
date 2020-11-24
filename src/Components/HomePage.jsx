@@ -5,7 +5,11 @@ import redHelmet from '../Assets/Images/object2.png'
 import blackHelmet from '../Assets/Images/object3.png'
 import blueHelmet from '../Assets/Images/object4.png'
 import whiteHelmet from '../Assets/Images/object6.png'
-
+import send from '../Assets/Images/email.png'
+import emoji from '../Assets/Images/happy.png'
+import GMessage from "../Assets/Images/greenMessage.png"
+import WMessage from "../Assets/Images/whiteMessage.png"
+import { Divider } from 'antd'
 function HomePage() {
     return (
         <div>
@@ -284,10 +288,77 @@ function HomePage() {
                       </div>
                 </div>
                 <div className="col-3">
-                    RECENT ACTIVITY
-                    <br/>
-                    <br/>
-                    
+                <div className="container">
+                    <div class="w3-container">
+                      
+                      <div class="card" >
+                             <h3 style={{
+                                 backgroundColor: 'rgb(0, 0, 46)',
+                                 color: 'white',
+                                 textAlign: 'center',
+                                 paddingTop: '10px',
+                                 paddingBottom: '10px',
+                                 fontFamily: 'Bebas Neue,cursive',
+                                 letterSpacing: '1px'
+                             }}>SMACKTALK ROOM</h3>
+                          
+                          <div class="container">
+                            <div className="row">
+                                <div className="col-1"></div>
+                                <div className="col-8"><img src={GMessage}/></div>
+                            </div>
+                            <br/>
+                            <div className="row">
+                                <img src={WMessage} />
+                            </div>
+                            <br/>
+                            <div className="row">
+                            <div className="col-1"></div>
+                                <div className="col-8"><img src={GMessage}/></div>
+                            </div>
+                            <br/>
+                            <div className="row">
+                                <img src={WMessage} />
+                            </div>
+                            <br/>
+                            <div className="row">
+                            <div className="col-1"></div>
+                                <div className="col-8"><img src={GMessage}/></div>
+                            </div>
+                            
+                          </div>
+                            <Divider/>
+                          <footer>
+                                <div className="container">
+                                    <div className="row">
+                                        <div className="col-9">
+                                            <p style={{
+                                                color: 'rgb(155, 155, 155)',
+                                            }}> Type a message...</p>
+                                        </div>
+                                        <div className="col-1">
+                                            <img src={emoji} style={{
+                                                width: '18px'
+                                            }} />
+                                        </div>
+                                        <div className="col-1">
+                                            <img src={send}  style={{
+                                                width: '18px'
+                                            }}/>
+                                        </div>
+                                    </div>
+                                </div>
+                          </footer>
+                      </div>
+                      </div>
+
+                      <br/>
+                        <div className="container">
+                        <p className="homepageBannerSmall">
+                            AD SPACE<br/>FOR HOMEPAGE
+                        </p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

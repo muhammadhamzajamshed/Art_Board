@@ -17,7 +17,8 @@
 
 
   .homePagetableBody{
-      font-size: small;
+      font-size: medium;
+      font-family: 'Bebas Neue', cursive;
   }
 
   .homePagetableHeader{
@@ -26,4 +27,17 @@
     font-family: 'Bebas Neue', cursive;
     font-weight: bold;
     font-size: 20px;  
+}
+
+.homepageBannerSmall{
+    background-color: rgb(62, 62, 62);
+    color: rgb(220, 220, 220);
+    border: 2px solid black;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 1px;
+    font-size: 47px;
+    font-weight: lighter;
 }
