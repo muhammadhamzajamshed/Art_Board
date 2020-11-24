@@ -10,8 +10,8 @@ import "./App.css";
 
 import LandingPage from './Components/landingPage'
 import Header from './Components/layouts/Header.jsx'
-import Footer from './Components/layouts/Footer';
-
+import Footer from './Components/layouts/Footer'
+import GordonsSuperLeague from './Components/GordonsSuperLeague.jsx'
 import DraftRulesPage from './Components/DraftRulePage.jsx'
 function App() {
   return (
@@ -23,6 +23,7 @@ function App() {
            <Route path="/header" component={Header}/>
            <Route path="/DraftRulePage" component={DraftRulesPage}/>
            <Route path="/landingPage" component={LandingPage}/>
+           <Route path="/GordonsSuperLeague" component={GordonsSuperLeague}/>
           </Switch>
           <Footer/>
         </div>
