@@ -48,18 +48,20 @@ class LeagueScheduleResults extends Component {
 					<div className="row lg-12 tableRow">
 						<div className="col-lg-6 ">
 							<div className="row lg-12">
-								<div className="col-lg-4">
+								<div className="col-lg-3">
 									<img className="imgStyle" src={object2} />
 								</div>
-								<div className="col-lg-8">
+								<div className="col-lg-5">
 									<h4>TEAM NAME</h4>
 									<h6>Manager ID</h6>
-								</div>
+                </div>
+                <div className="col-lg-4"></div>
 							</div>
 						</div>
             <div className="col-lg-6" >
             <div className="row lg-12">
-								<div className="col-lg-8">
+            <div className="col-lg-3"></div>
+								<div className="col-lg-5">
 								<h4>TEAM NAME</h4>
 									<h6>Manager ID</h6>	
 								</div>
@@ -70,7 +72,169 @@ class LeagueScheduleResults extends Component {
             
             
             </div>
-					</div>
+          </div>
+          
+
+
+
+
+					<div className="row lg-12 tableRow">
+						<div className="col-lg-6 ">
+							<div className="row lg-12">
+								<div className="col-lg-3">
+									<img className="imgStyle" src={object2} />
+								</div>
+								<div className="col-lg-5">
+									<h4>TEAM NAME</h4>
+									<h6>Manager ID</h6>
+                </div>
+                <div className="col-lg-4"></div>
+							</div>
+						</div>
+            <div className="col-lg-6" >
+            <div className="row lg-12">
+            <div className="col-lg-3"></div>
+								<div className="col-lg-5">
+								<h4>TEAM NAME</h4>
+									<h6>Manager ID</h6>	
+								</div>
+								<div className="col-lg-4">
+                <img className="imgStyle" src={revert} />
+								</div>
+							</div>
+            
+            
+            </div>
+          </div>
+          
+
+
+
+          
+					<div className="row lg-12 tableRow">
+          <div className="col-lg-6 ">
+            <div className="row lg-12">
+              <div className="col-lg-3">
+                <img className="imgStyle" src={object2} />
+              </div>
+              <div className="col-lg-5">
+                <h4>TEAM NAME</h4>
+                <h6>Manager ID</h6>
+              </div>
+              <div className="col-lg-4"></div>
+            </div>
+          </div>
+          <div className="col-lg-6" >
+          <div className="row lg-12">
+          <div className="col-lg-3"></div>
+              <div className="col-lg-5">
+              <h4>TEAM NAME</h4>
+                <h6>Manager ID</h6>	
+              </div>
+              <div className="col-lg-4">
+              <img className="imgStyle" src={revert} />
+              </div>
+            </div>
+          
+          
+          </div>
+        </div>
+
+
+        
+					<div className="row lg-12 tableRow">
+          <div className="col-lg-6 ">
+            <div className="row lg-12">
+              <div className="col-lg-3">
+                <img className="imgStyle" src={object2} />
+              </div>
+              <div className="col-lg-5">
+                <h4>TEAM NAME</h4>
+                <h6>Manager ID</h6>
+              </div>
+              <div className="col-lg-4"></div>
+            </div>
+          </div>
+          <div className="col-lg-6" >
+          <div className="row lg-12">
+          <div className="col-lg-3"></div>
+              <div className="col-lg-5">
+              <h4>TEAM NAME</h4>
+                <h6>Manager ID</h6>	
+              </div>
+              <div className="col-lg-4">
+              <img className="imgStyle" src={revert} />
+              </div>
+            </div>
+          
+          
+
+            
+          </div>
+        </div>
+
+
+        <div className="row lg-12 tableRow">
+        <div className="col-lg-6 ">
+          <div className="row lg-12">
+            <div className="col-lg-3">
+              <img className="imgStyle" src={object2} />
+            </div>
+            <div className="col-lg-5">
+              <h4>TEAM NAME</h4>
+              <h6>Manager ID</h6>
+            </div>
+            <div className="col-lg-4"></div>
+          </div>
+        </div>
+        <div className="col-lg-6" >
+        <div className="row lg-12">
+        <div className="col-lg-3"></div>
+            <div className="col-lg-5">
+            <h4>TEAM NAME</h4>
+              <h6>Manager ID</h6>	
+            </div>
+            <div className="col-lg-4">
+            <img className="imgStyle" src={revert} />
+            </div>
+          </div>
+        
+        
+
+          
+        </div>
+      </div>
+      <div className="row lg-12 tableRow">
+      <div className="col-lg-6 ">
+        <div className="row lg-12">
+          <div className="col-lg-3">
+            <img className="imgStyle" src={object2} />
+          </div>
+          <div className="col-lg-5">
+            <h4>TEAM NAME</h4>
+            <h6>Manager ID</h6>
+          </div>
+          <div className="col-lg-4"></div>
+        </div>
+      </div>
+      <div className="col-lg-6" >
+      <div className="row lg-12">
+      <div className="col-lg-3"></div>
+          <div className="col-lg-5">
+          <h4>TEAM NAME</h4>
+            <h6>Manager ID</h6>	
+          </div>
+          <div className="col-lg-4">
+          <img className="imgStyle" src={revert} />
+          </div>
+        </div>
+      
+      
+
+        
+      </div>
+    </div>
+
 				</div>
 			
 		);
