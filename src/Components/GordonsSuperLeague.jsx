@@ -9,18 +9,23 @@ import object5 from '../Assets/Images/object5.png'
 import object6 from '../Assets/Images/object6.png'
 
 import LeagueScheduleResults from './LeagueScheduleResults';
+
+import ViewRoasters from './subComponents/ViewRosters';
+
+import MyTeam from './subComponents/MyTeam';
+import RecentScores from './subComponents/RecentScores';
 class GordonsSuperLeague extends Component {
     state = {  }
     render() { 
         return ( 
-            <React.Fragment>
+            
             <div className="card GordonsSuperLeague">
             <div className="row">
             <div className="col-lg-11 col-md-11 col-sm-11">
             <h5 className="h5">GORDONS SUPER LEAGUE 2020</h5>
-            <p className="para">STANDARD RULES  | 10 TEAMS | HEAD-TO-HEAD POINTS </p>
+            <p className="parag">STANDARD RULES  | 10 TEAMS | HEAD-TO-HEAD POINTS </p>
             <br/>
-            <h6 className="h6">FULL Standings</h6>
+            <h6 className="h6">FULL STANDINGS</h6>
             </div>
             <div className="col-lg-1 col-md-1 col-sm-1">
             <FiSettings className="settingButton"/>
@@ -151,8 +156,8 @@ class GordonsSuperLeague extends Component {
 
 
             </div>
-            <LeagueScheduleResults/>
-            </React.Fragment>
+          
+          
          );
     }
 }

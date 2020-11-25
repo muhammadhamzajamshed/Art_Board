@@ -6,8 +6,8 @@
     
     /* padding-right: 10px; */
     font-family: 'Bebas Neue', cursive;
-    margin-left: 300px;
-        margin-right: 300px;
+    /* margin-left: 300px;
+        margin-right: 300px; */
         
     }
     
@@ -66,3 +66,12 @@ color: black;
  margin-left: 15px;
  margin-bottom: 15px;
     }
+
+    .vl {
+        border-left: 6px solid rgb(12, 12, 12);
+        height: 500px;
+        position: absolute;
+        left: 50%;
+        margin-left: -3px;
+        top: 0;
+      }

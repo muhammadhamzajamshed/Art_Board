@@ -1,22 +1,23 @@
 .GordonsSuperLeague{
-margin-top: 25px;
+/* margin-top: 25px; */
 margin-bottom:25px;
-padding-top: 15px;
+/* padding-top: 15px; */
 padding-left: 20px;
 
 /* padding-right: 10px; */
 font-family: 'Bebas Neue', cursive;
-margin-left: 300px;
-    margin-right: 300px;
+/* margin-left: 300px;
+    margin-right: 300px; */
     
 }
 .h5{
     font-size: 58px;
+    font-family: 'Bebas Neue', cursive;
 }
 .h6{
  font-size: 40px;
 }
-.para{
+.parag{
 
 font-weight: bold;
 color: #CBCBCB;

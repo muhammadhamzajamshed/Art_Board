@@ -14,9 +14,10 @@ class LeagueScheduleResults extends Component {
 				</div>
 				<div className="row  ">
 					<p className="para alignContent">By Team</p>
-					<div className="dropdown">
+					<div className="dropdown"  style={{
+          marginTop: "10px"}}>
 						<a
-							className="btn btn-secondary dropdown-toggle dropDown"
+							className="btn btn-outline-secondary dropdown-toggle dropDown"
 							href="#"
 							role="button"
 							id="dropdownMenuLink"
@@ -28,9 +29,10 @@ class LeagueScheduleResults extends Component {
 						</a>
 					</div>
 					<p className="para alignContent">Week</p>
-					<div className="dropdown">
+					<div className="dropdown" style={{
+            marginTop: "10px"}}>
 						<a
-							class="btn btn-secondary  dropdown-toggle dropDown"
+							class="btn btn-outline-secondary  dropdown-toggle dropDown"
 							href="#"
 							role="button"
 							id="dropdownMenuLink"
@@ -44,7 +46,7 @@ class LeagueScheduleResults extends Component {
 				</div>
 				<h6 className="h6"> WEEK 4</h6>
 
-				
+				<div>
 					<div className="row lg-12 tableRow">
 						<div className="col-lg-6 ">
 							<div className="row lg-12">
@@ -204,7 +206,7 @@ class LeagueScheduleResults extends Component {
           
         </div>
       </div>
-      <div className="row lg-12 tableRow">
+      <div className="row lg-12 tableRow ">
       <div className="col-lg-6 ">
         <div className="row lg-12">
           <div className="col-lg-3">
@@ -231,7 +233,7 @@ class LeagueScheduleResults extends Component {
       
       
 
-        
+</div>        
       </div>
     </div>
 
