@@ -68,10 +68,25 @@ color: black;
     }
 
     .vl {
-        border-left: 6px solid rgb(12, 12, 12);
-        height: 500px;
+        border-left: 2px solid rgb(233, 227, 227);
+        height: 380px;
         position: absolute;
         left: 50%;
-        margin-left: -3px;
-        top: 0;
+        margin-left: 3px;
+
+       
       }
+
+
+    .headingMargin{
+        margin-left: 25px;
+    }
+
+    .headerDivider {
+        border-left:1px solid #38546d; 
+        border-right:1px solid #16222c; 
+        height:80px;
+        position:absolute;
+        right:249px;
+        top:10px; 
+   }

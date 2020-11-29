@@ -1,0 +1,22 @@
+.rosterCard{
+    margin-top: 25px;
+margin-bottom:25px;
+/* padding-top: 15px; */
+padding-left: 20px;
+
+/* padding-right: 10px; */
+font-family: 'Bebas Neue', cursive;
+margin-left: 50px;
+    margin-right: 50px;
+    
+}
+
+.h5Rosters{
+    font-size: 58px;
+    font-family: 'Bebas Neue', cursive;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.rosterSubHeading{
+    color:#CBCBCB
+}

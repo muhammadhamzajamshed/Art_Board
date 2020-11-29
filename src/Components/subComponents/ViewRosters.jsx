@@ -12,7 +12,7 @@ class ViewRoasters extends Component {
 			<div className="container">
 				<div class="w3-container">
 					
-					<div class="w3-card">
+					<div class="w3-card" style={{paddingLeft:"-15px", paddingRight:"-15px"}}>
 						<h3
 							style={{
 								backgroundColor: 'rgb(0, 0, 46)',
@@ -203,32 +203,31 @@ class ViewRoasters extends Component {
                             style={{
                                 backgroundColor: 'rgb(241, 241, 241)',
                                 padding: '10px',
-                                // textAlign: 'justify',
+                                textAlign: 'justify',
                                 marginLeft: '10px',
                                 marginRight: '10px',
                                 marginBottom: '8px',
                                 marginTop: '6px'
                             }}
                         >
-                            
-                               
+                            <div className="col-lg-11 col-md-11 col-sm-11">
+                                <span>
                                     <img
                                         style={{
                                             marginLeft: '5px',
                                             marginRight: '10px',
                                             width: '31.96px',
-											height: '29px',
-											float:"left"
+                                            height: '29px'
                                         }}
                                         src={white}
                                         alt="###"
                                     />
-                                   <p style={{float:"left"}}> TEAM BIGBOYS</p>
-                                
-                         
-                            
-                                <p style={{ float: 'right', fontWeight: 'bold', color: '#707070' }}>&#62;</p>
-                           
+                                    TEAM BIGBOYS
+                                </span>
+                            </div>
+                            <div className="col-lg-1 col-md-1 col-sm-1">
+                                <span style={{ float: 'right', fontWeight: 'bold', color: '#707070' }}>&#62;</span>
+                            </div>
                         </div>
 
                         <div

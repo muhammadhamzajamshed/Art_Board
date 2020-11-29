@@ -28,7 +28,7 @@ class GordonsSuperLeague extends Component {
             <h6 className="h6">FULL STANDINGS</h6>
             </div>
             <div className="col-lg-1 col-md-1 col-sm-1">
-            <FiSettings className="settingButton"/>
+            <FiSettings className="settingIcon"/>
             </div>
             </div>
             <div className="row table">
@@ -154,7 +154,13 @@ class GordonsSuperLeague extends Component {
             
             </div>
 
+  {/*<LeagueScheduleResults/>
 
+            <ViewRoasters/>
+            <MyTeam/>
+
+            <br/>
+        <RecentScores/>*/}
             </div>
           
           

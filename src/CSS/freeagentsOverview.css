@@ -1,0 +1,65 @@
+.freeAgentsOverview{
+    /* margin-top: 25px; */
+    margin-bottom:25px;
+    /* padding-top: 15px; */
+    padding-left: 20px;
+    
+    /* padding-right: 10px; */
+    font-family: 'Bebas Neue', cursive;
+    /* margin-left: 300px;
+        margin-right: 300px; */
+        
+    }
+
+    .h5freeAgentsOverview{
+        font-size: 58px;
+        font-family: 'Bebas Neue';
+        font-weight: bold;
+    }
+
+    .blueDivfreeAgentsOverview{
+        background-color: #00002E;
+        color: white;
+    }
+    .greenDivfreeAgentsOverview{
+        background-color: #03AC36;
+        color: white;
+    }
+    .greyDivfreeAgentsOverview{
+        background-color: #CBCBCB;
+        color: rgb(14, 13, 13);
+    }
+
+    .freeAgentsOverviewBtn{
+
+        background-color: black;
+        color:white;
+        font-size: 30px;
+        font-family: 'Bebas Neue', cursive;
+        margin-top: 5px;
+       
+        margin-bottom: 5px;
+
+    }
+
+    /* .blueDivOverview{
+        background-color: #00002E;
+        color: white;
+    } */
+
+
+    .freeAgentsOverviewInc{
+        font-size: 32px;
+        font-family:  'Bebas Neue', cursive;;
+    }
+    .freeAgentsOverviewFontColor{
+color: #CBCBCB;
+
+
+    }
+
+    .pagination {
+
+  color: #CBCBCB;
+
+    }

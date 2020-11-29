@@ -1,35 +1,56 @@
 import React, { Component } from 'react';
 import logo from '../../Assets/Images/powerball logo.png'
 import header from '../../Assets/Images/Header.png'
-import { Avatar, Image } from 'antd';
-import { UserOutlined } from '@ant-design/icons';
+// import { Avatar, Image } from 'antd';
+// import { UserOutlined } from '@ant-design/icons';
 import 'antd/dist/antd.css';
 import profilePic from '../../Assets/Images/Ellipse 1.png'
+import redHelmet from "../../Assets/Images/object2.png"
+import line from '../../Assets/Images/headerLine.png'
+
+import { Menu, Dropdown } from 'antd';
+import { DownOutlined } from '@ant-design/icons';
+
 class Header extends Component {
     render() {
+        const menu = (
+            <Menu>
+              <Menu.Item key="0">
+                <a href="http://www.alipay.com/">Overview</a>
+              </Menu.Item>
+              <Menu.Item key="1">
+                <a href="http://www.taobao.com/">Rosters</a>
+              </Menu.Item>
+              <Menu.Item key="1">
+                <a href="http://www.taobao.com/">ScoreBoards</a>
+              </Menu.Item>
+              <Menu.Divider />
+              <Menu.Item key="3"> Settings</Menu.Item>
+            </Menu>
+          );
         return (
             <React.Fragment>
             <div>
                 <div className="row">
-                <div className="col-lg-12"  style={{backgroundImage:`url(${header})`, backgroundRepeat:"no-repeat", backgroundSize:"cover"}}>
+                <div className="col-lg-12 col-md-12 col-sm-12  col-xs-12"  style={{backgroundImage:`url(${header})`, backgroundRepeat:"no-repeat", backgroundSize:"cover"}}>
                 <div className="row" style={{ paddingTop:"15px" , paddingBottom:"15px"}}>
-                <div className="col-lg-2"> <img     src={logo}  style={{width:"150px", paddingLeft:"50px" }}/></div>
-                <div className="col-lg-2">
+                <div className="col-lg-2 col-md-2 col-sm-2  col-xs-2"> <img     src={logo}  style={{width:"150px", paddingLeft:"50px" }}/></div>
+                <div className="col-lg-2 col-md-2 col-sm-2  col-xs-2">
                 <h4 style={{color:"white"}}> HOME</h4>
                 </div> 
-                <div className="col-lg-2">
+                <div className="col-lg-2 col-md-2 col-sm-2  col-xs-2">
                 <h4 style={{color:"white"}}>NFL FIXTURES</h4>
                 </div>
-                <div className="col-lg-2">
+                <div className="col-lg-2 col-md-2 col-sm-2  col-xs-2">
                 <h4 style={{color:"white"}}> SCORRING RULES</h4>
                 </div>
 
-                <div className="col-lg-2">
+                <div className="col-lg-2 col-md-2 col-sm-2  col-xs-2">
                <h4 style={{color:"white"}}>DRAFT RULES</h4>
                 </div>
 
                 
-                <div className="col-lg-2">
+                <div className="col-lg-2 col-md-2 col-sm-2  col-xs-2">
         {/*<Avatar size={44} style={{ color: '#f56a00', backgroundColor: '#141413' }}>U</Avatar>*/}
                 <img src={profilePic} style={{height:"50px"}}/> 
                 </div>                
@@ -44,30 +65,45 @@ class Header extends Component {
             </div>
             <div className="row" style={{backgroundColor:"#FFFFFF"}}>
             
-            <div className="col-lg-4">
+            <div className="col-lg-2 col-md-2 col-sm-2  col-xs-2">
             </div>
-            <div className="col-lg-6">
+            <div className="col-lg-8 col-md-8 col-sm-8  col-xs-8 ">
                         <div className="row">   
-                        <div className="col-lg-2" >
-                        <h6>Joes_Club</h6>
-                        2-0-1
+                        <div className="col-lg-3 col-md-3 col-sm-3  col-xs-3" >
+                        <div className="row lg-12">
+                        <div className="col-lg-4 col-md-4 col-sm-4 col-xs-4"><span> <img src={redHelmet} style={{width:"40px", height:"35px"}}   /></span></div>
+                        <div className="col-lg-4 col-md-4 col-sm-4 col-xs-4"><p>Joes_Club</p> <div>2-0-1</div></div>
+                        <div className="col-lg-4 col-md-4 col-sm-4 col-xs-4"><img src={line}/></div>
+                        </div>
+                       
+                       
                         </div>              
-                        <div className="col-lg-2">
+                        <div className="col-lg-2 col-md-2 col-sm-2  col-xs-2">
                         <h6>My Team</h6>
                         </div> 
-                        <div className="col-lg-2">
-                        <h6>League</h6>
+                        <div className="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+                        <Dropdown overlay={menu} trigger={['click']}>
+                        <a className="ant-dropdown-link" onClick={e => e.preventDefault()}>
+                          League <DownOutlined />
+                        </a>
+                      </Dropdown>
+                      
 
                         </div> 
-                        <div className="col-lg-2">
-                        <h6>Draft</h6>
+                        <div className="col-lg-2 col-md-2 col-sm-2  col-xs-2">
+                        <Dropdown overlay={menu} trigger={['click']}>
+    <a className="ant-dropdown-link" onClick={e => e.preventDefault()}>
+      Draft <DownOutlined />
+    </a>
+  </Dropdown>
+  
 
                         </div> 
-                        <div className="col-lg-2">
+                        <div className="col-lg-2 col-md-2 col-sm-2  col-xs-2">
                         <h6>Other Team </h6>
 
                         </div>                
-                        <div className="col-lg-2">
+                        <div className="col-lg-1 col-md-1 col-sm-1  col-xs-1">
                         <h6>PlayOffs</h6>
 
                         </div>  
@@ -75,7 +111,7 @@ class Header extends Component {
 
             </div>
             
-            <div className="col-lg-2">
+            <div className="col-lg-2 col-md-2 col-sm-2  col-xs-2" >
              </div> 
             </div>
 

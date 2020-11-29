@@ -6,13 +6,13 @@ import object2 from '../Assets/Images/object2.png';
 import revert from '../Assets/Images/reverrtHelmet.png'
 import { Divider } from 'antd';
 
-class LeagueScheduleResults extends Component {
+class LeagueSchedule extends Component {
 	state = {};
 	render() {
 		return (
 			<div className="card LeagueSchedule ">
 				<div className="w3-card heading lg-12">
-					<h5 className="headingFont">LEAGUE SCHEDULE AND RESULTS</h5>
+					<h5 className="headingFont">LEAGUE SCHEDULE</h5>
 				</div>
 				<div className="row  ">
 					<p className="para alignContent">By Team</p>
@@ -242,4 +242,4 @@ class LeagueScheduleResults extends Component {
 	}
 }
 
-export default LeagueScheduleResults;
+export default LeagueSchedule;

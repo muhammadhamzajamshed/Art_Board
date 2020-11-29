@@ -1,0 +1,33 @@
+.draftRoundTime{
+    /* margin-top: 25px; */
+    /* margin-bottom:25px; */
+    /* padding-top: 15px; */
+    
+    
+    /* padding-right: 10px; */
+    font-family: 'Bebas Neue', cursive;
+    font-size: 80px;
+    color: #00002E;
+    margin-left: -5px;
+        margin-right: -5px;
+        
+    }
+
+    .draftTeamDiv{
+
+       background-color: #03AC36;
+       color: white;
+       font-weight: bold;
+       font-size: 18px;
+       letter-spacing: 1px;
+
+    }
+    .draftTeamDiv2{
+
+        background-color: #CBCBCB;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        letter-spacing: 1px;
+ 
+     }

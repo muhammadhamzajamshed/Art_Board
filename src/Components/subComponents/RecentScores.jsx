@@ -7,10 +7,10 @@ class RecentScores extends Component {
 	state = {};
 	render() {
 		return (
-			<div className="container">
-				<div class="w3-container">
+			
+				
 					
-					<div class="w3-card">
+					<div class="w3-card" style={{marginBottom:"25px"}}>
 						<h3
 							style={{
 								backgroundColor: 'rgb(0, 0, 46)',
@@ -38,7 +38,7 @@ class RecentScores extends Component {
 									marginTop: '6px'
 								}}
 							>
-								<div className="col-lg-5 col-md-5 col-sm-5">
+								<div className="col-lg-5 col-md-5 col-sm-5" style={{ paddingRight:"-15px"}}>
 									<span>
 										<img
 											style={{
@@ -255,8 +255,8 @@ class RecentScores extends Component {
 							</p>
                             </footer>  
 					</div>
-				</div>
-			</div>
+			
+			
 		);
 	}
 }

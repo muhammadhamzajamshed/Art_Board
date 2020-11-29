@@ -16,6 +16,7 @@ font-family: 'Bebas Neue', cursive;
 }
 .h6{
  font-size: 40px;
+ font-family: 'Bebas Neue', cursive;
 }
 .parag{
 
@@ -60,7 +61,7 @@ color:#03AC36 ;
 
 }
 
-.settingBtn{
+.settingIcon{
     width:"37px";
      height:"37px";
 margin-left:"5px"
