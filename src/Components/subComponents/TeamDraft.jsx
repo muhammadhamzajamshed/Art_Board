@@ -8,7 +8,7 @@ class TeamDraft extends Component {
         return ( 
             
             <div className="card TeamDraft">
-            <div className="row">
+            <div className="row mt-2">
             <div className="col-lg-7 col-md-7 col-sm-7">
             <h5 className="h5TeamDraft"><img src={redHelmet}/> JOE'S CLUB</h5>
          
@@ -17,24 +17,24 @@ class TeamDraft extends Component {
             <button className="btn btn-lg teamDraftBtn " >VIEW TEAM</button>
             </div>
             </div>
-            <div className="row table">
+            <div className="row table text-center">
             
             
             
             
-            <table class="table table-striped table-bordered">
+            <table class="table table-striped ">
   <thead className="">
     <tr>
       
-      <th scope="col">SLOT</th>
-      <th scope="col">Players</th>
-      <th scope="col">ACQUISTION</th>
+      <th scope="col" style={{ borderRight: "1px dashed lightgrey" ,borderLeft: "1px solid lightgrey"}}>SLOT</th>
+      <th scope="col" >Players</th>
+      <th scope="col" style={{ borderLeft: "1px dashed lightgrey" ,borderRight:"1px solid lightgrey"}}>ACQUISTION</th>
       
     </tr>
   </thead>
   <tbody className="">
 <tr>
-<td >QB</td>
+<td style={{ borderRight: "1px dashed lightgrey" ,borderLeft: "1px solid lightgrey"}}>QB</td>
 <td>
 <div className="row">
 <div className="col-lg-3">
@@ -46,13 +46,13 @@ class TeamDraft extends Component {
 </div>
 
 </td>
-<td>
+<td style={{ borderLeft: "1px dashed lightgrey" ,borderRight:"1px solid lightgrey"}}>
 DRAFT</td>  
   
   </tr>
 
   <tr>
-<td >QB</td>
+<td style={{ borderRight: "1px dashed lightgrey" ,borderLeft: "1px solid lightgrey"}}>QB</td>
 <td>
 <div className="row">
 <div className="col-lg-3">
@@ -64,14 +64,14 @@ DRAFT</td>
 </div>
 
 </td>
-<td>
+<td style={{ borderLeft: "1px dashed lightgrey" ,borderRight:"1px solid lightgrey"}}>
 DRAFT</td>  
   
   </tr>
 
 
   <tr>
-<td >QB</td>
+<td style={{ borderRight: "1px dashed lightgrey" ,borderLeft: "1px solid lightgrey"}}>QB</td>
 <td>
 <div className="row">
 <div className="col-lg-3">
@@ -83,14 +83,14 @@ DRAFT</td>
 </div>
 
 </td>
-<td>
+<td style={{ borderLeft: "1px dashed lightgrey" ,borderRight:"1px solid lightgrey"}}>
 DRAFT</td>  
   
   </tr>
 
 
   <tr>
-<td >QB</td>
+<td style={{ borderRight: "1px dashed lightgrey" ,borderLeft: "1px solid lightgrey"}}>QB</td>
 <td>
 <div className="row">
 <div className="col-lg-3">
@@ -102,14 +102,14 @@ DRAFT</td>
 </div>
 
 </td>
-<td>
+<td style={{ borderLeft: "1px dashed lightgrey" ,borderRight:"1px solid lightgrey"}}>
 DRAFT</td>  
   
   </tr>
 
 
   <tr>
-<td >QB</td>
+<td style={{ borderRight: "1px dashed lightgrey" ,borderLeft: "1px solid lightgrey"}}>QB</td>
 <td>
 <div className="row">
 <div className="col-lg-3">
@@ -121,14 +121,14 @@ DRAFT</td>
 </div>
 
 </td>
-<td>
+<td style={{ borderLeft: "1px dashed lightgrey" ,borderRight:"1px solid lightgrey"}}>
 DRAFT</td>  
   
   </tr>
 
 
   <tr>
-<td >QB</td>
+<td style={{ borderRight: "1px dashed lightgrey" ,borderLeft: "1px solid lightgrey"}} >QB</td>
 <td>
 <div className="row">
 <div className="col-lg-3">
@@ -140,7 +140,7 @@ DRAFT</td>
 </div>
 
 </td>
-<td>
+<td style={{ borderLeft: "1px dashed lightgrey" ,borderRight:"1px solid lightgrey"}}>
 DRAFT</td>  
   
   </tr>
@@ -148,7 +148,7 @@ DRAFT</td>
 
 
   <tr>
-<td >QB</td>
+<td style={{ borderRight: "1px dashed lightgrey" ,borderLeft: "1px solid lightgrey"}}>QB</td>
 <td>
 <div className="row">
 <div className="col-lg-3">
@@ -160,7 +160,7 @@ DRAFT</td>
 </div>
 
 </td>
-<td>
+<td style={{ borderLeft: "1px dashed lightgrey" ,borderRight:"1px solid lightgrey"}}>
 DRAFT</td>  
   
   </tr>
@@ -168,7 +168,7 @@ DRAFT</td>
 
 
   <tr>
-<td >QB</td>
+<td  style={{ borderRight: "1px dashed lightgrey" ,borderLeft: "1px solid lightgrey"}}>QB</td>
 <td>
 <div className="row">
 <div className="col-lg-3">
@@ -180,7 +180,7 @@ DRAFT</td>
 </div>
 
 </td>
-<td>
+<td style={{ borderLeft: "1px dashed lightgrey" ,borderRight:"1px solid lightgrey"}}>
 DRAFT</td>  
   
   </tr>
@@ -188,7 +188,7 @@ DRAFT</td>
 
 
   <tr>
-  <td >QB</td>
+  <td style={{ borderRight: "1px dashed lightgrey" ,borderLeft: "1px solid lightgrey"}}>QB</td>
   <td>
   <div className="row">
   <div className="col-lg-3">
@@ -200,7 +200,7 @@ DRAFT</td>
   </div>
   
   </td>
-  <td>
+  <td style={{ borderLeft: "1px dashed lightgrey" ,borderRight:"1px solid lightgrey"}}>
   DRAFT</td>  
     
     </tr>
@@ -208,7 +208,7 @@ DRAFT</td>
 
 
     <tr>
-    <td >QB</td>
+    <td style={{ borderRight: "1px dashed lightgrey" ,borderLeft: "1px solid lightgrey"}}>QB</td>
     <td>
     <div className="row">
     <div className="col-lg-3">
@@ -220,14 +220,14 @@ DRAFT</td>
     </div>
     
     </td>
-    <td>
+    <td style={{ borderLeft: "1px dashed lightgrey" ,borderRight:"1px solid lightgrey"}}>
     DRAFT</td>  
       
       </tr>
 
 
       <tr>
-      <td >QB</td>
+      <td style={{ borderRight: "1px dashed lightgrey" ,borderLeft: "1px solid lightgrey"}}>QB</td>
       <td>
       <div className="row">
       <div className="col-lg-3">
@@ -239,14 +239,14 @@ DRAFT</td>
       </div>
       
       </td>
-      <td>
+      <td style={{ borderLeft: "1px dashed lightgrey" ,borderRight:"1px solid lightgrey"}}>
       DRAFT</td>  
         
         </tr>
 
 
         <tr>
-        <td >QB</td>
+        <td style={{ borderRight: "1px dashed lightgrey" ,borderLeft: "1px solid lightgrey"}}>QB</td>
         <td>
         <div className="row">
         <div className="col-lg-3">
@@ -258,7 +258,7 @@ DRAFT</td>
         </div>
         
         </td>
-        <td>
+        <td style={{ borderLeft: "1px dashed lightgrey" ,borderRight:"1px solid lightgrey"}}>
         DRAFT</td>  
           
           </tr>
@@ -266,7 +266,7 @@ DRAFT</td>
 
 
           <tr>
-          <td >QB</td>
+          <td style={{ borderRight: "1px dashed lightgrey" ,borderLeft: "1px solid lightgrey"}}>QB</td>
           <td>
           <div className="row">
           <div className="col-lg-3">
@@ -278,7 +278,7 @@ DRAFT</td>
           </div>
           
           </td>
-          <td>
+          <td style={{ borderLeft: "1px dashed lightgrey" ,borderRight:"1px solid lightgrey"}}>
           DRAFT</td>  
             
             </tr>
@@ -286,7 +286,7 @@ DRAFT</td>
 
 
             <tr>
-            <td >QB</td>
+            <td style={{ borderRight: "1px dashed lightgrey" ,borderLeft: "1px solid lightgrey"}}>QB</td>
             <td>
             <div className="row">
             <div className="col-lg-3">
@@ -298,7 +298,7 @@ DRAFT</td>
             </div>
             
             </td>
-            <td>
+            <td style={{ borderLeft: "1px dashed lightgrey" ,borderRight:"1px solid lightgrey"}}>
             DRAFT</td>  
               
               </tr>

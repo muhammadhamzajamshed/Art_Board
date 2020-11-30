@@ -16,7 +16,7 @@ class Rosters extends Component {
 
 
 
-            <div className="row">
+            <div className="row ml-1 mr-1">
 
             <div className="col-lg-4  col-md-6  col-sm-8">
             <TeamDraft/>
@@ -30,7 +30,7 @@ class Rosters extends Component {
             </div>
 
             </div>
-            <div className="row">
+            <div className="row ml-1">
 
             <div className=" col-lg-4 col-md-6  col-sm-8  ">
             <TeamDraft/>

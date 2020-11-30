@@ -1,4 +1,4 @@
-.overview{
+.myoverview{
     /* margin-top: 25px; */
     margin-bottom:25px;
     /* padding-top: 15px; */
@@ -11,26 +11,26 @@
         
     }
 
-    .h5Overview{
+    .myh5Overview{
         font-size: 58px;
         font-family: 'Bebas Neue';
         font-weight: bold;
     }
 
-    .blueDivOverview{
+    .myblueDivOverview{
         background-color: #00002E;
         color: white;
     }
-    .greenDivOverview{
+    .mygreenDivOverview{
         background-color: #03AC36;
         color: white;
     }
-    .greyDivOverview{
+    .mygreyDivOverview{
         background-color: #CBCBCB;
         color: white;
     }
 
-    .overviewBtn{
+    .myoverviewBtn{
 
         background-color: black;
         color:white;
@@ -41,38 +41,35 @@
         margin-bottom: 5px;
 
     }
+ .mygreenbtn{
+    background-color: green;
+    color:white;
+    font-size: 30px;
+    font-family: 'Bebas Neue', cursive;
+    margin-top: 5px;
+   
+    margin-bottom: 5px;
 
-    .greenbtn{
-
-        background-color: green;
-        color:white;
-        font-size: 30px;
-        font-family: 'Bebas Neue', cursive;
-        margin-top: 5px;
-       
-        margin-bottom: 5px;
-
-    }
-
+ }
     /* .blueDivOverview{
         background-color: #00002E;
         color: white;
     } */
 
 
-    .overviewInc{
+    .myoverviewInc{
         font-size: 32px;
         font-family:  'Bebas Neue', cursive;;
     }
-    .overviewFontColor{
-color: #CBCBCB;
 
-
-    }
-
-    .incDecButton{
+    .myincDecButton{
         margin-top: 3px;
         margin-bottom: 3px;
         margin-left: 3px;
         margin-right: 3px;
+    }
+    .myoverviewFontColor{
+color: #CBCBCB;
+
+
     }

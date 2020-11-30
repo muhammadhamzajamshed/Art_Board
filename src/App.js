@@ -31,11 +31,17 @@ import Trade from './Components/pages/trade';
 import TradeConfirm from './Components/pages/tradeConfirm';
 import FreeAgents from './Components/pages/freeAgents';
 import DraftRounds from './Components/pages/draftRounds';
+import MyTeamPage from './Components/pages/myTeamPage'
+import Scoreboards from './Components/pages/scoreBoards'
 // sub Component Import
 import TeamDraft from './Components/subComponents/TeamDraft';
 import OverView from './Components/subComponents/overview.jsx';
 import FreeagentsOverView from './Components/subComponents/freeagentsOverview';
 import DraftRoundsOverView from './Components/subComponents/draftRoundsOverview.jsx';
+import MyTeamOverView from './Components/subComponents/myTeamOverview';
+
+import EditTeam from './Components/subComponents/smallComponents/editTeam';
+import LiveUpdates from './Components/subComponents/smallComponents/liveUpdates';
 
 
 
@@ -70,11 +76,17 @@ function App() {
            <Route path="/tradeConfirm" component={TradeConfirm}/>
            <Route path="/freeAgents" component={FreeAgents}/>
            <Route path="/draftRounds" component={DraftRounds}/>
+           <Route path="/myTeamPage" component={MyTeamPage}/>
+           <Route path="/scoreboards" component={Scoreboards}/>
+
 {/* Sub Components*/}
            <Route path="/teamDraft" component={TeamDraft}/>
            <Route path="/overview" component={OverView}/>
            <Route path="/freeagentsOverview" component={FreeagentsOverView}/>
            <Route path="/draftRoundsOverview" component={DraftRoundsOverView}/>
+           <Route path="/myTeamOverview" component={MyTeamOverView}/>
+           <Route path="/editTeam" component={EditTeam}/>
+           <Route path="/liveUpdates" component={LiveUpdates}/>
            
           </Switch>
           <br/><br/>

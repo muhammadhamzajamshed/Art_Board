@@ -14,18 +14,60 @@ import { DownOutlined } from '@ant-design/icons';
 class Header extends Component {
     render() {
         const menu = (
-            <Menu>
-              <Menu.Item key="0">
-                <a href="http://www.alipay.com/">Overview</a>
+            <Menu style={{backgroundColor:"white"}}>
+              <Menu.Item key="0" >
+                <a href="" style={{color:"black"}}>Overview</a>
               </Menu.Item>
               <Menu.Item key="1">
-                <a href="http://www.taobao.com/">Rosters</a>
+                <a href=""  style={{color:"black"}}>Rosters</a>
+              </Menu.Item>
+              <Menu.Item key="2" >
+                <a href="" style={{color:"black"}}>ScoreBoards</a>
+              </Menu.Item>
+              <Menu.Item key="3" >
+                <a href="" style={{color:"black"}}>Settings</a>
+              </Menu.Item>
+              
+              
+            </Menu>
+          );
+
+          const menu1 = (
+            <Menu style={{backgroundColor:"white"}}>
+              <Menu.Item key="0" >
+                <a href="" style={{color:"black"}}><img src ={redHelmet} style={{height:"25px" , width:"30px",marginRight:"3px"}}/>TEAM A</a>
               </Menu.Item>
               <Menu.Item key="1">
-                <a href="http://www.taobao.com/">ScoreBoards</a>
+              <a href="" style={{color:"black"}}><img src ={redHelmet} style={{height:"25px" , width:"30px",marginRight:"3px"}}/>TEAM A</a>
               </Menu.Item>
-              <Menu.Divider />
-              <Menu.Item key="3"> Settings</Menu.Item>
+              <Menu.Item key="2" >
+              <a href="" style={{color:"black"}}><img src ={redHelmet} style={{height:"25px" , width:"30px",marginRight:"3px"}}/>TEAM A</a>
+              </Menu.Item>
+              <Menu.Item key="3" >
+              <a href="" style={{color:"black"}}><img src ={redHelmet} style={{height:"25px" , width:"30px",marginRight:"3px"}}/>TEAM A</a>
+              </Menu.Item>
+              
+              
+            </Menu>
+          );
+
+
+          const menu2 = (
+            <Menu style={{backgroundColor:"white"}}>
+              <Menu.Item key="0" >
+                <a href="" style={{color:"black"}}><img src ={redHelmet} style={{height:"25px" , width:"30px",marginRight:"3px"}}/>TEAM A</a>
+              </Menu.Item>
+              <Menu.Item key="1">
+              <a href="" style={{color:"black"}}><img src ={redHelmet} style={{height:"25px" , width:"30px",marginRight:"3px"}}/>TEAM A</a>
+              </Menu.Item>
+              <Menu.Item key="2" >
+              <a href="" style={{color:"black"}}><img src ={redHelmet} style={{height:"25px" , width:"30px",marginRight:"3px"}}/>TEAM A</a>
+              </Menu.Item>
+              <Menu.Item key="3" >
+              <a href="" style={{color:"black"}}><img src ={redHelmet} style={{height:"25px" , width:"30px",marginRight:"3px"}}/>TEAM A</a>
+              </Menu.Item>
+              
+              
             </Menu>
           );
         return (
@@ -83,7 +125,7 @@ class Header extends Component {
                         </div> 
                         <div className="col-lg-2 col-md-2 col-sm-2 col-xs-2">
                         <Dropdown overlay={menu} trigger={['click']}>
-                        <a className="ant-dropdown-link" onClick={e => e.preventDefault()}>
+                        <a className="ant-dropdown-link" onClick={e => e.preventDefault()}  style={{color:"black"}}>
                           League <DownOutlined />
                         </a>
                       </Dropdown>
@@ -92,7 +134,7 @@ class Header extends Component {
                         </div> 
                         <div className="col-lg-2 col-md-2 col-sm-2  col-xs-2">
                         <Dropdown overlay={menu} trigger={['click']}>
-    <a className="ant-dropdown-link" onClick={e => e.preventDefault()}>
+    <a className="ant-dropdown-link" onClick={e => e.preventDefault()} style={{color:"black"}}>
       Draft <DownOutlined />
     </a>
   </Dropdown>
@@ -100,7 +142,11 @@ class Header extends Component {
 
                         </div> 
                         <div className="col-lg-2 col-md-2 col-sm-2  col-xs-2">
-                        <h6>Other Team </h6>
+                        <Dropdown overlay={menu1} trigger={['click']}>
+                        <a className="ant-dropdown-link" onClick={e => e.preventDefault()} style={{color:"black"}}>
+                          Other Team <DownOutlined />
+                        </a>
+                      </Dropdown>
 
                         </div>                
                         <div className="col-lg-1 col-md-1 col-sm-1  col-xs-1">

@@ -1,48 +1,50 @@
 import React, { Component } from 'react';
 import player1 from '../../Assets/Images/teamPlayer.png';
-import '../../CSS/overview.css';
-class OverView extends Component {
+import '../../CSS/myTeamOverView.css';
+import arrow from '../../Assets/Images/4arrows.png'
+class MyTeamOverView extends Component {
 	state = {};
 	render() {
 		return (
             
-            <div className="card overview" style={{marginRight:"15px", marginLeft:"15px"}}>
+            <div className="card myoverview" style={{marginRight:"15px", marginLeft:"15px"}}>
             <div className="row mt-6" style={{marginTop:"15px", }}>
             <div className="col-lg-8 col-md-8 col-sm-8 col-xs-8">
             <div className="row lg-12 overviewInc">
-            <div className="col-lg-1 col-md-1 col-sm-1 col-xs-1  text-center "><div className="blueDivOverview incDecButton"><span className=""> &#60;</span></div></div>
-            <div className="col-lg-2 col-md-2 col-sm-2 col-xs-2  overviewFontColor"><span>NFL Week 10</span></div>
+            <div className="col-lg-1 col-md-1 col-sm-1 col-xs-1  text-center "><div className="myblueDivOverview myincDecButton"><span className=""> &#60;</span></div></div>
+            <div className="col-lg-2 col-md-2 col-sm-2 col-xs-2  myoverviewFontColor"><span>NFL Week 10</span></div>
             <div className="col-lg-2 col-md-2 col-sm-2 col-xs-2 "><span>NFL Week 11</span></div>
-            <div className="col-lg-2 col-md-2 col-sm-2 col-xs-2 overviewFontColor"><span>NFL Week 2</span></div>
-            <div className="col-lg-1 col-md-1 col-sm-1 col-xs-1  text-center "><div className="blueDivOverview incDecButton"><span className=""> &#62;</span></div></div>
+            <div className="col-lg-2 col-md-2 col-sm-2 col-xs-2 myoverviewFontColor"><span>NFL Week 2</span></div>
+            <div className="col-lg-1 col-md-1 col-sm-1 col-xs-1  text-center "><div className="myblueDivOverview myincDecButton"><span className=""> &#62;</span></div></div>
             <div className="col-lg-2 col-md-2 col-sm-2 col-xs-2 "><i class="fa fa-calendar" style={{fontSize:"36px"}}></i>
-			<div className="col-lg-2 col-md-2 col-sm-2 col-xs-2 overviewFontColor"></div>
-
-			</div>
+            </div>
+            <div className="col-lg-2 col-md-2 col-sm-2 col-xs-2 "></div>
             
             </div>
             </div>
             <div className="col-lg-4 col-md-4 col-sm-4 col-xs-4">
-            <button className="btn btn-lg overviewBtn ">Propose Trade</button>
+            
+            <button className="btn btn-lg myoverviewBtn ">Propose Trade</button>
+            <button className="btn btn-lg btn-success mygreenbtn ml-3">Drop  Player</button>
             </div>
             
             </div>
 				<div className="row">
 					<div className="col-lg-7 col-md-7 col-sm-7">
-						<h5 className="h5Overview">overview</h5>
+						<h5 className="myh5Overview">overview</h5>
 					</div>
 					<div className="col-lg-5 col-md-5 col-sm-5">
 						
 					</div>
 				</div>
 				<div className="row ml-1 mr-1">
-					<div className="col-lg-4 col-md-4 col-sm-4 col-xs-4 blueDivOverview text-center">
+					<div className="col-lg-4 col-md-4 col-sm-4 col-xs-4 myblueDivOverview text-center">
 						<span className="text-center">Starters</span>
 					</div>
-					<div className="col-lg-4 col-md-4 col-sm-4 col-xs-4 greenDivOverview text-center">
+					<div className="col-lg-4 col-md-4 col-sm-4 col-xs-4 mygreenDivOverview text-center">
 						<span className="text-center">NFL week 11</span>
 					</div>
-					<div className="col-lg-4 col-md-4 col-sm-4 col-xs-4 greyDivOverview text-center">
+					<div className="col-lg-4 col-md-4 col-sm-4 col-xs-4 mygreyDivOverview text-center">
 						<span className="text-center">season 2020</span>
 					</div>
 				</div>
@@ -51,7 +53,8 @@ class OverView extends Component {
 						<thead className="">
 							<tr>
 								<th scope="col">SLOT</th>
-								<th scope="col" style={{ borderRight: "1px dashed lightgrey"}}>Players</th>
+                                <th scope="col">Players</th>
+                                <th scope="col">Action </th>
 								<th scope="col">OPP</th>
 								<th scope="col">STATUS</th>
 								<th scope="col">PROJ</th>
@@ -69,12 +72,12 @@ class OverView extends Component {
 						<tbody className="">
 							<tr>
 								<td>QB</td>
-								<td style={{ borderRight: "1px dashed lightgrey"}}>
+								<td>
 									<div className="row">
-										<div className="col-lg-3">
+										<div className="col-lg-4 col-md-6 col-sm-8">
 											<img src={player1} style={{ width: '94', height: '62' }} />
 										</div>
-										<div className="col-lg-8" style={{ float: 'left' }}>
+										<div className="col-lg-8 col-md-6 col-sm-8" style={{ float: 'right' }}>
 											<span
 												style={{
 													color: '#064EA4',
@@ -90,7 +93,7 @@ class OverView extends Component {
 										</div>
 									</div>
 								</td>
-            
+            <td><img src={arrow}/></td>
 
                                 <td>
                                 <span style={{color: '#064EA4',
@@ -126,4 +129,4 @@ class OverView extends Component {
 	}
 }
 
-export default OverView;
+export default MyTeamOverView;
