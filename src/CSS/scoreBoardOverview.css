@@ -1,0 +1,58 @@
+.scoreBoardOverview{
+    /* margin-top: 25px; */
+    margin-bottom:25px;
+    /* padding-top: 15px; */
+
+    
+    /* padding-right: 10px; */
+    font-family: 'Bebas Neue', cursive;
+    /* margin-left: 300px;
+        margin-right: 300px; */
+        
+    }
+
+
+    .h5scoreBoardOverview{
+        font-size: 58px;
+        font-family: 'Bebas Neue';
+        font-weight: bold;
+        margin-left: 10px;
+    }
+
+
+    .sboBorder{
+
+        /* border-style: "solid"; */
+        /* border-color: "#F2F2F2";
+        border-width: 2px; */
+        border: 1px solid #000000
+
+    }
+
+    .scoreboardOverviewFontColor{
+        color: #CBCBCB;
+        font-size: 28px;
+        
+        
+            }
+
+
+            .sboblueDiv{
+                background-color: #00002E;
+                color: white;
+            }
+            .mygreenDivOverview{
+                background-color: #03AC36;
+                color: white;
+            }
+            .mygreyDivOverview{
+                background-color: #CBCBCB;
+                color: white;
+            }
+
+            .sboincDecButton{
+                margin-top: 3px;
+                margin-bottom: 3px;
+                margin-left: 2px;
+                margin-right: 2px;
+            }

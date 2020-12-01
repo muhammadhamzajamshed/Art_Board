@@ -5,6 +5,7 @@ import white from '../../Assets/Images/object6.png'
 import green from '../../Assets/Images/object5.png'
 import black from '../../Assets/Images/object3.png'
 import blue from '../../Assets/Images/object4.png'
+import '../../CSS/ViewRosters.css'
 class ViewRoasters extends Component {
 	state = {};
 	render() {
@@ -12,7 +13,7 @@ class ViewRoasters extends Component {
 			<div className="container">
 				<div class="w3-container">
 					
-					<div class="w3-card" style={{paddingLeft:"-15px", paddingRight:"-15px"}}>
+					<div class="w3-card" >
 						<h3
 							style={{
 								backgroundColor: 'rgb(0, 0, 46)',
@@ -40,7 +41,7 @@ class ViewRoasters extends Component {
 									marginTop: '6px'
 								}}
 							>
-								<div className="col-lg-11 col-md-11 col-sm-11">
+								<div className="col-lg-11 col-md-11 col-sm-11 nopadding">
 									<span>
 										<img
 											style={{
@@ -54,7 +55,7 @@ class ViewRoasters extends Component {
 										TEAM GORDON
 									</span>
 								</div>
-								<div className="col-lg-1 col-md-1 col-sm-1">
+								<div className="col-lg-1 col-md-1 col-sm-1 nopadding">
 									<span style={{ float: 'right', fontWeight: 'bold', color: '#707070' }}>&#62;</span>
 								</div>
 							</div>
@@ -78,7 +79,7 @@ class ViewRoasters extends Component {
                         marginTop: '6px'
                     }}
                 >
-                    <div className="col-lg-11 col-md-11 col-sm-11">
+                    <div className="col-lg-11 col-md-11 col-sm-11 nopadding">
                         <span>
                             <img
                                 style={{
@@ -92,7 +93,7 @@ class ViewRoasters extends Component {
                             JOE'S CLUB
                         </span>
                     </div>
-                    <div className="col-lg-1 col-md-1 col-sm-1">
+                    <div className="col-lg-1 col-md-1 col-sm-1 nopadding">
                         <span style={{ float: 'right', fontWeight: 'bold', color: '#707070' }}>&#62;</span>
                     </div>
                 </div>
@@ -110,7 +111,7 @@ class ViewRoasters extends Component {
 									marginTop: '6px'
 								}}
 							>
-								<div className="col-lg-11 col-md-11 col-sm-11">
+								<div className="col-lg-11 col-md-11 col-sm-11 nopadding">
 									<span>
 										<img
 											style={{
@@ -125,7 +126,7 @@ class ViewRoasters extends Component {
 										TEAM ALLAN
 									</span>
 								</div>
-								<div className="col-lg-1 col-md-1 col-sm-1">
+								<div className="col-lg-1 col-md-1 col-sm-1 nopadding">
 									<span style={{ float: 'right', fontWeight: 'bold', color: '#707070' }}>&#62;</span>
 								</div>
                             </div>
@@ -143,7 +144,7 @@ class ViewRoasters extends Component {
                                 marginTop: '6px'
                             }}
                         >
-                            <div className="col-lg-11 col-md-11 col-sm-11">
+                            <div className="col-lg-11 col-md-11 col-sm-11 nopadding">
                                 <span>
                                     <img
                                         style={{
@@ -158,7 +159,7 @@ class ViewRoasters extends Component {
                                    MARKSMEN
                                 </span>
                             </div>
-                            <div className="col-lg-1 col-md-1 col-sm-1">
+                            <div className="col-lg-1 col-md-1 col-sm-1 nopadding">
                                 <span style={{ float: 'right', fontWeight: 'bold', color: '#707070' }}>&#62;</span>
                             </div>
                         </div>
@@ -177,7 +178,7 @@ class ViewRoasters extends Component {
 									marginTop: '6px'
 								}}
 							>
-								<div className="col-lg-11 col-md-11 col-sm-11">
+								<div className="col-lg-11 col-md-11 col-sm-11 nopadding">
 									<span>
 										<img
 											style={{
@@ -192,7 +193,7 @@ class ViewRoasters extends Component {
 										SUPPER KINGS
 									</span>
 								</div>
-								<div className="col-lg-1 col-md-1 col-sm-1">
+								<div className="col-lg-1 col-md-1 col-sm-1 nopadding">
 									<span style={{ float: 'right', fontWeight: 'bold', color: '#707070' }}>&#62;</span>
 								</div>
 							</div>
@@ -210,7 +211,7 @@ class ViewRoasters extends Component {
                                 marginTop: '6px'
                             }}
                         >
-                            <div className="col-lg-11 col-md-11 col-sm-11">
+                            <div className="col-lg-11 col-md-11 col-sm-11 nopadding">
                                 <span>
                                     <img
                                         style={{
@@ -225,7 +226,7 @@ class ViewRoasters extends Component {
                                     TEAM BIGBOYS
                                 </span>
                             </div>
-                            <div className="col-lg-1 col-md-1 col-sm-1">
+                            <div className="col-lg-1 col-md-1 col-sm-1 nopadding" >
                                 <span style={{ float: 'right', fontWeight: 'bold', color: '#707070' }}>&#62;</span>
                             </div>
                         </div>
@@ -242,7 +243,7 @@ class ViewRoasters extends Component {
 									marginTop: '6px'
 								}}
 							>
-								<div className="col-lg-11 col-md-11 col-sm-11">
+								<div className="col-lg-11 col-md-11 col-sm-11 nopadding">
 									<span>
 										<img
 											style={{
@@ -257,7 +258,7 @@ class ViewRoasters extends Component {
 										JOE'S CLUB
 									</span>
 								</div>
-								<div className="col-lg-1 col-md-1 col-sm-1">
+								<div className="col-lg-1 col-md-1 col-sm-1 nopadding">
 									<span style={{ float: 'right', fontWeight: 'bold', color: '#707070' }}>&#62;</span>
 								</div>
 							</div>
@@ -275,7 +276,7 @@ class ViewRoasters extends Component {
 									marginTop: '6px'
 								}}
 							>
-								<div className="col-lg-11 col-md-11 col-sm-11">
+								<div className="col-lg-11 col-md-11 col-sm-11 nopadding">
 									<span>
 										<img
 											style={{
@@ -290,7 +291,7 @@ class ViewRoasters extends Component {
 										JOE'S CLUB
 									</span>
 								</div>
-								<div className="col-lg-1 col-md-1 col-sm-1">
+								<div className="col-lg-1 col-md-1 col-sm-1 nopadding">
 									<span style={{ float: 'right', fontWeight: 'bold', color: '#707070' }}>&#62;</span>
 								</div>
 							</div>
@@ -308,7 +309,7 @@ class ViewRoasters extends Component {
                                 marginTop: '6px'
                             }}
                         >
-                            <div className="col-lg-11 col-md-11 col-sm-11">
+                            <div className="col-lg-11 col-md-11 col-sm-11 nopadding">
                                 <span>
                                     <img
                                         style={{
@@ -323,7 +324,7 @@ class ViewRoasters extends Component {
                                     JOE'S CLUB
                                 </span>
                             </div>
-                            <div className="col-lg-1 col-md-1 col-sm-1">
+                            <div className="col-lg-1 col-md-1 col-sm-1 nopadding">
                                 <span style={{ float: 'right', fontWeight: 'bold', color: '#707070' }}>&#62;</span>
                             </div>
                         </div>

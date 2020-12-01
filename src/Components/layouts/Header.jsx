@@ -114,7 +114,7 @@ class Header extends Component {
                         <div className="col-lg-3 col-md-3 col-sm-3  col-xs-3" >
                         <div className="row lg-12">
                         <div className="col-lg-4 col-md-4 col-sm-4 col-xs-4"><span> <img src={redHelmet} style={{width:"40px", height:"35px"}}   /></span></div>
-                        <div className="col-lg-4 col-md-4 col-sm-4 col-xs-4"><p>Joes_Club</p> <div>2-0-1</div></div>
+                        <div className="col-lg-4 col-md-4 col-sm-4 col-xs-4"><span>Joes_Club</span> <div>2-0-1</div></div>
                         <div className="col-lg-4 col-md-4 col-sm-4 col-xs-4"><img src={line}/></div>
                         </div>
                        

@@ -6,7 +6,7 @@ class MyTeam extends Component {
 	state = {};
 	render() {
 		return (
-			<div className="container">
+			
 				<div class="w3-container">
 					
 					<div class="w3-card">
@@ -29,16 +29,16 @@ class MyTeam extends Component {
 								className="row "
 								style={{
 									
-									padding: '10px',
-									textAlign: 'justify',
-									marginLeft: '10px',
-									marginRight: '10px',
+									// padding: '10px',
+									// textAlign: 'justify',
+									marginLeft: '5px',
+									marginRight: '5px',
 									marginBottom: '8px',
 									marginTop: '6px'
 								}}
 							>
-								<div className="col-lg-12 col-md-12 col-sm-12">
-									<span style={{fontFamily:'Gilroy '}}>
+								<div className="col-lg-6 col-md-6 col-sm-6">
+									<span style={{fontFamily:''}}>
 										<img
 											style={{
 												marginLeft: '5px',
@@ -48,13 +48,14 @@ class MyTeam extends Component {
 											}}
 											src={red}
 										/>
-                                        JOE'S CLUB
-                                        <span style={{color:'#CBCBCB'}}>  2-0-1
-                                    #2 SUPER LEAGUE
-                                    </span>
+                                        
                                     </span>
                                     
 								</div>
+								<div  className="col-lg-6 col-md-6 col-sm-6" >JOE'S CLUB
+								<p style={{color:'#CBCBCB'}}>  2-0-1
+							#2 SUPER LEAGUE
+							</p></div>
 								
 							</div>
 						    
@@ -72,6 +73,8 @@ class MyTeam extends Component {
 							<p
 								style={{
 									textAlign: 'center',
+									textDecoration:"underline",
+									fontWeight:"bold"
 									
 								}}
 							>
@@ -80,7 +83,7 @@ class MyTeam extends Component {
                             </footer>  
 					</div>
 				</div>
-			</div>
+			
 		);
 	}
 }

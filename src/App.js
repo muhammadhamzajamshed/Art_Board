@@ -42,6 +42,7 @@ import MyTeamOverView from './Components/subComponents/myTeamOverview';
 
 import EditTeam from './Components/subComponents/smallComponents/editTeam';
 import LiveUpdates from './Components/subComponents/smallComponents/liveUpdates';
+import ScoreBoardOverview from './Components/subComponents/scoreBoardOverview';
 
 
 
@@ -87,6 +88,7 @@ function App() {
            <Route path="/myTeamOverview" component={MyTeamOverView}/>
            <Route path="/editTeam" component={EditTeam}/>
            <Route path="/liveUpdates" component={LiveUpdates}/>
+           <Route path="scoreBoardOverview" component={ScoreBoardOverview}/>
            
           </Switch>
           <br/><br/>
