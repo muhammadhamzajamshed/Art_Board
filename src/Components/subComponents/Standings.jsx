@@ -16,7 +16,7 @@ class Standings extends Component {
 				
 					
 						<h3 className="StandingHeader">
-							Standings
+							<span className="ml-2">Standings</span>
 						</h3>
 				
 				

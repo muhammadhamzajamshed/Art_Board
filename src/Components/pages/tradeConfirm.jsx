@@ -6,13 +6,14 @@ import redHelmet from "../../Assets/Images/object2.png"
 import polygone from "../../Assets/Images/reversePolygon.png"
 import dropIcon from '../../Assets/Images/dropicon.png'
 import greenPolygon from '../../Assets/Images/green Polygon.png'
+import background from '../../Assets/Images/LeagueMenu.png'
 
 class TradeConfirm extends Component {
 	state = {};
 	render() {
 		return (
-            
-            <div className="card proposeTrade" style={{marginRight:"15px", marginLeft:"15px"}}>
+            <div style={{ backgroundImage:`url(${background})`, backgroundRepeat:"no-repeat", backgroundSize:"cover"}}>
+            <div className="card proposeTrade" style={{marginRight:"25px", marginLeft:"25px"}}>
           
 				<div className="row">
 					<div className="col-lg-6 col-md-6 col-sm-6 col-xs-6">
@@ -52,13 +53,13 @@ class TradeConfirm extends Component {
                    
 						
                     </div>
-                    <div className="col-lg-6 col-md-6 col-sm-6 col-xs-6"> <button className="btn btn-lg confirmTradeButton  " style={{float:"",marginRight:"22px",paddingLeft:"10px",paddingRight:"10px"}}>CONFIRM TRADE</button>
+                    <div className="col-lg-6 col-md-6 col-sm-6 col-xs-6"> <button className="btn btn-lg confirmTradeButton  " style={{float:"right",marginRight:"22px",paddingLeft:"10px",paddingRight:"10px"}}>CONFIRM TRADE</button>
                     </div>
                     </div>
                     
 					</div>
 				</div>
-				<div className="row ml-1 mr-1">
+				<div className="row mr-1">
 					<div className="col-lg-4 col-md-4 col-sm-4 col-xs-4 blueDivPropose text-center">
 						<span className="text-center">Starters</span>
 					</div>
@@ -74,8 +75,8 @@ class TradeConfirm extends Component {
 						<thead className="">
 							<tr>
 								<th scope="col">SLOT</th>
-                                <th scope="col">Players</th>
-                                <th scope="col">Action</th>
+                                <th scope="col" style={{ borderRight: "1px dashed lightgrey"}}>Players</th>
+                                <th scope="col" style={{ borderRight: "1px dashed lightgrey"}}>Action</th>
 								<th scope="col">OPP</th>
 								<th scope="col">STATUS</th>
 								<th scope="col">PROJ</th>
@@ -83,7 +84,7 @@ class TradeConfirm extends Component {
 								<th scope="col">OPRK</th>
 								<th scope="col">%St</th>
 								<th scope="col">%ROST</th>
-								<th scope="col">+/-</th>
+								<th scope="col"style={{ borderRight: "1px dashed lightgrey"}}>+/-</th>
 								<th scope="col">PRK</th>
 								<th scope="col">FPTS</th>
 								<th scope="col">AVG</th>
@@ -93,7 +94,7 @@ class TradeConfirm extends Component {
 						<tbody className="proposeTable">
 							<tr>
 								<td>QB</td> 
-								<td>
+								<td style={{ borderRight: "1px dashed lightgrey"}}>
 									<div className="row">
 										<div className="col-lg-3 col-md-3 col-sm-3 col-xs-3">
 											<img src={player1} style={{ width: '94', height: '62' }} />
@@ -114,8 +115,8 @@ class TradeConfirm extends Component {
 										</div>
 									</div>
                                 </td>
-                                <td>
-                               <button className="btn proposeTradeButton">TRADE</button>
+                                <td style={{ borderRight: "1px dashed lightgrey"}}>
+                               <button className="btn proposeTradeButton">OFFER</button>
                                 
                                 </td>
                                 <td>
@@ -136,7 +137,7 @@ class TradeConfirm extends Component {
                                 fontSize: '16'}}>32nd</span></td>
                                 <td>14.0</td>
                                 <td>99.9</td>
-                                <td>0</td>
+                                <td style={{ borderRight: "1px dashed lightgrey"}}>0</td>
                                 <td>31</td>
                                 <td>90.4</td>
                                 <td>30.1</td>
@@ -148,7 +149,7 @@ class TradeConfirm extends Component {
 
                             <tr>
 								<td>QB</td>
-								<td>
+								<td style={{ borderRight: "1px dashed lightgrey"}}>
 									<div className="row">
 										<div className="col-lg-3  col-md-3 col-sm-3 col-xs-3">
 											<img src={player1} style={{ width: '94', height: '62' }} />
@@ -169,8 +170,8 @@ class TradeConfirm extends Component {
 										</div>
 									</div>
                                 </td>
-                                <td>
-                               <button className="btn proposeTradeButton">TRADE</button>
+                                <td style={{ borderRight: "1px dashed lightgrey"}}>
+                               <button className="btn proposeTradeButton">OFFER</button>
                                 
                                 </td>
                                 <td>
@@ -191,7 +192,7 @@ class TradeConfirm extends Component {
                                 fontSize: '16'}}>32nd</span></td>
                                 <td>14.0</td>
                                 <td>99.9</td>
-                                <td>0</td>
+                                <td style={{ borderRight: "1px dashed lightgrey"}}>0</td>
                                 <td>31</td>
                                 <td>90.4</td>
                                 <td>30.1</td>
@@ -203,7 +204,7 @@ class TradeConfirm extends Component {
 
                             <tr>
 								<td>QB</td>
-								<td>
+								<td style={{ borderRight: "1px dashed lightgrey"}}>
 									<div className="row">
 										<div className="col-lg-3 col-md-3 col-sm-3 col-xs-3">
 											<img src={player1} style={{ width: '94', height: '62' }} />
@@ -224,8 +225,8 @@ class TradeConfirm extends Component {
 										</div>
 									</div>
                                 </td>
-                                <td>
-                               <button className="btn proposeTradeButton">TRADE</button>
+                                <td style={{ borderRight: "1px dashed lightgrey"}}>
+                               <button className="btn proposeTradeButton">OFFER</button>
                                 
                                 </td>
                                 <td>
@@ -246,7 +247,7 @@ class TradeConfirm extends Component {
                                 fontSize: '16'}}>32nd</span></td>
                                 <td>14.0</td>
                                 <td>99.9</td>
-                                <td>0</td>
+                                <td style={{ borderRight: "1px dashed lightgrey"}}>0</td>
                                 <td>31</td>
                                 <td>90.4</td>
                                 <td>30.1</td>
@@ -289,7 +290,7 @@ class TradeConfirm extends Component {
 
                             <tr>
                             <td>QB</td>
-                            <td>
+                            <td style={{ borderRight: "1px dashed lightgrey"}}>
                                 <div className="row">
                                     <div className="col-lg-3 col-md-3 col-sm-3 col-xs-3">
                                         <img src={player1} style={{ width: '94', height: '62' }} />
@@ -310,8 +311,8 @@ class TradeConfirm extends Component {
                                     </div>
                                 </div>
                             </td>
-                            <td>
-                           <button className="btn proposeTradeButton">TRADE</button>
+                            <td style={{ borderRight: "1px dashed lightgrey"}}>
+                           <button className="btn proposeTradeButton">OFFER</button>
                             
                             </td>
                             <td>
@@ -332,7 +333,7 @@ class TradeConfirm extends Component {
                             fontSize: '16'}}>32nd</span></td>
                             <td>14.0</td>
                             <td>99.9</td>
-                            <td>0</td>
+                            <td style={{ borderRight: "1px dashed lightgrey"}}>0</td>
                             <td>31</td>
                             <td>90.4</td>
                             <td>30.1</td>
@@ -340,7 +341,7 @@ class TradeConfirm extends Component {
                         </tr>
                         <tr>
 								<td>QB</td>
-								<td>
+								<td style={{ borderRight: "1px dashed lightgrey"}}>
 									<div className="row">
 										<div className="col-lg-3 col-md-3 col-sm-3 col-xs-3">
 											<img src={player1} style={{ width: '94', height: '62' }} />
@@ -361,8 +362,8 @@ class TradeConfirm extends Component {
 										</div>
 									</div>
                                 </td>
-                                <td>
-                               <button className="btn proposeTradeButton">TRADE</button>
+                                <td style={{ borderRight: "1px dashed lightgrey"}}>
+                               <button className="btn proposeTradeButton">OFFER</button>
                                 
                                 </td>
                                 <td>
@@ -383,7 +384,7 @@ class TradeConfirm extends Component {
                                 fontSize: '16'}}>32nd</span></td>
                                 <td>14.0</td>
                                 <td>99.9</td>
-                                <td>0</td>
+                                <td style={{ borderRight: "1px dashed lightgrey"}}>0</td>
                                 <td>31</td>
                                 <td>90.4</td>
                                 <td>30.1</td>
@@ -391,7 +392,7 @@ class TradeConfirm extends Component {
                             </tr>
                             <tr>
 								<td>QB</td>
-								<td>
+								<td style={{ borderRight: "1px dashed lightgrey"}}>
 									<div className="row">
 										<div className="col-lg-3 col-md-3 col-sm-3 col-xs-3">
 											<img src={player1} style={{ width: '94', height: '62' }} />
@@ -412,8 +413,8 @@ class TradeConfirm extends Component {
 										</div>
 									</div>
                                 </td>
-                                <td>
-                               <button className="btn proposeTradeButton">TRADE</button>
+                                <td style={{ borderRight: "1px dashed lightgrey"}}>
+                               <button className="btn proposeTradeButton">OFFER</button>
                                 
                                 </td>
                                 <td>
@@ -434,7 +435,7 @@ class TradeConfirm extends Component {
                                 fontSize: '16'}}>32nd</span></td>
                                 <td>14.0</td>
                                 <td>99.9</td>
-                                <td>0</td>
+                                <td style={{ borderRight: "1px dashed lightgrey"}}>0</td>
                                 <td>31</td>
                                 <td>90.4</td>
                                 <td>30.1</td>
@@ -476,7 +477,7 @@ class TradeConfirm extends Component {
 					</table>
 				</div>
 
-				
+				</div>
 			</div>
 		);
 	}

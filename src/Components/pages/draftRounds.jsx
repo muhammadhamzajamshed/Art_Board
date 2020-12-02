@@ -2,12 +2,15 @@ import React, { Component } from 'react';
 import '../../CSS/draftRounds.css';
 import DraftOverView from './../subComponents/draftRoundsOverview';
 import redHelmet from '../../Assets/Images/object2.png';
+import background from '../../Assets/Images/LeagueMenu.png'
+
 class DraftRounds extends Component {
 	state = {};
 	render() {
 		return (
-			<div style={{ marginLeft: '50px', marginRight: '50px' }}>
-				<div class="w3-card">
+			<div  style={{  backgroundImage:`url(${background})`, backgroundRepeat:"no-repeat", backgroundSize:"cover"}}  >
+			<div style={{ marginLeft: '50px', marginRight: '50px', backgroundImage:`url(${background})`, backgroundRepeat:"no-repeat", backgroundSize:"cover"}}  >
+				<div class="w3-card ml-3 mr-3" style={{ backgroundColor:"white"}}>
 					<h3
 						style={{
 							backgroundColor: 'rgb(0, 0, 46)',
@@ -23,12 +26,12 @@ class DraftRounds extends Component {
 					</h3>
 
 					<div className=" row lg-12">
-						<div className="col-lg-1 col-md-2 col-sm-2 col-xs-2 ml-0" style={{marginRight:"20px"}}>
+						<div className="col-lg-2 col-md-2 col-sm-2 col-xs-2 ml-2" style={{marginRight:"20px"}}>
 							<div className="draftRoundTime" style={{ marginLeft: ' 20px' }}>
 								<span>01:20</span>
 							</div>
 						</div>
-						<div className="col-lg-2 col-md-2 col-sm-2 col-xs-2  ml-1 draftTeamDiv" >
+						<div className="col-lg-2 col-md-2 col-sm-2 col-xs-2  ml-2 draftTeamDiv" >
 							<div>
 								<p style={{ letterSpacing: '1px', wordSpacing: '4px' }}>PICK 1-ON THE CLOCK</p>
 								<span>
@@ -37,14 +40,14 @@ class DraftRounds extends Component {
 								</span>
 							</div>
 						</div>
-						<div className="col-lg-2 col-md-2 col-sm-2 col-xs-2 draftTeamDiv2 ml-1 ">
+						<div className="col-lg-2 col-md-2 col-sm-2 col-xs-2 draftTeamDiv2 ml-2 ">
 							<p style={{ letterSpacing: '1px', wordSpacing: '4px' }}>PICK 2</p>
 							<span>
 								<img src={redHelmet} style={{ float: 'left', marginRight: '5px' }} />
 								<span>TEAM XYZ</span>
 							</span>
 						</div>
-						<div className="col-lg-2 col-md-2 col-sm-2 col-xs-2 draftTeamDiv2 ml-1 mr-1">
+						<div className="col-lg-2 col-md-2 col-sm-2 col-xs-2 draftTeamDiv2 ml-2 mr-1">
 							<p style={{ letterSpacing: '1px', wordSpacing: '4px' }}>PICK 2</p>
 							<span>
 								<img src={redHelmet} style={{ float: 'left', marginRight: '5px' }} />
@@ -52,7 +55,7 @@ class DraftRounds extends Component {
 							</span>
 						</div>
 
-						<div className="col-lg-2 col-md-2 col-sm-2 col-xs-2 draftTeamDiv2 ml-1 ">
+						<div className="col-lg-2 col-md-2 col-sm-2 col-xs-2 draftTeamDiv2 ml-2 ">
 							<p style={{ letterSpacing: '1px', wordSpacing: '4px' }}>PICK 2</p>
 							<span>
 								<img src={redHelmet} style={{ float: 'left', marginRight: '5px' }} />
@@ -60,11 +63,7 @@ class DraftRounds extends Component {
 							</span>
 						</div>
                         <div className="col-lg-2 col-md-2 col-sm-2 col-xs-2 draftTeamDiv2 ml-2 mr-2" >
-                        <p style={{ letterSpacing: '1px', wordSpacing: '4px' }}>PICK 2</p>
-                        <span>
-                            <img src={redHelmet} style={{ float: 'left', marginRight: '5px' }} />
-                            <span>TEAM XYZ</span>
-                        </span>
+                        
                         
                         </div>
 					</div>
@@ -80,6 +79,9 @@ class DraftRounds extends Component {
 
 				<br />
 				<DraftOverView />
+			</div>
+
+
 			</div>
 		);
 	}

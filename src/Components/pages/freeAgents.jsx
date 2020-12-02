@@ -1,16 +1,19 @@
 import React, { Component } from 'react';
 
 import FreeagentsOverView from './../subComponents/freeagentsOverview';
+import background from '../../Assets/Images/LeagueMenu.png'
 class FreeAgents extends Component {
     state = {  }
     render() { 
         return (  
+
+            <div style={{ backgroundImage:`url(${background})`, backgroundRepeat:"no-repeat", backgroundSize:"cover"}}>
             <div style={{marginLeft:"50px",marginRight:"50px"}} >
 
 
             
             <div class="w3-container">
-                <div class="w3-card">
+                <div class="w3-card" style={{backgroundColor:"white"}}>
                     <h3
                         style={{
                             backgroundColor: 'rgb(0, 0, 46)',
@@ -107,6 +110,7 @@ class FreeAgents extends Component {
             
             
             
+            </div>
             </div>
         );
     }

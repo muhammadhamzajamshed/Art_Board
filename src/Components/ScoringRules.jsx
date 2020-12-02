@@ -1,15 +1,14 @@
 import React, { Component } from 'react';
 import '../CSS/ScoringRules.css'
 import object1 from '../Assets/Images/object1.png'
+import background from '../Assets/Images/LeagueMenu.png'
 
-
-import { Divider } from 'antd';
 class ScoringRules extends Component {
     state = {  }
     render() { 
         return ( 
-            
-            <div className="card ScoringRules">
+            <div style={{ backgroundImage:`url(${background})`, backgroundRepeat:"no-repeat", backgroundSize:"cover"}}>
+            <div className="card ScoringRules" >
             <div className="row">
             <div className="col-lg-12 col-md-12 col-sm-12">
             <h5 className="h5">SCORING RULES</h5>
@@ -385,7 +384,7 @@ class ScoringRules extends Component {
         <RecentScores/>*/}
             </div>
           
-          
+          </div>
          );
     }
 }

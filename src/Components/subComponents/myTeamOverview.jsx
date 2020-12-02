@@ -9,25 +9,25 @@ class MyTeamOverView extends Component {
             
             <div className="card myoverview" style={{marginRight:"15px", marginLeft:"15px"}}>
             <div className="row mt-6" style={{marginTop:"15px", }}>
-            <div className="col-lg-8 col-md-8 col-sm-8 col-xs-8">
+            <div className="col-lg-8 col-md-8 col-sm-6 col-xs-6">
             <div className="row lg-12 overviewInc">
-            <div className="col-lg-1 col-md-1 col-sm-1 col-xs-1  text-center "><div className="myblueDivOverview myincDecButton"><span className=""> &#60;</span></div></div>
-            <div className="col-lg-2 col-md-2 col-sm-2 col-xs-2  myoverviewFontColor"><span>NFL Week 10</span></div>
-            <div className="col-lg-2 col-md-2 col-sm-2 col-xs-2 "><span>NFL Week 11</span></div>
-            <div className="col-lg-2 col-md-2 col-sm-2 col-xs-2 myoverviewFontColor"><span>NFL Week 2</span></div>
-            <div className="col-lg-1 col-md-1 col-sm-1 col-xs-1  text-center "><div className="myblueDivOverview myincDecButton"><span className=""> &#62;</span></div></div>
-            <div className="col-lg-2 col-md-2 col-sm-2 col-xs-2 "><i class="fa fa-calendar" style={{fontSize:"36px"}}></i>
+            <div className="col-lg-1 col-md-1 col-sm-2 col-xs-1  text-center "><div className="myblueDivOverview myincDecButton"><span className=""> &#60;</span></div></div>
+            <div className="col-lg-3 col-md-3 col-sm-2 col-xs-2  myoverviewFontColor"><span>NFL Week 10</span></div>
+            <div className="col-lg-3 col-md-3 col-sm-2 col-xs-2 "><span>NFL Week 11</span></div>
+            <div className="col-lg-3 col-md-3 col-sm-2 col-xs-2 myoverviewFontColor"><span>NFL Week 2</span></div>
+            <div className="col-lg-1 col-md-1 col-sm-2 col-xs-1  text-center "><div className="myblueDivOverview myincDecButton"><span className=""> &#62;</span></div></div>
+            <div className="col-lg-1 col-md-1 col-sm-2 col-xs-2 "><i class="fa fa-calendar" style={{fontSize:"36px",color:"#00002E"}}></i>
             </div>
-            <div className="col-lg-2 col-md-2 col-sm-2 col-xs-2 "></div>
+            
             
             </div>
             </div>
-            <div className="col-lg-4 col-md-4 col-sm-4 col-xs-4">
-            
-            <button className="btn btn-lg myoverviewBtn ">Propose Trade</button>
-            <button className="btn btn-lg btn-success mygreenbtn ml-3">Drop  Player</button>
+            <div className="col-lg-4 col-md-8 col-sm-6 col-xs-6">
+           <div className="mr-2" style={{float:"right"}}> 
+            <button className="btn btn-lg myoverviewBtn ml-3 " style={{float:"right"}}>Propose Trade</button>
+            <button className="btn btn-lg btn-success mygreenbtn ml-3"  style={{float:"right"}}>Drop  Player</button>
             </div>
-            
+</div>            
             </div>
 				<div className="row">
 					<div className="col-lg-7 col-md-7 col-sm-7">
@@ -37,7 +37,7 @@ class MyTeamOverView extends Component {
 						
 					</div>
 				</div>
-				<div className="row ml-1 mr-1">
+				<div className="row  mr-1">
 					<div className="col-lg-4 col-md-4 col-sm-4 col-xs-4 myblueDivOverview text-center">
 						<span className="text-center">Starters</span>
 					</div>
@@ -73,11 +73,11 @@ class MyTeamOverView extends Component {
 							<tr>
 								<td>QB</td>
 								<td>
-									<div className="row">
-										<div className="col-lg-4 col-md-6 col-sm-8">
+									<div className="row lg-12">
+										<div className="col-lg-5 col-md-12 col-sm-12 col-xs-12">
 											<img src={player1} style={{ width: '94', height: '62' }} />
 										</div>
-										<div className="col-lg-8 col-md-6 col-sm-8" style={{ float: 'right' }}>
+										<div className="col-lg-7 col-md-12 col-sm-12 col-xs-12" style={{ float: 'right' }}>
 											<span
 												style={{
 													color: '#064EA4',
@@ -119,6 +119,319 @@ class MyTeamOverView extends Component {
                                 <td>30.1</td>
                                 <td>..</td>
 							</tr>
+
+
+
+
+
+							<tr>
+								<td>QB</td>
+								<td>
+									<div className="row">
+										<div className="col-lg-5 col-md-12 col-sm-12">
+											<img src={player1} style={{ width: '94', height: '62' }} />
+										</div>
+										<div className="col-lg-7 col-md-12 col-sm-12" style={{ float: 'right' }}>
+											<span
+												style={{
+													color: '#064EA4',
+													fontSize: '24',
+													textDecoration: 'underline',
+													fontFamily: 'sans-serif'
+												}}
+											>
+												John DOE
+											</span>
+											<br />
+											<span>Buf,QB </span>
+										</div>
+									</div>
+								</td>
+            <td><img src={arrow}/></td>
+
+                                <td>
+                                <span style={{color: '#064EA4',
+                                fontSize: '16'}}>DEPT</span>
+                                
+                                </td>
+                                <td><span
+                                style={{
+                                    color: '#064EA4',
+                                    fontSize: '16',
+                                    textDecoration: 'underline',
+                                    fontFamily: ''
+                                }}>SUN 11:00pm</span></td>
+                                <td>0.0</td>
+                                <td>...</td>
+                                <td> <span style={{color: '#03AC36',
+                                fontSize: '16'}}>32nd</span></td>
+                                <td>14.0</td>
+                                <td>99.9</td>
+                                <td>0</td>
+                                <td>31</td>
+                                <td>90.4</td>
+                                <td>30.1</td>
+                                <td>..</td>
+							</tr>
+
+
+
+
+
+							<tr>
+								<td>QB</td>
+								<td>
+									<div className="row">
+										<div className="col-lg-5 col-md-12 col-sm-12">
+											<img src={player1} style={{ width: '94', height: '62' }} />
+										</div>
+										<div className="col-lg-7 col-md-12 col-sm-12" style={{ float: 'right' }}>
+											<span
+												style={{
+													color: '#064EA4',
+													fontSize: '24',
+													textDecoration: 'underline',
+													fontFamily: 'sans-serif'
+												}}
+											>
+												John DOE
+											</span>
+											<br />
+											<span>Buf,QB </span>
+										</div>
+									</div>
+								</td>
+            <td><img src={arrow}/></td>
+
+                                <td>
+                                <span style={{color: '#064EA4',
+                                fontSize: '16'}}>DEPT</span>
+                                
+                                </td>
+                                <td><span
+                                style={{
+                                    color: '#064EA4',
+                                    fontSize: '16',
+                                    textDecoration: 'underline',
+                                    fontFamily: ''
+                                }}>SUN 11:00pm</span></td>
+                                <td>0.0</td>
+                                <td>...</td>
+                                <td> <span style={{color: '#03AC36',
+                                fontSize: '16'}}>32nd</span></td>
+                                <td>14.0</td>
+                                <td>99.9</td>
+                                <td>0</td>
+                                <td>31</td>
+                                <td>90.4</td>
+                                <td>30.1</td>
+                                <td>..</td>
+							</tr>
+
+
+
+
+							<tr>
+								<td></td>
+								<td>
+									
+								</td>
+            <td></td>
+
+                                <td>
+                               
+                                
+                                </td>
+                                <td>TOTAL</td>
+                                <td>75.5</td>
+                                <td>0.0</td>
+                                <td> </td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+							</tr>
+
+
+							<tr>
+							<td>QB</td>
+							<td>
+								<div className="row">
+									<div className="col-lg-5 col-md-12 col-sm-12">
+										<img src={player1} style={{ width: '94', height: '62' }} />
+									</div>
+									<div className="col-lg-7 col-md-12 col-sm-12" style={{ float: 'right' }}>
+										<span
+											style={{
+												color: '#064EA4',
+												fontSize: '24',
+												textDecoration: 'underline',
+												fontFamily: 'sans-serif'
+											}}
+										>
+											John DOE
+										</span>
+										<br />
+										<span>Buf,QB </span>
+									</div>
+								</div>
+							</td>
+		<td><img src={arrow}/></td>
+
+							<td>
+							<span style={{color: '#064EA4',
+							fontSize: '16'}}>DEPT</span>
+							
+							</td>
+							<td><span
+							style={{
+								color: '#064EA4',
+								fontSize: '16',
+								textDecoration: 'underline',
+								fontFamily: ''
+							}}>SUN 11:00pm</span></td>
+							<td>0.0</td>
+							<td>...</td>
+							<td> <span style={{color: '#03AC36',
+							fontSize: '16'}}>32nd</span></td>
+							<td>14.0</td>
+							<td>99.9</td>
+							<td>0</td>
+							<td>31</td>
+							<td>90.4</td>
+							<td>30.1</td>
+							<td>..</td>
+						</tr>
+
+
+						<tr>
+								<td>QB</td>
+								<td>
+									<div className="row">
+										<div className="col-lg-5 col-md-12 col-sm-12">
+											<img src={player1} style={{ width: '94', height: '62' }} />
+										</div>
+										<div className="col-lg-7 col-md-12 col-sm-12" style={{ float: 'right' }}>
+											<span
+												style={{
+													color: '#064EA4',
+													fontSize: '24',
+													textDecoration: 'underline',
+													fontFamily: 'sans-serif'
+												}}
+											>
+												John DOE
+											</span>
+											<br />
+											<span>Buf,QB </span>
+										</div>
+									</div>
+								</td>
+            <td><img src={arrow}/></td>
+
+                                <td>
+                                <span style={{color: '#064EA4',
+                                fontSize: '16'}}>DEPT</span>
+                                
+                                </td>
+                                <td><span
+                                style={{
+                                    color: '#064EA4',
+                                    fontSize: '16',
+                                    textDecoration: 'underline',
+                                    fontFamily: ''
+                                }}>SUN 11:00pm</span></td>
+                                <td>0.0</td>
+                                <td>...</td>
+                                <td> <span style={{color: '#03AC36',
+                                fontSize: '16'}}>32nd</span></td>
+                                <td>14.0</td>
+                                <td>99.9</td>
+                                <td>0</td>
+                                <td>31</td>
+                                <td>90.4</td>
+                                <td>30.1</td>
+                                <td>..</td>
+							</tr>
+							<tr>
+								<td>QB</td>
+								<td>
+									<div className="row">
+										<div className="col-lg-5 col-md-12 col-sm-12">
+											<img src={player1} style={{ width: '94', height: '62' }} />
+										</div>
+										<div className="col-lg-7 col-md-12 col-sm-12" style={{ float: 'right' }}>
+											<span
+												style={{
+													color: '#064EA4',
+													fontSize: '24',
+													textDecoration: 'underline',
+													fontFamily: 'sans-serif'
+												}}
+											>
+												John DOE
+											</span>
+											<br />
+											<span>Buf,QB </span>
+										</div>
+									</div>
+								</td>
+            <td><img src={arrow}/></td>
+
+                                <td>
+                                <span style={{color: '#064EA4',
+                                fontSize: '16'}}>DEPT</span>
+                                
+                                </td>
+                                <td><span
+                                style={{
+                                    color: '#064EA4',
+                                    fontSize: '16',
+                                    textDecoration: 'underline',
+                                    fontFamily: ''
+                                }}>SUN 11:00pm</span></td>
+                                <td>0.0</td>
+                                <td>...</td>
+                                <td> <span style={{color: '#03AC36',
+                                fontSize: '16'}}>32nd</span></td>
+                                <td>14.0</td>
+                                <td>99.9</td>
+                                <td>0</td>
+                                <td>31</td>
+                                <td>90.4</td>
+                                <td>30.1</td>
+                                <td>..</td>
+							</tr>
+
+
+
+							<tr>
+								<td></td>
+								<td>
+									
+								</td>
+            <td></td>
+
+                                <td>
+                               
+                                
+                                </td>
+                                <td>TOTAL</td>
+                                <td>75.5</td>
+                                <td>0.0</td>
+                                <td> </td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+							</tr>
+
 						</tbody>
 					</table>
 				</div>

@@ -7,11 +7,12 @@ import ViewRoasters from './../subComponents/ViewRosters';
 import MyTeam from './../subComponents/MyTeam';
 import RecentScores from '../subComponents/RecentScores';
 import LeagueScheduleResults from './../LeagueScheduleResults';
+import background from '../../Assets/Images/LeagueMenu.png'
 class League extends Component {
     state = {  }
     render() { 
         return (  
-<div style={{marginTop:"10px"}}>
+<div style={{marginTop:"10px"}} style={{ backgroundImage:`url(${background})`, backgroundRepeat:"no-repeat", backgroundSize:"cover"}}>
 <div className="row">
 <div className="col-lg-3" style={{paddingLeft:"-15px",paddingRight:"-15px"}}>
 <ViewRoasters/>

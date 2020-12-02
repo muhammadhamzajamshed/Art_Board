@@ -6,7 +6,7 @@ class LastMatchup extends Component {
         return (  <div className="container">
         <div class="w3-container">
             
-            <div class="w3-card">
+            <div class="w3-card " style={{backgroundColor:"white"}}>
                 <h3
                     style={{
                         backgroundColor: 'rgb(0, 0, 46)',

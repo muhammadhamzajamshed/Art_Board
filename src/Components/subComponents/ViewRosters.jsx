@@ -10,10 +10,10 @@ class ViewRoasters extends Component {
 	state = {};
 	render() {
 		return (
-			<div className="container">
-				<div class="w3-container">
+			
+				<div class="w3-container " >
 					
-					<div class="w3-card" >
+					<div class="w3-card"style={{backgroundColor:"white"}} >
 						<h3
 							style={{
 								backgroundColor: 'rgb(0, 0, 46)',
@@ -28,7 +28,7 @@ class ViewRoasters extends Component {
 							VIEW ROSTERS
 						</h3>
 
-						<div class="container">
+						<div class="container" style={{backgroundColor:"white"}}>
                         <div
 								className="row "
 								style={{
@@ -343,7 +343,7 @@ class ViewRoasters extends Component {
                             </footer>  
 					</div>
 				</div>
-			</div>
+			
 		);
 	}
 }

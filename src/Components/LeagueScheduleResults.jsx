@@ -125,7 +125,7 @@ class LeagueScheduleResults extends Component {
 							<div className="row lg-12">
 								<div className="col-lg-9 col-md-9">
 									<div style={{ float: 'right' }}>
-										<h4 style={{ float: 'right' }}>TEAM NAME</h4>
+										<h4 style={{ float: 'right' }}>TEAM NAME</h4><br/>
 										<h6 style={{ float: 'right' }}>Manager ID</h6>
 									</div>
 								</div>
@@ -153,7 +153,7 @@ class LeagueScheduleResults extends Component {
 							<div className="row lg-12">
 								<div className="col-lg-9 col-md-9">
 									<div style={{ float: 'right' }}>
-										<h4 style={{ float: 'right' }}>TEAM NAME</h4>
+										<h4 style={{ float: 'right' }}>TEAM NAME</h4><br/>
 										<h6 style={{ float: 'right' }}>Manager ID</h6>
 									</div>
 								</div>
@@ -181,7 +181,7 @@ class LeagueScheduleResults extends Component {
 							<div className="row lg-12">
 								<div className="col-lg-9 col-md-9">
 									<div style={{ float: 'right' }}>
-										<h4 style={{ float: 'right' }}>TEAM NAME</h4>
+										<h4 style={{ float: 'right' }}>TEAM NAME</h4><br/>
 										<h6 style={{ float: 'right' }}>Manager ID</h6>
 									</div>
 								</div>
@@ -209,7 +209,7 @@ class LeagueScheduleResults extends Component {
 							<div className="row lg-12">
 								<div className="col-lg-9 col-md-9">
 									<div style={{ float: 'right' }}>
-										<h4 style={{ float: 'right' }}>TEAM NAME</h4>
+										<h4 style={{ float: 'right' }}>TEAM NAME</h4><br/>
 										<h6 style={{ float: 'right' }}>Manager ID</h6>
 									</div>
 								</div>

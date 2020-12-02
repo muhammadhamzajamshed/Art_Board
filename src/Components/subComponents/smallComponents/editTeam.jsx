@@ -7,9 +7,9 @@ class EditTeam extends Component {
 	render() {
 		return (
 			<div className="container">
-				<div class="w3-container">
+				<div class="w3-container" >
 					
-					<div class="w3-card">
+					<div class="w3-card" style={{backgroundColor:"white"}}>
 						<h3
 							style={{
 								backgroundColor: 'rgb(0, 0, 46)',
@@ -21,7 +21,7 @@ class EditTeam extends Component {
 								letterSpacing: '1px'
 							}}
 						>
-							MY TEAM
+							EDIT TEAM
 						</h3>
 
 						<div class="container">
@@ -63,7 +63,7 @@ class EditTeam extends Component {
                                      <input type="text" class="form-control" id="location"  placeholder="DENVER"/>
                                    </div>
                              
-                                   <button className="btn btn-dark btn-lg"> UPDATE</button>
+                                   <button className="btn  btn-lg" style={{paddingLeft:"15px",paddingRight:"15px",backgroundColor:"black" ,color:"white"}}> UPDATE</button>
                                  </form>
        
        
@@ -75,26 +75,13 @@ class EditTeam extends Component {
                             
                            
 
-							{/*<p style={{
-                        backgroundColor: 'rgb(241, 241, 241)',
-                        padding: '10px',
-                        textAlign: 'justify'
-                    }}>JOE'S CLUB</p>*/}
+							
                     
                         </div>
                         </div>
                         </div>
 
-						<footer class="w3-container">
-							<p
-								style={{
-									textAlign: 'center',
-									
-								}}
-							>
-							My Team home
-							</p>
-                            </footer>  
+					
 					</div>
 				</div>
 			</div>

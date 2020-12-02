@@ -18,7 +18,7 @@ class DraftRoundsOverview extends Component {
 						
 					</div>
 				</div>
-				<div className="row ml-1 mr-1">
+				<div className="row  mr-1">
 					<div className="col-lg-4 col-md-4 col-sm-4 col-xs-4 blueDivfreeAgentsOverview text-center">
 						<span className="text-center">Starters</span>
 					</div>
@@ -51,6 +51,217 @@ class DraftRoundsOverview extends Component {
 							</tr>
 						</thead>
 						<tbody className="">
+							<tr>
+								<td>QB</td>
+								<td>
+									<div className="row">
+										<div className="col-lg-3">
+											<img src={player1} style={{ width: '94', height: '62' }} />
+										</div>
+										<div className="col-lg-8" style={{ float: 'left' }}>
+											<span
+												style={{
+													color: '#064EA4',
+													fontSize: '24',
+													textDecoration: 'underline',
+													fontFamily: 'sans-serif'
+												}}
+											>
+												John DOE
+											</span>
+											<br />
+                                            <span>Buf,QB   </span>
+                                            
+										</div>
+									</div>
+                                </td>
+                                <td> <button className="btn proposeTradeButton">DRAFT</button></td>
+                                <td>
+                                <span style={{color: '#064EA4',
+                                fontSize: '16'}}>DEPT</span>
+                                
+                                </td>
+                                <td><span
+                                style={{
+                                    color: '#064EA4',
+                                    fontSize: '16',
+                                    textDecoration: 'underline',
+                                    fontFamily: ''
+                                }}>SUN 11:00pm</span></td>
+                                <td>0.0</td>
+                                <td>...</td>
+                                <td> <span style={{color: '#03AC36',
+                                fontSize: '16'}}>32nd</span></td>
+                                <td>14.0</td>
+                                <td>99.9</td>
+                                <td>0</td>
+                                <td>31</td>
+                                <td>90.4</td>
+                                <td>30.1</td>
+                                <td>..</td>
+							</tr>
+
+
+
+
+							<tr>
+								<td>QB</td>
+								<td>
+									<div className="row">
+										<div className="col-lg-3">
+											<img src={player1} style={{ width: '94', height: '62' }} />
+										</div>
+										<div className="col-lg-8" style={{ float: 'left' }}>
+											<span
+												style={{
+													color: '#064EA4',
+													fontSize: '24',
+													textDecoration: 'underline',
+													fontFamily: 'sans-serif'
+												}}
+											>
+												John DOE
+											</span>
+											<br />
+                                            <span>Buf,QB   </span>
+                                            
+										</div>
+									</div>
+                                </td>
+                                <td> <button className="btn proposeTradeButton">DRAFT</button></td>
+                                <td>
+                                <span style={{color: '#064EA4',
+                                fontSize: '16'}}>DEPT</span>
+                                
+                                </td>
+                                <td><span
+                                style={{
+                                    color: '#064EA4',
+                                    fontSize: '16',
+                                    textDecoration: 'underline',
+                                    fontFamily: ''
+                                }}>SUN 11:00pm</span></td>
+                                <td>0.0</td>
+                                <td>...</td>
+                                <td> <span style={{color: '#03AC36',
+                                fontSize: '16'}}>32nd</span></td>
+                                <td>14.0</td>
+                                <td>99.9</td>
+                                <td>0</td>
+                                <td>31</td>
+                                <td>90.4</td>
+                                <td>30.1</td>
+                                <td>..</td>
+							</tr>
+
+
+
+							<tr>
+								<td>QB</td>
+								<td>
+									<div className="row">
+										<div className="col-lg-3">
+											<img src={player1} style={{ width: '94', height: '62' }} />
+										</div>
+										<div className="col-lg-8" style={{ float: 'left' }}>
+											<span
+												style={{
+													color: '#064EA4',
+													fontSize: '24',
+													textDecoration: 'underline',
+													fontFamily: 'sans-serif'
+												}}
+											>
+												John DOE
+											</span>
+											<br />
+                                            <span>Buf,QB   </span>
+                                            
+										</div>
+									</div>
+                                </td>
+                                <td> <button className="btn proposeTradeButton">DRAFT</button></td>
+                                <td>
+                                <span style={{color: '#064EA4',
+                                fontSize: '16'}}>DEPT</span>
+                                
+                                </td>
+                                <td><span
+                                style={{
+                                    color: '#064EA4',
+                                    fontSize: '16',
+                                    textDecoration: 'underline',
+                                    fontFamily: ''
+                                }}>SUN 11:00pm</span></td>
+                                <td>0.0</td>
+                                <td>...</td>
+                                <td> <span style={{color: '#03AC36',
+                                fontSize: '16'}}>32nd</span></td>
+                                <td>14.0</td>
+                                <td>99.9</td>
+                                <td>0</td>
+                                <td>31</td>
+                                <td>90.4</td>
+                                <td>30.1</td>
+                                <td>..</td>
+							</tr>
+
+
+
+
+							<tr>
+								<td>QB</td>
+								<td>
+									<div className="row">
+										<div className="col-lg-3">
+											<img src={player1} style={{ width: '94', height: '62' }} />
+										</div>
+										<div className="col-lg-8" style={{ float: 'left' }}>
+											<span
+												style={{
+													color: '#064EA4',
+													fontSize: '24',
+													textDecoration: 'underline',
+													fontFamily: 'sans-serif'
+												}}
+											>
+												John DOE
+											</span>
+											<br />
+                                            <span>Buf,QB   </span>
+                                            
+										</div>
+									</div>
+                                </td>
+                                <td> <button className="btn proposeTradeButton">DRAFT</button></td>
+                                <td>
+                                <span style={{color: '#064EA4',
+                                fontSize: '16'}}>DEPT</span>
+                                
+                                </td>
+                                <td><span
+                                style={{
+                                    color: '#064EA4',
+                                    fontSize: '16',
+                                    textDecoration: 'underline',
+                                    fontFamily: ''
+                                }}>SUN 11:00pm</span></td>
+                                <td>0.0</td>
+                                <td>...</td>
+                                <td> <span style={{color: '#03AC36',
+                                fontSize: '16'}}>32nd</span></td>
+                                <td>14.0</td>
+                                <td>99.9</td>
+                                <td>0</td>
+                                <td>31</td>
+                                <td>90.4</td>
+                                <td>30.1</td>
+                                <td>..</td>
+							</tr>
+
+
+
+
 							<tr>
 								<td>QB</td>
 								<td>

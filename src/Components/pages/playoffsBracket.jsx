@@ -13,10 +13,10 @@ class PlayOffBrackets extends Component {
             <div className="card PlayOffBrackets ">
             <div className="row">
             <div className="col-lg-12 col-md-12 col-sm-12">
-            <h5 className="h5">PLAYOFFS BRACKET  <span style={{color:"#CBCBCB" , fontSize:"58px"}}>GORDON SUPER LEAGUE</span></h5>
+            <h5 className="playOffsH5">PLAYOFFS BRACKET  <span style={{color:"#CBCBCB" , fontSize:"58px"}}>GORDON SUPER LEAGUE</span></h5>
             <hr className="new5"/>
 
-            <h6 className="h6">Champions Bracket</h6>
+            <h6 className="h6PlayOffs">Champions Bracket</h6>
             <div className="row">
             <div className="col-lg-6 col-md-6 col-sm-6 paraContent"><p>round 1  | NFL WEEK 14-15</p></div>
             <div className="col-lg-5 col-md-5 col-sm-5 paraContent"><p>CHAMPIONSHIP  | NFL WEEK 16</p></div>

@@ -21,14 +21,14 @@ class GordonsSuperLeague extends Component {
             
             <div className="card GordonsSuperLeague">
             <div className="row">
-            <div className="col-lg-11 col-md-11 col-sm-11">
+            <div className="col-lg-10 col-md-10 col-sm-10">
             <h5 className="h5GSL">GORDONS SUPER LEAGUE 2020</h5>
             <p className="paragGSL">STANDARD RULES  | 10 TEAMS | HEAD-TO-HEAD POINTS </p>
             <br/>
             <h6 className="h6GSL">FULL STANDINGS</h6>
             </div>
-            <div className="col-lg-1 col-md-1 col-sm-1">
-            <FiSettings className="settingIcon"/>
+            <div className="col-lg-2 col-md-2 col-sm-2">
+            <FiSettings className=" mr-3 mt-2" style={{width:"30px" ,height:"30px",float:"right"}}/>
             </div>
             </div>
             <div className="row table">

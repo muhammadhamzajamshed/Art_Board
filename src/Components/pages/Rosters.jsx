@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import background from '../../Assets/Images/LeagueMenu.png'
 
 
 import '../../CSS/Rosters.css'
@@ -7,7 +8,7 @@ class Rosters extends Component {
     state = {  }
     render() { 
         return ( 
-            <div className="">
+            <div className="" style={{ backgroundImage:`url(${background})`, backgroundRepeat:"no-repeat", backgroundSize:"cover"}}>
 
 <div className="card rosterCard">
 <h5 className="h5Rosters">ROSTERS -<span className="rosterSubHeading">GORDON'S SUPER LEAGUE</span></h5>
