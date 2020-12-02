@@ -12,7 +12,7 @@ function LandingPage() {
                 <div className="innerLandingBody">
                 <div className="container">
             <div className="row">
-            <div className="col-5">
+            <div className="col-xl-5 col-lg-5 col-md-5 col-xs-12">
                 <div className="leftcol">
                 <h1>
                     <b>
@@ -42,7 +42,7 @@ function LandingPage() {
             <div className="col-3">
 
             </div>
-            <div className="col-4">
+            <div className="col-xl-4 col-lg-4 col-md-4 col-xs-12">
                 <div className="rightCol">
                     <div style={{
                     textAlign: 'center',

@@ -41,3 +41,49 @@
     font-size: 47px;
     font-weight: lighter;
 }
+
+.leagueMessage{
+    text-align: center;
+    display: none;
+    text-decoration: underline;
+    cursor: pointer;
+    color: rgb(104, 124, 148);
+}
+.dropdownHome{
+    display: none;
+}
+@media screen and (max-width: 500px) {
+    .homepageBanner{
+        display: none;
+    }
+    .gameWeekFixtures{
+        display: none;
+    }
+    .leagueMessage{
+        display: block;
+        margin-left: 150px;
+    }
+    .thirdMatch{
+        display: none;
+    }
+    .dropdownHome{
+        display: block;
+    }
+    .homeDropDownhead{
+        background-color: rgb(0, 0, 46);
+        color: white;
+        text-align: left;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-family: 'Bebas Neue', cursive;
+        letter-spacing: 1px;
+    }
+  }
+
+/* 
+  @media screen and (max-width: 500px) {
+    
+    .gameWeekFixtures{
+        display: none;
+    }
+  } */

@@ -16,19 +16,25 @@ function HomePage() {
             <div>
                 <div className="row">
                 <div className="col-3"></div>
-                <div className="col-6">
+                <div className="col-lg-6 col-xl-6 col-md-6 col-xs-12">
                         <p className="homepageBanner">
                             AD SPACE FOR HOMEPAGE
                         </p>
                 </div>
                 <div className="col-3"></div>
                 </div>
+                <div className="row">
+                    <div className="col-12">
+
+                    </div>
+                </div>
             </div>
             <div className="row">
                 <div className="col-3">
-                    
+                     <div className="gameWeekFixtures">
+                       
                     <div className="container">
-                    <div class="w3-container">
+                        <div class="w3-container">
                       
                       <div class="w3-card" >
                              <h3 style={{
@@ -68,9 +74,10 @@ function HomePage() {
                           </footer>
                       </div>
                       </div>
+                        </div>
                     </div>
                 </div>
-                <div className="col-6">
+                <div className="col-xs-12 col-lg-6 col-xl-6">
                     
                 <div class="w3">
                       
@@ -83,11 +90,11 @@ function HomePage() {
                                  paddingBottom: '10px',
                                  fontFamily: 'Bebas Neue,cursive',
                                  letterSpacing: '1px'
-                             }}>GAMEWEEK FIXTURES</h3>
+                             }}>UPCOMING LEAGUE MATCHUPS</h3>
                           
                             <div class="container">
                                 <div className="row">
-                                    <div className="col-4">
+                                    <div className="col-lg-4 col-xl-4 col-xs-12 col-sm-12">
                                     <div style={{
                                         backgroundColor: 'rgb(242, 242, 242)',
                                         paddingTop: '40px',
@@ -130,7 +137,7 @@ function HomePage() {
 
                                         </div>
                                     </div>
-                                    <div className="col-4">
+                                    <div className="col-lg-4 col-xl-4 col-xs-12 col-sm-12">
                                         <div style={{
                                             backgroundColor: 'rgb(242, 242, 242)',
                                             paddingTop: '40px',
@@ -173,7 +180,8 @@ function HomePage() {
 
                                         </div>
                                     </div>
-                                    <div className="col-4">
+                                    <div className="col-lg-4 col-xl-4 col-xs-12 col-sm-12">
+                                        <div className="thirdMatch">
                                         <div style={{
                                             backgroundColor: 'rgb(242, 242, 242)',
                                             paddingTop: '40px',
@@ -215,7 +223,10 @@ function HomePage() {
                                         </div>
 
                                         </div>
+                                        </div>
                                     </div>
+                                    <p className="leagueMessage"
+                                    > See Full League Messages</p>
                                 </div>
                                 <br/>
                                 <br/>
@@ -223,6 +234,24 @@ function HomePage() {
                       </div>
                       </div>
                       <br/>
+                      {/* <h3 style={{
+                                 backgroundColor: 'white',
+                                 color: 'rgb(0, 0, 46)',
+                                 textAlign: 'center',
+                                 paddingTop: '10px',
+                                 paddingBottom: '10px',
+                                 fontFamily: 'Bebas Neue,cursive',
+                                 letterSpacing: '1px'
+                             }}>UPCOMING LEAGUE MATCHUPS</h3> */}
+
+                             <div className="dropdownHome">
+                                 <h3 className="homeDropDownhead">GAME WEEK FIXTURES</h3>
+                                 <br/>
+                                 <h3 className="homeDropDownhead">RECENT ACTIVITY</h3>
+                                 <br/>
+                                 <h3 className="homeDropDownhead">TOP PICKS</h3>
+                             </div>
+
                       <div class="w3">
                       
                       <div class="w3-card" >

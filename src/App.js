@@ -55,6 +55,7 @@ function App() {
         <div>
       
         <Header/>
+        <br/><br/>
           <Switch>
            <Route path="/header" component={Header}/>
            <Route path="/DraftRulePage" component={DraftRulesPage}/>
