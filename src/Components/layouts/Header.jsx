@@ -10,6 +10,7 @@ import line from '../../Assets/Images/headerLine.png'
 
 import { Menu, Dropdown } from 'antd';
 import { DownOutlined } from '@ant-design/icons';
+import '../../CSS/header.css'
 
 class Header extends Component {
     render() {
@@ -72,11 +73,14 @@ class Header extends Component {
           );
         return (
             <React.Fragment>
-            <div>
+            <div className="headerContainer">
+
+            <img   className="box-1 stack-top"  src={logo}  />
+
                 <div className="row">
                 <div className="col-lg-12 col-md-12 col-sm-12  col-xs-12"  style={{backgroundImage:`url(${header})`, backgroundRepeat:"no-repeat", backgroundSize:"cover"}}>
                 <div className="row" style={{ paddingTop:"15px" , paddingBottom:"15px"}}>
-                <div className="col-lg-2 col-md-2 col-sm-2  col-xs-2"> <img     src={logo}  style={{width:"150px", paddingLeft:"50px" }}/></div>
+                <div className="col-lg-2 col-md-2 col-sm-2  col-xs-2"> </div>
                 <div className="col-lg-2 col-md-2 col-sm-2  col-xs-2">
                 <h4 style={{color:"white"}}> HOME</h4>
                 </div> 
@@ -160,7 +164,7 @@ class Header extends Component {
             <div className="col-lg-2 col-md-2 col-sm-2  col-xs-2" >
              </div> 
             </div>
-
+            
 
             </div>
 

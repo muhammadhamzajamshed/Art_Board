@@ -8,7 +8,8 @@ class Rosters extends Component {
     state = {  }
     render() { 
         return ( 
-            <div className="" style={{ backgroundImage:`url(${background})`, backgroundRepeat:"no-repeat", backgroundSize:"cover"}}>
+            
+            <div  className="" style={{ backgroundImage:`url(${background})`, backgroundRepeat:"no-repeat", backgroundSize:"cover"}}>
 
 <div className="card rosterCard">
 <h5 className="h5Rosters">ROSTERS -<span className="rosterSubHeading">GORDON'S SUPER LEAGUE</span></h5>
