@@ -12,6 +12,12 @@ import { Menu, Dropdown } from 'antd';
 import { DownOutlined } from '@ant-design/icons';
 import '../../CSS/header.css'
 
+import mHelmet from '../../Assets/Images/mHelmet.png'
+import msymbol from '../../Assets/Images/mSymbol.png'
+import mcup    from '../../Assets/Images/mCup.png'
+import mball from '../../Assets/Images/mball.png'
+import mfootball from '../../Assets/Images/mfootball-shield-symbol.png'
+
 class Header extends Component {
     render() {
         const menu = (
@@ -73,7 +79,7 @@ class Header extends Component {
           );
         return (
             <React.Fragment>
-            <div className="headerContainer">
+            <div className="headerContainer  " id="hideDesktopNav" >
 
             <img   className="box-1 stack-top"  src={logo}  />
 
@@ -166,6 +172,38 @@ class Header extends Component {
             </div>
             
 
+            </div>
+
+
+            <div class="mobile-container" id="fadeshow1" style={{backgroundImage:`url(${header})`, backgroundRepeat:"no-repeat", backgroundSize:"cover"}}>
+
+            <div class="topnav">
+              <a href="#home" className="active ml-5"><img src={logo} style={{width:"60px",height:"50px"}}/></a>
+              <div id="myLinks">
+                <a href="#news">News</a>
+                <a href="#contact">Contact</a>
+                <a href="#about">About</a>
+              </div>
+              <a href=";" class="icon">
+                <i class="fa fa-bars"></i>
+              </a>
+            </div>
+            <div className="row mt-3">
+            <div className="col-lg-1 col-md-1  mt-2"></div>
+            <div className="col-lg-2 col-md-2 col-sm-2 col-xs-2 mt-2"><img src={mHelmet}/><br/><span>My team</span></div>
+            <div className="col-lg-2 col-md-2 col-sm-2 col-xs-2 mt-2"><img src={mcup}/></div>
+            <div className="col-lg-2 col-md-2 col-sm-2 col-xs-2 mt-2"><img src={mball}/></div>
+            <div className="col-lg-2 col-md-2 col-sm-2 col-xs-2 mt-2"><img src={mfootball}/></div>
+            <div className="col-lg-2 col-md-2 col-sm-2 col-xs-2 mt-2"><img src={msymbol}/></div>
+            <div className="col-lg-1 col-md-1   mt-2"></div>
+
+            
+            
+            </div>
+            
+           
+            
+           
             </div>
 
 

@@ -6,9 +6,34 @@ import redHelmet from "../../Assets/Images/object1.png"
 import polygone from "../../Assets/Images/Polygon1.png"
 import dropIcon from '../../Assets/Images/dropicon.png'
 import background from '../../Assets/Images/LeagueMenu.png'
+import {CaretRightOutlined} from '@ant-design/icons';
+import { Collapse, Select } from 'antd';
+
+
+const { Panel } = Collapse;
+
+const { Option } = Select;
+
+function callback(key) {
+  console.log(key);
+}
+const text = (
+    <p style={{ paddingLeft: 24 }}>
+      A dog is a type of domesticated animal. Known for its loyalty and faithfulness, it can be found
+      as a welcome guest in many households across the world.
+    </p>
+  );   
+ 
 class Trade extends Component {
-	state = {};
+	state = {
+        expandIconPosition: "right",
+      };
+
+      onPositionChange = expandIconPosition => {
+        this.setState({ expandIconPosition });
+      };
 	render() {
+        const { expandIconPosition } = this.state;
 		return (
             <div style={{ backgroundImage:`url(${background})`, backgroundRepeat:"no-repeat", backgroundSize:"cover"}}>
             <div className="card proposeTrade" style={{marginRight:"35px", marginLeft:"35px"}}>
@@ -449,6 +474,45 @@ class Trade extends Component {
 
 				
             </div>
+
+
+            <Collapse
+            defaultActiveKey={['1']}
+            onChange={callback}
+            expandIconPosition={expandIconPosition}
+          >
+            <Panel header="This is panel header 1" key="1" >
+              <div>{text}</div>
+            </Panel>
+            <Panel header="This is panel header 2" key="2" >
+              <div>{text}</div>
+            </Panel>
+            <Panel header="This is panel header 3" key="3" >
+              <div>{text}</div>
+            </Panel>
+          </Collapse>
+       
+
+          <Collapse
+    bordered={false}
+    defaultActiveKey={['1']}
+    expandIcon={({ isActive }) => <CaretRightOutlined rotate={isActive ? 90 : 0} />}
+    className="site-collapse-custom-collapse"
+    expandIconPosition={expandIconPosition}
+  >
+    <Panel header="This is panel header 1" key="1" className="site-collapse-custom-panel">
+      <p>{text}</p>
+    </Panel>
+    <Panel header="This is panel header 2" key="2" className="site-collapse-custom-panel">
+      <p>{text}</p>
+    </Panel>
+    <Panel header="This is panel header 3" key="3" className="site-collapse-custom-panel">
+      <p>{text}</p>
+    </Panel>
+  </Collapse>,
+         
+         
+
             </div>
 		);
 	}

@@ -21,3 +21,20 @@
     font-family: 'Gilory-Regular', cursive;
 
 }
+
+
+
+  @media screen and (max-width: 1020px) {
+    
+    .ScoringRules {
+		/* margin-top: 25px; */
+		margin-bottom: 25px;
+		/* padding-top: 15px; */
+		padding-left: 20px;
+	
+		/* padding-right: 10px; */
+		font-family: 'Bebas Neue', cursive;
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+  } 

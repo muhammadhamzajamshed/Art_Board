@@ -13,10 +13,10 @@ class Footer extends Component {
 				className="row"
 				style={{ backgroundImage: `url(${footer})`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover' }}
 			>
-				<div className="col-lg-4">
+				<div className="col-lg-4 col-md-6 col-sm-6">
 					<img src={logo} style={{ width: '140px', paddingTop: '10px', paddingLeft: '50px' }} />
 				</div>
-				<div className="col-lg-4 text-center">
+				<div className="col-lg-4  col-md-6  col-sm-6 text-center">
 					<span className="" style={{ color: 'white' }}>
 						email us at:<strong>inquires@powerball.com</strong>
 					</span>
