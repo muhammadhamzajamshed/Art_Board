@@ -11,47 +11,45 @@ class Trade extends Component {
 	render() {
 		return (
             <div style={{ backgroundImage:`url(${background})`, backgroundRepeat:"no-repeat", backgroundSize:"cover"}}>
+            <br/>
+            <br/>
             <div className="card proposeTrade proposeTradeCard" >
           
 				<div className="row">
-					<div className="col-lg-7 col-md-7 col-sm-7">
+					<div className="col-7">
                         <h5 className="h5Propose">PROPOSE TRADE</h5>
                         <h6 className="h6Propose">TRADE WITH THE BIG(2-0-0)</h6>
                         <span>
                         <img className ="proposeImage" src={whiteHelmet}/>
-                        <img className ="proposeImage" src={polygone}/><img className ="proposeImage" src={polygone}/>
+                        <img className ="proposeImage1" src={polygone}/>
+                        <img className ="proposeImage1" src={polygone}/>
                         <img className ="proposeImage" src={redHelmet}/>
                         </span>
                         <p className="proposeTradePara">Select the player you want to receive from The BigBoys </p>
 					</div>
-                    <div className="col-lg-5 col-md-5 col-sm-5">
+                    <div className="col-5 ">
                     <button className="btn btn-lg proposeBtn proposeBtnStyle" >PROPOSE TRADE</button>
 						
 					</div>
 				</div>
-				<div className="row ml-1 mr-1">
-                <div className="col-lg-4 col-md-4 col-sm-4 col-xs-4 greenDivPropose text-center">
+				<div className="row  mr-1">
+                <div className="col-4  greenDivPropose text-center">
                 <span className="text-center">NFL week 11</span>
             </div>
-					<div className="col-lg-4 col-md-4 col-sm-4 col-xs-4 greenDivPropose text-center">
+					<div className="col-4  greenDivPropose text-center">
 						<span className="text-center">NFL week 11</span>
 					</div>
-					<div className="col-lg-4 col-md-4 col-sm-4 col-xs-4 greyDivPropose text-center">
+					<div className="col-4  greyDivPropose text-center">
 						<span className="text-center">season 2020  <img src={dropIcon} className="proposeSeasoneDropDown"/></span>
 					</div>
 				</div>
                 <div className="tableWidth">
                 <div className="row table">
-                <div class="col-lg-12">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 table-responsive">
                 
                 
                 <table class="table table-striped">
-                <thead>
                
-
-                
-                
-                </thead>
                     <thead className="">
 
 

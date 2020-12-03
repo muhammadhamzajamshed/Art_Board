@@ -1,67 +1,60 @@
-.proposeTrade{
-    /* margin-top: 25px; */
-    margin-bottom:25px;
-    padding-top: 15px;
-    padding-left: 20px;
-    
-    /* padding-right: 10px; */
-    font-family: 'Bebas Neue', cursive;
-    margin-right: 120px;
-    margin-left: 120px;
-        
-    }
+.confirmTrade {
+	/* margin-top: 25px; */
+	margin-bottom: 25px;
+	padding-top: 15px;
+	padding-left: 20px;
 
-    .h5Propose{
-        font-size: 58px;
-        font-family: 'Bebas Neue';
-        font-weight: bold;
-        margin-bottom: 0px;
-    }
-    .h6Propose{
-        font-size: 31px;
-        font-family: 'Bebas Neue';
-        font-weight: bold;
-    }
+	/* padding-right: 10px; */
+	font-family: 'Bebas Neue', cursive;
+	margin-right: 100px;
+	margin-left: 100px;
+}
 
-    .blueDivPropose{
-        background-color: #00002E;
-        color: white;
-        font-family: 'Bebas Neue', cursive;
-    }
-    .greenDivPropose{
-        background-color: #03AC36;
-        color: white;
-        font-family: 'Bebas Neue', cursive;
-    }
-    .greyDivPropose{
-        background-color: #CBCBCB;
-        color: rgb(19, 18, 18);
-        font-family: 'Bebas Neue', cursive;
-    }
+.h5confirm {
+	font-size: 58px;
+	font-family: 'Bebas Neue';
+	font-weight: bold;
+	margin-bottom: 0px;
+}
+.h6confirm {
+	font-size: 31px;
+	font-family: 'Bebas Neue';
+	font-weight: bold;
+}
 
-    .confirmTradeButton{
+.blueDivconfirm {
+	background-color: #00002e;
+	color: white;
+}
+.greenDivconfirm {
+	background-color: #03ac36;
+	color: white;
+}
+.greyDivconfirm {
+	background-color: #cbcbcb;
+	color: white;
+}
 
-        background-color: #03AC36;
-        color:white;
-        font-size: 36px;
-        font-family: 'Bebas Neue', cursive;
-        margin-top: 5px;
-       padding-left: 5px;
-       padding-right: 5px;
-        margin-bottom: 5px;
+.confirmBtn {
+	background-color: #03AC36;
+	color: white;
+	font-size: 36px;
+	font-family: 'Bebas Neue', cursive;
+	margin-top: 5px;
 
-    }
+	margin-bottom: 5px;
+}
 
-    /* .blueDivOverview{
+/* .blueDivOverview{
         background-color: #00002E;
         color: white;
     } */
 
-.proposeImage{
-   margin-left: 2px;
-   margin-right: 2px;
+.confirmImage {
+	margin-left: 2px;
+	margin-right: 2px;
 }
-    /* .overviewInc{
+/* .overviewInc{
         font-size: 32px;
         font-family:  'Bebas Neue', cursive;;
     }
@@ -71,15 +64,252 @@ color: #CBCBCB;
 
     } */
 
-    .proposeTable{
+.confirmTable {
+	font-style: normal;
+	font-family: 'Bebas Neue', cursive;
+}
 
-        font-style: normal;
-         font-family: 'Bebas Neue', cursive; ;
+.confirmTradeButton {
+	color: white;
+    background-color: #00002E;
+   
+}
+.confirmTradeButton1 {
+	color: white;
+    background-color: #03AC36;
+    font-size: 36px;
+   
+}
+
+.confirmTradePara {
+	font-size: 25px;
+}
+
+.confirmBtnStyle {
+	float: right;
+	margin-right: 22px;
+}
+
+.confirmSeasoneDropDown {
+	margin-left: 5px;
+}
+.confirmTabledotedLine {
+	border-right: 1px dashed lightgrey;
+}
+
+.confirmTradePlayer {
+	color: #064ea4;
+	font-size: 18px;
+	text-decoration: underline;
+	font-family: sans-serif;
+}
+.confirmTradePlayerImage{
+
+    width: 94px;
+     height: 62px
+}
+
+.confirmTradeStatus{
+
+    color: #064EA4;
+    fontSize: 16;
+    textDecoration: underline;
+    fontFamily: ''
+
+}
+
+.confirmTableDept{
+    color: #064EA4;
+   font-size: 16px
+}
+.confirmTableOPRK{
+    color: #03AC36;
+    font-size: 16px
+}
+
+.confirmTradeCard{
+    margin-right:35px;
+     margin-left:35px
+}
+
+.confirmPlayerInfo{
+    font-size: 24px
+                    
+            }
+
+            .confirmRowDivs{
+                margin-right: 0px;
+margin-left: 0px;
+
+            }
+
+@media only screen and (min-width: 250px) and (max-width: 1204px) {
+	.confirmTrade {
+		/* margin-top: 25px; */
+		margin-bottom: 15px !important;
+		padding-top: 5px;
+		padding-left: 1px;
+
+		/* padding-right: 10px; */
+		font-family: 'Bebas Neue', cursive;
+		margin-right: 2px;
+		margin-left: 2px;
+	}
+
+	.h5confirm {
+		font-size: 20px !important;
+		font-family: 'Bebas Neue' !important;
+		font-weight: bold !important;
+		margin-bottom: 0px !important;
+	}
+	.h6confirm {
+		font-size: 12px !important;
+		font-family: 'Bebas Neue' !important;
+		font-weight: bold !important;
+	}
+
+	.blueDivconfirm {
+		background-color: #00002e;
+		color: white;
+	}
+	.greenDivconfirm {
+		background-color: #03ac36;
+		color: white;
+	}
+	.greyDivconfirm {
+		background-color: #cbcbcb;
+		color: white;
+	}
+
+	.confirmBtn {
+		background-color: #b4a79a;
+		color: white;
+		font-size: 12px !important;
+		font-family: 'Bebas Neue', cursive;
+		margin-top: 3px !important;
+      float: left !important;
+		margin-bottom: 3px !important;
+	}
+
+	/* .blueDivOverview{
+                background-color: #00002E;
+                color: white;
+            } */
+
+	.confirmImage {
+		margin-left: 2px !important;
+		margin-right: 2px !important;
+		height: 20px  !important;
+		width: 22px !important;
+	}
+
+
+	.confirmImage1 {
+		margin-left: 1px !important;
+		margin-right: 1px !important;
+		height: 13px  !important;
+		width: 16px !important;
+	}
+	/* .overviewInc{
+                font-size: 32px;
+                font-family:  'Bebas Neue', cursive;;
+            }
+            .overviewFontColor{
+        color: #CBCBCB;
+        
+        
+            } */
+
+	.confirmTable {
+		font-style: normal;
+		font-family: 'Bebas Neue', cursive !important;
+		font-size: 6px !important;
+	}
+
+	.confirmTradeButton {
+		color: white !important;
+        background-color: #00002E !important;
+        font-size: 12px;
+	}
+	.confirmTradePara {
+		font-size: 8px !important;
+	}
+
+	.confirmBtnStyle {
+		margin-right: 5px !important;
     }
+    
 
-    .confirmTradeButton{
-        color: white;
-        background-color:#03AC36;
-        font-size: 36px;
 
+
+    .confirmSeasoneDropDown {
+        margin-left: 2px;
     }
+    .confirmTabledotedLine {
+        border-right: 1px dashed lightgrey;
+    }
+    
+    .confirmTradePlayer {
+        color: #064ea4;
+        font-size: 8px !important;
+        text-decoration: underline;
+        font-family: sans-serif;
+    }
+    .confirmTradePlayerImage{
+    
+        width: 25px !important;
+         height: 25px !important
+    }
+    
+    .confirmTradeStatus{
+    
+        color: #064EA4;
+        font-size: 8px !important;
+        text-decoration: underline;
+        /* font-family;: '' */
+    
+    }
+    
+    .confirmTableDept{
+        color: #064EA4;
+       font-size: 8px !important
+    }
+    .confirmTableOPRK{
+        color: #03AC36;
+        font-size: 8px !important
+    }
+    .confirmTradeCard{
+        margin-right:5px !important;
+         margin-left:5px !important;
+	}
+	
+
+	.confirmtableHead{
+
+
+		font-size: 12px;
+    }
+    .confirmPlayerInfo{
+        font-size: 12px
+                        
+                }
+
+                .confirmArrow{
+                    width: 12px;
+                    height: 9px;
+                }
+
+
+                .confirmRowDivs{
+                    margin-right: 1px;
+    margin-left: 1px;
+
+                }
+
+                .confirmTradeButton1 {
+                    color: white;
+                    background-color: #03AC36;
+                    font-size: 12px;
+                   
+                }
+}

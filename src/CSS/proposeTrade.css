@@ -92,7 +92,7 @@ color: #CBCBCB;
 
 .proposeTradePlayer {
 	color: #064ea4;
-	font-size: 24;
+	font-size: 24px;
 	text-decoration: underline;
 	font-family: sans-serif;
 }
@@ -165,7 +165,7 @@ color: #CBCBCB;
 	.proposeBtn {
 		background-color: #b4a79a;
 		color: white;
-		font-size: 8px !important;
+		font-size: 12px !important;
 		font-family: 'Bebas Neue', cursive;
 		margin-top: 3px !important;
 
@@ -178,8 +178,18 @@ color: #CBCBCB;
             } */
 
 	.proposeImage {
+		margin-left: 2px !important;
+		margin-right: 2px !important;
+		height: 20px  !important;
+		width: 22px !important;
+	}
+
+
+	.proposeImage1 {
 		margin-left: 1px !important;
 		margin-right: 1px !important;
+		height: 13px  !important;
+		width: 16px !important;
 	}
 	/* .overviewInc{
                 font-size: 32px;
@@ -206,7 +216,7 @@ color: #CBCBCB;
 	}
 
 	.proposeBtnStyle {
-		margin-right: 0px !important;
+		margin-right: 5px !important;
     }
     
 
@@ -234,7 +244,7 @@ color: #CBCBCB;
     .proposeTradeStatus{
     
         color: #064EA4;
-        font-size: 4px !important;
+        font-size: 8px !important;
         text-decoration: underline;
         /* font-family;: '' */
     
@@ -242,14 +252,21 @@ color: #CBCBCB;
     
     .proposeTableDept{
         color: #064EA4;
-       font-size: 4px !important
+       font-size: 8px !important
     }
     .proposeTableOPRK{
         color: #03AC36;
-        font-size: 4px !important
+        font-size: 8px !important
     }
     .proposeTradeCard{
         margin-right:5px !important;
          margin-left:5px !important;
-    }
+	}
+	
+
+	.proposetableHead{
+
+
+		font-size: 12px;
+	}
 }

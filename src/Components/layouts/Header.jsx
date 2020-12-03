@@ -218,27 +218,16 @@ class Header extends Component {
 						<a href=";" class="icon">
 							<i class="fa fa-bars" />
 						</a>
-						<div className="row mt-3">
-							<span className="mobileheaderMargin"  style={{ marginLeft: '88px', marginRight: '88px' }}>
-								<span style={{ marginLeft: '10px', marginRight: '10px' }}>
-									{' '}
-									<img src={mHelmet} />{' '}
-								</span>
-								<span style={{ marginLeft: '10px', marginRight: '10px' }}>
-									<img src={mcup} />
-								</span>
-								<span style={{ marginLeft: '10px', marginRight: '10px' }}>
-									{' '}
-									<img src={mball} />
-								</span>
-								<span style={{ marginLeft: '10px', marginRight: '10px' }}>
-									{' '}
-									<img src={mfootball} />
-								</span>
-								<span style={{ marginLeft: '10px', marginRight: '10px' }}>
-									<img className="ml-2" src={msymbol} />
-								</span>
-							</span>
+						<div className="row mt-3 mb-4">
+<div className="col-1"></div>
+<div className="col-2"><img src={mHelmet} /><div><p style={{color:"black"}}>cup</p></div></div>
+<div className="col-2"><img src={mcup} /><p style={{color:"black"}}>League</p></div>
+<div className="col-2"><img src={mball} /><p style={{color:"black"}}>Draft</p></div>
+<div className="col-2"><img src={mfootball} /><p style={{color:"black"}}>Teams</p></div>
+<div className="col-2"><img  src={msymbol} /><p  style={{color:"black"}}>Playoffs</p></div>
+<div className="col-1"></div>
+
+							
 						</div>
 					</div>
 				</div>
