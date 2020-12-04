@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import background from '../../Assets/Images/LeagueMenu.png'
 
-
+import RosterMobile from '../pages/RostersMobileView'
 import '../../CSS/Rosters.css'
 import TeamDraft from './../subComponents/TeamDraft';
 class Rosters extends Component {
@@ -9,7 +9,9 @@ class Rosters extends Component {
     render() { 
         return ( 
             
-            <div  className="" style={{ backgroundImage:`url(${background})`, backgroundRepeat:"no-repeat", backgroundSize:"cover"}}>
+            <div>
+                <div className="webRoster">
+                <div  className="" style={{ backgroundImage:`url(${background})`, backgroundRepeat:"no-repeat", backgroundSize:"cover"}}>
 
 <div className="card rosterCard">
 <h5 className="h5Rosters">ROSTERS -<span className="rosterSubHeading">GORDON'S SUPER LEAGUE</span></h5>
@@ -60,6 +62,11 @@ class Rosters extends Component {
             </div>
 
             </div>
+            </div>
+                </div>
+                <div className="mobRoster">
+                    <RosterMobile />
+                </div>
             </div>
           
           

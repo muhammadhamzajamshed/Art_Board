@@ -9,11 +9,12 @@ class TeamDraft extends Component {
             
             <div className="card TeamDraft">
             <div className="row mt-2">
-            <div className="col-lg-7 col-md-7 col-sm-7">
+            <div className="col-6">
             <h5 className="h5TeamDraft"><img src={redHelmet}/> JOE'S CLUB</h5>
          
             </div>
-            <div className="col-lg-5 col-md-5 col-sm-5">
+            <div className="col-1"></div>
+            <div className="col-5">
             <button className="btn btn-lg teamDraftBtn " >VIEW TEAM</button>
             </div>
             </div>
@@ -314,7 +315,7 @@ DRAFT</td>
             </div>
 
             <div className="text-center">
-            <button className="btn btn-lg btn-success  " style={{marginBottom:"15px"}}>offer trade</button>
+            <button className="btn btn-lg btn-success  " style={{marginBottom:"15px" , paddingLeft: '20px' , paddingRight : '20px'}}>offer trade</button>
                         </div>
             
   

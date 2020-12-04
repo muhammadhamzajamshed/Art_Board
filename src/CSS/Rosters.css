@@ -20,3 +20,23 @@ margin-left: 50px;
 .rosterSubHeading{
     color:#CBCBCB
 }
+
+.mobRoster{
+    display: none;
+}
+
+@media screen and (max-width: 500px) {
+
+    .webRoster{
+        display: none;
+    }
+
+    .mobRoster{
+        display: block;
+    }
+
+    .h5Rosters{
+        font-size: 20px;
+        margin-left: 5px;
+    }
+}

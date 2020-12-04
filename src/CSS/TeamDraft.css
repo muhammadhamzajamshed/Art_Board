@@ -20,10 +20,11 @@
 
         background-color: black;
         color:white;
-        font-size: 30px;
+        font-size: 20px;
         font-family: 'Bebas Neue', cursive;
         margin-top: 5px;
-       
+        padding-right: 20px;
+        padding-left: 20px;
         margin-bottom: 5px;
 
     }
@@ -42,4 +43,10 @@
     }
     .dotedRightBorder{
         border-right: "1px dashed lightgrey"
+    }
+
+    @media screen and (max-width: 500px) {
+        .h5TeamDraft{
+            font-size: 20px;
+        }
     }

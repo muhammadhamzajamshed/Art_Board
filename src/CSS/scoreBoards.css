@@ -1,0 +1,15 @@
+.mobScoreBor{
+    display: none;
+}
+
+@media screen and (max-width: 500px) {
+    .liveUpdateWeb{
+        display: none;
+    }
+    .mobScoreBor{
+        display: block;
+    }
+    .webScoreBor{
+        display: none;
+    }
+}
