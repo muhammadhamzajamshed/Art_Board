@@ -1,63 +1,60 @@
-.proposeTrade{
-    /* margin-top: 25px; */
-    margin-bottom:25px;
-    padding-top: 15px;
-    padding-left: 20px;
-    
-    /* padding-right: 10px; */
-    font-family: 'Bebas Neue', cursive;
-    margin-right: 120px;
-    margin-left: 120px;
-        
-    }
+.proposeTrade {
+	/* margin-top: 25px; */
+	margin-bottom: 25px;
+	padding-top: 15px;
+	padding-left: 20px;
 
-    .h5Propose{
-        font-size: 58px;
-        font-family: 'Bebas Neue';
-        font-weight: bold;
-        margin-bottom: 0px;
-    }
-    .h6Propose{
-        font-size: 31px;
-        font-family: 'Bebas Neue';
-        font-weight: bold;
-    }
+	/* padding-right: 10px; */
+	font-family: 'Bebas Neue', cursive;
+	margin-right: 120px;
+	margin-left: 120px;
+}
 
-    .blueDivPropose{
-        background-color: #00002E;
-        color: white;
-    }
-    .greenDivPropose{
-        background-color: #03AC36;
-        color: white;
-    }
-    .greyDivPropose{
-        background-color: #CBCBCB;
-        color: white;
-    }
+.h5Propose {
+	font-size: 58px;
+	font-family: 'Bebas Neue';
+	font-weight: bold;
+	margin-bottom: 0px;
+}
+.h6Propose {
+	font-size: 31px;
+	font-family: 'Bebas Neue';
+	font-weight: bold;
+}
 
-    .proposeBtn{
+.blueDivPropose {
+	background-color: #00002e;
+	color: white;
+}
+.greenDivPropose {
+	background-color: #03ac36;
+	color: white;
+}
+.greyDivPropose {
+	background-color: #cbcbcb;
+	color: white;
+}
 
-        background-color: #B4A79A;
-        color:white;
-        font-size: 36px;
-        font-family: 'Bebas Neue', cursive;
-        margin-top: 5px;
-       
-        margin-bottom: 5px;
+.proposeBtn {
+	background-color: #b4a79a;
+	color: white;
+	font-size: 36px;
+	font-family: 'Bebas Neue', cursive;
+	margin-top: 5px;
 
-    }
+	margin-bottom: 5px;
+}
 
-    /* .blueDivOverview{
+/* .blueDivOverview{
         background-color: #00002E;
         color: white;
     } */
 
-.proposeImage{
-   margin-left: 2px;
-   margin-right: 2px;
+.proposeImage {
+	margin-left: 2px;
+	margin-right: 2px;
 }
-    /* .overviewInc{
+/* .overviewInc{
         font-size: 32px;
         font-family:  'Bebas Neue', cursive;;
     }
@@ -67,80 +64,134 @@ color: #CBCBCB;
 
     } */
 
-    .proposeTable{
+.proposeTable {
+	font-style: normal;
+	font-family: 'Bebas Neue', cursive;
+}
 
-        font-style: normal;
-         font-family: 'Bebas Neue', cursive; ;
-    }
+.proposeTradeButton {
+	color: white;
+	background-color: #000000;
+}
 
-    .proposeTradeButton{
-        color: white;
-        background-color: #000000;
+.proposeTradePara {
+	font-size: 25px;
+}
 
-    }
+.proposeBtnStyle {
+	float: right;
+	margin-right: 22px;
+}
 
+.proposeSeasoneDropDown {
+	margin-left: 5px;
+}
+.proposeTabledotedLine {
+	border-right: 1px dashed lightgrey;
+}
 
-    @media only screen and (min-width:300px) and (max-width: 1024px) {
-        .proposeTrade{
-            /* margin-top: 25px; */
-            margin-bottom:15px;
-            padding-top: 5px;
-            padding-left: 5px;
-            
-            /* padding-right: 10px; */
-            font-family: 'Bebas Neue', cursive;
-            margin-right: 12px;
-            margin-left: 10px;
-                
-            }
-        
-            .h5Propose{
-                font-size: 28px;
-                font-family: 'Bebas Neue';
-                font-weight: bold;
-                margin-bottom: 0px;
-            }
-            .h6Propose{
-                font-size: 22px;
-                font-family: 'Bebas Neue';
-                font-weight: bold;
-            }
-        
-            .blueDivPropose{
-                background-color: #00002E;
-                color: white;
-            }
-            .greenDivPropose{
-                background-color: #03AC36;
-                color: white;
-            }
-            .greyDivPropose{
-                background-color: #CBCBCB;
-                color: white;
-            }
-        
-            .proposeBtn{
-        
-                background-color: #B4A79A;
-                color:white;
-                font-size: 22px;
-                font-family: 'Bebas Neue', cursive;
-                margin-top: 3px;
-               
-                margin-bottom: 3px;
-        
-            }
-        
-            /* .blueDivOverview{
+.proposeTradePlayer {
+	color: #064ea4;
+	font-size: 24px;
+	text-decoration: underline;
+	font-family: sans-serif;
+}
+.proposeTradePlayerImage{
+
+    width: 94px;
+     height: 62px
+}
+
+.proposeTradeStatus{
+
+    color: #064EA4;
+    fontSize: 16;
+    textDecoration: underline;
+    fontFamily: ''
+
+}
+
+.proposeTableDept{
+    color: #064EA4;
+   font-size: 16px
+}
+.proposeTableOPRK{
+    color: #03AC36;
+    font-size: 16px
+}
+
+.proposeTradeCard{
+    margin-right:35px;
+     margin-left:35px
+}
+@media only screen and (min-width: 250px) and (max-width: 1204px) {
+	.proposeTrade {
+		/* margin-top: 25px; */
+		margin-bottom: 15px !important;
+		padding-top: 5px;
+		padding-left: 1px;
+
+		/* padding-right: 10px; */
+		font-family: 'Bebas Neue', cursive;
+		margin-right: 10px;
+		margin-left: 10px;
+	}
+
+	.h5Propose {
+		font-size: 20px !important;
+		font-family: 'Bebas Neue' !important;
+		font-weight: bold !important;
+		margin-bottom: 0px !important;
+	}
+	.h6Propose {
+		font-size: 12px !important;
+		font-family: 'Bebas Neue' !important;
+		font-weight: bold !important;
+	}
+
+	.blueDivPropose {
+		background-color: #00002e;
+		color: white;
+	}
+	.greenDivPropose {
+		background-color: #03ac36;
+		color: white;
+	}
+	.greyDivPropose {
+		background-color: #cbcbcb;
+		color: white;
+	}
+
+	.proposeBtn {
+		background-color: #b4a79a;
+		color: white;
+		font-size: 12px !important;
+		font-family: 'Bebas Neue', cursive;
+		margin-top: 3px !important;
+
+		margin-bottom: 3px !important;
+	}
+
+	/* .blueDivOverview{
                 background-color: #00002E;
                 color: white;
             } */
-        
-        .proposeImage{
-           margin-left: 1px;
-           margin-right: 1px;
-        }
-            /* .overviewInc{
+
+	.proposeImage {
+		margin-left: 2px !important;
+		margin-right: 2px !important;
+		height: 20px  !important;
+		width: 22px !important;
+	}
+
+
+	.proposeImage1 {
+		margin-left: 1px !important;
+		margin-right: 1px !important;
+		height: 13px  !important;
+		width: 16px !important;
+	}
+	/* .overviewInc{
                 font-size: 32px;
                 font-family:  'Bebas Neue', cursive;;
             }
@@ -149,18 +200,73 @@ color: #CBCBCB;
         
         
             } */
-        
-            .proposeTable{
-        
-                font-style: normal;
-                 font-family: 'Bebas Neue', cursive; ;
-            }
-        
-            .proposeTradeButton{
-                color: white;
-                background-color: #000000;
-        
-            }
-        
-      }
-      
+
+	.proposeTable {
+		font-style: normal;
+		font-family: 'Bebas Neue', cursive !important;
+		font-size: 6px !important;
+	}
+
+	.proposeTradeButton {
+		color: white !important;
+		background-color: #000000 !important;
+	}
+	.proposeTradePara {
+		font-size: 8px !important;
+	}
+
+	.proposeBtnStyle {
+		margin-right: 5px !important;
+    }
+    
+
+
+
+    .proposeSeasoneDropDown {
+        margin-left: 2px;
+    }
+    .proposeTabledotedLine {
+        border-right: 1px dashed lightgrey;
+    }
+    
+    .proposeTradePlayer {
+        color: #064ea4;
+        font-size: 8px !important;
+        text-decoration: underline;
+        font-family: sans-serif;
+    }
+    .proposeTradePlayerImage{
+    
+        width: 25px !important;
+         height: 25px !important
+    }
+    
+    .proposeTradeStatus{
+    
+        color: #064EA4;
+        font-size: 8px !important;
+        text-decoration: underline;
+        /* font-family;: '' */
+    
+    }
+    
+    .proposeTableDept{
+        color: #064EA4;
+       font-size: 8px !important
+    }
+    .proposeTableOPRK{
+        color: #03AC36;
+        font-size: 8px !important
+    }
+    .proposeTradeCard{
+        margin-right:5px !important;
+         margin-left:5px !important;
+	}
+	
+
+	.proposetableHead{
+
+
+		font-size: 12px;
+	}
+}
