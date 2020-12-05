@@ -57,10 +57,10 @@ class TradeConfirm extends Component {
 						<span className="text-center">Starters</span>
 					</div>
 					<div className="col-4  greenDivconfirm text-center">
-						<span className="text-center">NFL week 11</span>
+						<span className="text-center" style={{color:"black"}}>NFL week 11</span>
 					</div>
 					<div className="col-4  greyDivconfirm text-center">
-						<span className="text-center">season 2020  <img src={dropIcon} style={{marginLeft:"4px"}}/></span>
+						<span className="text-center" style={{color:"black"}}>season 2020  <img src={dropIcon} style={{marginLeft:"4px"}}/></span>
 					</div>
 				</div>
                 <div className="row table">
@@ -70,8 +70,8 @@ class TradeConfirm extends Component {
 						<thead className="">
 							<tr>
 								<th scope="col">SLOT</th>
-                                <th scope="col" className="confirmTabledotedLine">Players</th>
-                                <th scope="col" className="confirmTabledotedLine">Action</th>
+                                <th scope="col" className="confirmTabledotedLine">PLAYER</th>
+                                <th scope="col" className="confirmTabledotedLine">ACTION</th>
 								<th scope="col">OPP</th>
 								<th scope="col">STATUS</th>
 								<th scope="col">PROJ</th>

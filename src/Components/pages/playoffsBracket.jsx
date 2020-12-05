@@ -20,10 +20,10 @@ class PlayOffBrackets extends Component {
 
 						<h6 className="h6PlayOffs">Champions Bracket</h6>
 						<div className="row">
-							<div className="col-lg-6 col-md-6 col-sm-6 paraContent">
+							<div className="col-6 paraContent">
 								<p>round 1 | NFL WEEK 14-15</p>
 							</div>
-							<div className="col-lg-5 col-md-5 col-sm-5 paraContent">
+							<div className="col-6 paraContent">
 								<p>CHAMPIONSHIP | NFL WEEK 16</p>
 							</div>
 						</div>
@@ -33,18 +33,18 @@ class PlayOffBrackets extends Component {
 					<div className="col-5 ">
 						<div className="box boxSizeMobile boxesMargin">
 							<div>
-								<img src={circle} className="circle circleImageSize" />
+								<img src={circle} className="circle circleImageSize" alt=""/>
 							</div>
 							<div>
-								<img src={circle} className="circle circleImageSize" />
+								<img src={circle} className="circle circleImageSize" alt="" />
 							</div>
 						</div>
 						<div className="box boxSizeMobile">
 							<div>
-								<img src={circle} className="circle circleImageSize" />
+								<img src={circle} className="circle circleImageSize" alt="" />
 							</div>
 							<div>
-								<img src={circle} className="circle circleImageSize" />
+								<img src={circle} className="circle circleImageSize" alt=""/>
 							</div>
 						</div>
 					</div>
@@ -55,10 +55,10 @@ class PlayOffBrackets extends Component {
 							style={{ marginLeft: '35px', marginTop: '50px', marginBottom: '50px' }}
 						>
 							<div>
-								<img src={circle} className="circle circleImageSize" />
+								<img src={circle} className="circle circleImageSize" alt="" />
 							</div>
 							<div>
-								<img src={circle} className="circle circleImageSize" />
+								<img src={circle} className="circle circleImageSize" alt="" />
 							</div>
 						</div>
 					</div>
@@ -68,10 +68,10 @@ class PlayOffBrackets extends Component {
 				<h6 className="h6PlayOffs">Winners Consolation ladder</h6>
 				<div className="box boxSizeMobile">
 					<div>
-						<img src={circle} className="circle circleImageSize" />
+						<img src={circle} className="circle circleImageSize" alt="" />
 					</div>
 					<div>
-						<img src={circle} className="circle circleImageSize" />
+						<img src={circle} className="circle circleImageSize" alt=""/>
 					</div>
 				</div>
 				<br />

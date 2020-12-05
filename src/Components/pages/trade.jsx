@@ -57,8 +57,8 @@ class Trade extends Component {
 
                         <tr>
                             <th scope="col">SLOT</th>
-                            <th scope="col" className="proposeTabledotedLine" >Players</th>
-                            <th scope="col" className="proposeTabledotedLine">Action</th>
+                            <th scope="col" className="proposeTabledotedLine" >PLAYERS</th>
+                            <th scope="col" className="proposeTabledotedLine">ACTION</th>
                             <th scope="col">OPP</th>
                             <th scope="col">STATUS</th>
                             <th scope="col">PROJ</th>

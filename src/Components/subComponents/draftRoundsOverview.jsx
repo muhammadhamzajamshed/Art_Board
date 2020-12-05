@@ -19,17 +19,18 @@ class DraftRoundsOverview extends Component {
 					</div>
 				</div>
 				<div className="row  mr-1">
-					<div className="col-lg-4 col-md-4 col-sm-4 col-xs-4 blueDivfreeAgentsOverview text-center">
+					<div className="col-4 blueDivfreeAgentsOverview text-center">
 						<span className="text-center">Starters</span>
 					</div>
-					<div className="col-lg-4 col-md-4 col-sm-4 col-xs-4 greenDivfreeAgentsOverview text-center">
+					<div className="col-4 greenDivfreeAgentsOverview text-center">
 						<span className="text-center">NFL week 11</span>
 					</div>
-					<div className="col-lg-4 col-md-4 col-sm-4 col-xs-4 greyDivfreeAgentsOverview text-center">
+					<div className="col-4 greyDivfreeAgentsOverview text-center">
 						<span className="text-center">season 2020 <img src={dropIcon} style={{marginLeft:"5px"}}/></span>
 					</div>
 				</div>
 				<div className="row table">
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 table-responsive">
 					<table class="table table-striped ">
 						<thead className="">
 							<tr>
@@ -313,7 +314,8 @@ class DraftRoundsOverview extends Component {
 							</tr>
 						</tbody>
 					</table>
-                </div>
+				</div>
+				</div>
                 
                 <div className="row">
                 <div className="col-lg-3 col-md-3 col-sm-3 col-xs-3"></div>

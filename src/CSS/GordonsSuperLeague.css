@@ -32,13 +32,14 @@ line-height: 1px;
 .tableHeader{
     background-color:#00002E ;
     color: #FFFFFF;
-    font-family: 'Bebas Neue', cursive;
+    font-family: 'Gilroy-Light', cursive;
     font-weight: bold;
     font-size: 29px;
 }
 .table{
     padding-right: 10px;
     padding-left: 10px;
+    font-family: 'Gilroy-Light', cursive;
 }
 
 
@@ -46,6 +47,7 @@ line-height: 1px;
 
 font-size: 32px;
 font-weight:bold;
+font-family: 'Gilroy-Light', cursive;
 
 }
 
@@ -95,6 +97,7 @@ margin-left:"5px"
     }
     .tableHeader{
         font-size: 12px;
+        font-family: 'Gilroy-Light', cursive;
     }
     .table, th, td {
         font-size: 12px

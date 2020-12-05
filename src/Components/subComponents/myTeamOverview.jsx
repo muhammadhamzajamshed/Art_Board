@@ -16,20 +16,20 @@ class MyTeamOverView extends Component {
             <div className="card myoverview" style={{marginRight:"15px", marginLeft:"15px"}}>
 			<div className="myMobilehideDiv">
 			<div className="row mt-6" style={{marginTop:"15px", }}>
-            <div className="col-lg-8 col-md-8 col-sm-6 col-xs-6">
+            <div className="col-7">
             <div className="row lg-12 overviewInc">
-            <div className="col-lg-1 col-md-1 col-sm-2 col-xs-1  text-center "><div className="myblueDivOverview myincDecButton"><span className=""> &#60;</span></div></div>
-            <div className="col-lg-3 col-md-3 col-sm-2 col-xs-2  myoverviewFontColor"><span>NFL Week 10</span></div>
-            <div className="col-lg-3 col-md-3 col-sm-2 col-xs-2 "><span>NFL Week 11</span></div>
-            <div className="col-lg-3 col-md-3 col-sm-2 col-xs-2 myoverviewFontColor"><span>NFL Week 2</span></div>
-            <div className="col-lg-1 col-md-1 col-sm-2 col-xs-1  text-center "><div className="myblueDivOverview myincDecButton"><span className=""> &#62;</span></div></div>
-            <div className="col-lg-1 col-md-1 col-sm-2 col-xs-2 "><i class="fa fa-calendar" style={{fontSize:"36px",color:"#00002E"}}></i>
+            <div className="col-1  text-center "><div className="myblueDivOverview myincDecButton"><span className=""> &#60;</span></div></div>
+            <div className="col-3 myoverviewFontColor"><span>NFL Week 1</span></div>
+            <div className="col-3 "><span>NFL Week 2</span></div>
+            <div className="col-3 myoverviewFontColor"><span>NFL Week 3</span></div>
+            <div className="col-1  text-center "><div className="myblueDivOverview myincDecButton"><span className=""> &#62;</span></div></div>
+            <div className="col-1 "><i class="fa fa-calendar" style={{fontSize:"36px",color:"#00002E"}}></i>
             </div>
             
             
             </div>
             </div>
-            <div className="col-lg-4 col-md-8 col-sm-6 col-xs-6">
+            <div className="col-5">
            <div className="mr-2" style={{float:"right"}}> 
             <button className="btn btn-lg myoverviewBtn ml-3 " style={{float:"right"}}>Add Palyer</button>
             <button className="btn btn-lg btn-success mygreenbtn ml-3"  style={{float:"right"}}>Drop  Player</button>
