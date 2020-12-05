@@ -1,0 +1,8 @@
+.myteamWebHide1{
+    display: block;
+}
+@media only screen and (min-width: 250px) and (max-width: 500px) {
+    .myteamWebHide1{
+        display:none
+    }
+}

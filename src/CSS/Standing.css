@@ -1,3 +1,6 @@
+.standingFontFamily{
+    font-family: 'Bebas Neue', cursive;
+}
 .Standings{
     /* margin-top: 25px; */
     margin-bottom:25px;
@@ -5,7 +8,7 @@
     /* padding-left: 20px; */
     
     /* padding-right: 10px; */
-    font-family: 'Bebas Neue', cursive;
+    font-family: 'Bebas Neue', cursive !important;
     /* margin-left: 250px;
         margin-right: 250px; */
         
@@ -13,13 +16,13 @@
     .StandingHeader{
         background-color: rgb(0, 0, 46);
 								color: white;
-								text-align: 'center';
-								padding-top: '10px';
-								padding-bottom: '10px';
-                                font-family: 'Bebas Neue,cursive';
+								text-align: center;
+								padding-top: 10px;
+								padding-bottom: 10px;
+                                font-family: 'Bebas Neue', cursive;
                                 font-size: 40px;
                                 font-weight: bold;
-								letter-spacing: '1px'
+								letter-spacing: 1px
     }
 
     .StandingTableHeader{

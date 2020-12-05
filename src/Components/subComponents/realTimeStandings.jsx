@@ -7,8 +7,9 @@ import object3 from '../../Assets/Images/object3.png';
 import object4 from '../../Assets/Images/object4.png';
 import object5 from '../../Assets/Images/object5.png';
 import object6 from '../../Assets/Images/object6.png';
+import online from '../../Assets/Images/online.png'
 
-class Standings extends Component {
+class RealTimeStandings extends Component {
 	state = {};
 	render() {
 		return (
@@ -16,7 +17,7 @@ class Standings extends Component {
 				
 					
 						<h3 className="StandingHeader">
-							<span className="ml-2 standingFontFamily" style={{fontFamily: "Bebas Neue"}} >STANDINGS</span>
+							<span className="ml-2 standingFontFamily" style={{fontFamily: "Bebas Neue"}} >REAl-TIME STANDINGS</span>
 						</h3>
 				
 				
@@ -50,7 +51,7 @@ class Standings extends Component {
 								
 								<td>
 									<span className="count">2</span>
-									<img className="imgStyle" src={object2} />JOE'S CLUB
+									<img className="imgStyle" src={object2} alt=""/>JOE'S CLUB <img src={online} alt=""/>
 								</td>
 								<td>2</td>
 								<td>1</td>
@@ -62,7 +63,7 @@ class Standings extends Component {
 								
 								<td>
 									<span className="count">3</span>
-									<img className="imgStyle" src={object3} /> JOE'S CLUB
+									<img className="imgStyle" src={object3} alt=""/> JOE'S CLUB <img src={online} alt=""/>
 								</td>
 								<td>2</td>
 								<td>1</td>
@@ -74,7 +75,7 @@ class Standings extends Component {
 								
 								<td>
 									<span className="count">4</span>
-									<img className="imgStyle" src={object4} /> JOE'S CLUB
+									<img className="imgStyle" src={object4} alt="" /> JOE'S CLUB
 								</td>
 								<td>2</td>
 								<td>1</td>
@@ -86,7 +87,7 @@ class Standings extends Component {
 								
 								<td>
 									<span className="count">5</span>
-									<img className="imgStyle" src={object5} /> JOE'S CLUB
+									<img className="imgStyle" src={object5} alt=""/> JOE'S CLUB
 								</td>
 								<td>2</td>
 								<td>1</td>
@@ -98,7 +99,7 @@ class Standings extends Component {
 								
 								<td>
 									<span className="count">6</span>
-									<img className="imgStyle" src={object6} /> JOE'S CLUB
+									<img className="imgStyle" src={object6} alt=""/> JOE'S CLUB
 								</td>
 								<td>2</td>
 								<td>1</td>
@@ -110,7 +111,7 @@ class Standings extends Component {
 								
 								<td>
 									<span className="count">7</span>
-									<img className="imgStyle" src={object1} /> JOE'S CLUB
+									<img className="imgStyle" src={object1} alt="" /> JOE'S CLUB <img src={online} alt=""/>
 								</td>
 								<td>0</td>
 								<td>3</td>
@@ -122,7 +123,7 @@ class Standings extends Component {
 							
 								<td>
 									<span className="count">8</span>
-									<img className="imgStyle" src={object2} /> JOE'S CLUB
+									<img className="imgStyle" src={object2} alt=""/> JOE'S CLUB
 								</td>
 								<td>0</td>
 								<td>3</td>
@@ -134,7 +135,7 @@ class Standings extends Component {
 								
 								<td>
 									<span className="count">9</span>
-									<img className="imgStyle" src={object1} /> JOE'S CLUB
+									<img className="imgStyle" src={object1} alt=""/> JOE'S CLUB
 								</td>
 								<td>0</td>
 								<td>3</td>
@@ -146,7 +147,7 @@ class Standings extends Component {
 							
 								<td>
 									<span className="count">10</span>
-									<img className="imgStyle" src={object2} /> JOE'S CLUB
+									<img className="imgStyle" src={object2} alt="" /> JOE'S CLUB
 								</td>
 								<td>0</td>
 								<td>3</td>
@@ -184,4 +185,4 @@ class Standings extends Component {
 	}
 }
 
-export default Standings;
+export default RealTimeStandings;

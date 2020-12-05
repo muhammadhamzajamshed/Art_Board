@@ -1,3 +1,7 @@
+.myteamCardOverview{
+    margin-right:15px;
+     margin-left:15px
+}
 .myoverview{
     /* margin-top: 25px; */
     margin-bottom:25px;
@@ -74,4 +78,242 @@ color: #CBCBCB;
 font-size: 32px;
 
 
+    }
+
+    .myTeamPlayerName{
+
+        color: #064EA4;
+        font-size: 24px;
+        text-decoration: 'underline';
+        font-family: sans-serif;
+
+    }
+    .myTeamDept{
+        color: #064EA4;
+                                font-size: 16px
+    }
+    .myTeamStatus{
+        color: #064EA4;
+                                    font-size : 16px;
+                                    text-decoration : underline;
+                                    
+    }
+
+    .myTeamPalyerImage{
+
+        width: 94px ;
+         height: 62px 
+    }
+
+    .myTeamCardMargin{
+
+        margin-right:15px;
+             margin-left:15px
+
+    }
+    .webImageAction{
+
+display: block;
+
+
+    }
+    .mobileImageAction{
+
+        display:none;
+        }
+
+        .myTeamTabledotedLine {
+            border-right: 1px dashed lightgrey;
+        }
+        .hideheading{
+            display: block;
+        }
+
+        .myTeamhideDiv{
+            display: block;
+        }
+        .myWebHide{
+            display: none;
+        }
+        .myWebHide1{
+            display: block;
+        }
+
+    @media only screen and (min-width: 250px) and (max-width: 1204px) {
+
+
+
+        .myWebHide{
+            display:block
+        }
+        .myWebHide1{
+            display:none
+        }
+        .myoverview{
+            /* margin-top: 25px; */
+            margin-bottom:25px;
+            /* padding-top: 15px; */
+            /* padding-left: 20px; */
+            
+            /* padding-right: 10px; */
+            font-family: 'Bebas Neue', cursive;
+            /* margin-left: 300px;
+                margin-right: 300px; */
+                
+            }
+        
+            .myh5Overview{
+                font-size: 58px;
+                font-family: 'Bebas Neue';
+                font-weight: bold;
+            }
+        
+            .myblueDivOverview{
+                background-color: #00002E;
+                color: white;
+            }
+            .mygreenDivOverview{
+                background-color: #03AC36;
+                color: white;
+            }
+            .mygreyDivOverview{
+                background-color: #CBCBCB;
+                color: white;
+            }
+        
+            .myoverviewBtn{
+        
+                background-color: black;
+                color:white;
+                font-size: 30px;
+                font-family: 'Bebas Neue', cursive;
+                margin-top: 5px;
+               
+                margin-bottom: 5px;
+        
+            }
+         .mygreenbtn{
+            background-color: green;
+            color:white;
+            font-size: 30px;
+            font-family: 'Bebas Neue', cursive;
+            margin-top: 5px;
+           
+            margin-bottom: 5px;
+        
+         }
+            /* .blueDivOverview{
+                background-color: #00002E;
+                color: white;
+            } */
+        
+        
+            .myoverviewInc{
+                font-size: 32px;
+                font-family:  'Bebas Neue', cursive;;
+            }
+        
+            .myincDecButton{
+                margin-top: 3px;
+                margin-bottom: 3px;
+                margin-left: 3px;
+                margin-right: 3px;
+            }
+        
+            .myoverviewFontColor{
+        color: #CBCBCB;
+        font-size: 32px;
+        
+        
+            }
+        
+            .myTeamPlayerName{
+        
+                color: #064EA4;
+                font-size: 8px;
+                text-decoration: 'underline';
+                font-family: sans-serif;
+        
+            }
+            .myTeamDept{
+                color: #064EA4;
+                                        font-size: 7px
+            }
+            .myTeamStatus{
+                color: #064EA4;
+                                            font-size : 7px;
+                                            text-decoration : underline;
+                                            
+            }
+        
+            .myTeamPalyerImage{
+        
+                width: 32px ;
+                 height: 21px 
+            }
+        
+            .myTeamCardMargin{
+        
+                margin-right:0px;
+                     margin-left:0px
+        
+            }
+
+
+.mySlot{
+    font-size: 6px;
+}
+
+.webImageAction{
+
+    display:none;
+}
+.mobileImageAction{
+    display:block;
+    color:white;
+   
+  
+    }
+
+    .mobileButtonAction{
+        background-color: #03AC36;
+        font-family: 'Bebas Neue', cursive;
+     font-size:9px;
+    }
+
+
+    .myTeamTabledotedLine {
+        border-right: 1px dashed lightgrey;
+    }
+    .myColFont{
+        font-size: 7px;
+    }
+
+.myColTableHead{
+    font-size: 5px;
+}
+.hideheading{
+    display:none
+}
+
+
+.myMobilehideDiv{
+    display: none;
+}
+
+.myteamAddBtn{
+    font-size: 9px;
+    background-color:#000000;
+    color:white
+}
+.myteamDropBtn{
+    font-size: 9px;
+    background-color:#03AC36;
+    color:white
+}
+
+.myteamCardOverview{
+    margin-right:0px;
+     margin-left:0px
+}
     }

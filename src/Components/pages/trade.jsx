@@ -28,19 +28,19 @@ class Trade extends Component {
                         <p className="proposeTradePara">Select the player you want to receive from The BigBoys </p>
 					</div>
                     <div className="col-5 ">
-                    <button className="btn btn-lg proposeBtn proposeBtnStyle" >PROPOSE TRADE</button>
+                    <button className="btn btn-lg proposeBtn proposeBtnStyle" >CONFIRM TRADE</button>
 						
 					</div>
 				</div>
 				<div className="row  mr-1">
-                <div className="col-4  greenDivPropose text-center">
+                <div className="col-4 blueDivPropose  text-center">
                 <span className="text-center">NFL week 11</span>
             </div>
-					<div className="col-4  greenDivPropose text-center">
-						<span className="text-center">NFL week 11</span>
+					<div className="col-4   greenDivPropose text-center">
+						<span className="text-center " style={{color:"black"}}>NFL WEEK 11</span>
 					</div>
 					<div className="col-4  greyDivPropose text-center">
-						<span className="text-center">season 2020  <img src={dropIcon} className="proposeSeasoneDropDown"/></span>
+						<span className="text-center" style={{color:"black"}}>SEASON 2020  <img src={dropIcon} className="proposeSeasoneDropDown"/></span>
 					</div>
 				</div>
                 <div className="tableWidth">

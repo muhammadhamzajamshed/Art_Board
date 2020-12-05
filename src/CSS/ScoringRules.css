@@ -13,18 +13,23 @@
 .table {
 	padding-right: 10px;
     padding-left: 10px;
-    font-family: 'Gilory-Regular', cursive;
+    font-family: 'Gilroy-Light', cursive;
 }
 
 .tableData {
 	font-size: 18px;
-    font-family: 'Gilory-Regular', cursive;
+    font-family: 'Gilroy-Light', cursive;
 
+}
+.scoringRulesMobileView{
+	display: none;
+}
+.scoringRulesWebView{
+	display: block;
 }
 
 
-
-  @media screen and (max-width: 1020px) {
+  @media screen and (min-width:510px) and (max-width: 1020px) {
     
     .ScoringRules {
 		/* margin-top: 25px; */
@@ -37,4 +42,32 @@
 		margin-left: 20px;
 		margin-right: 20px;
 	}
+	.scoringRulesMobileView{
+		display: none;
+	}
+	.scoringRulesWebView{
+		display: block;
+	}
   } 
+
+
+  @media screen and (max-width:500px){
+
+	.ScoringRules {
+		/* margin-top: 25px; */
+		margin-bottom: 25px;
+		/* padding-top: 15px; */
+		padding-left: 20px;
+	
+		/* padding-right: 10px; */
+		font-family: 'Bebas Neue', cursive;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+	.scoringRulesMobileView{
+		display: block;
+	}
+	.scoringRulesWebView{
+		display: none;
+	}
+  }

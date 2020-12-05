@@ -22,8 +22,8 @@ hr.new5 {
 .box {
 	width: 310px;
 	height: 190px;
-	border-color: black;
-	border: 2px solid black;
+	
+	border: 2px;
 }
 
 .box1 {
@@ -72,3 +72,10 @@ hr.new5 {
 	font-size: 40px;
 	font-family: 'Bebas Neue', cursive;
    }
+
+   .boxshade {
+	width: 360px;
+	height: 170px;
+	
+	border: 1px solid black;
+}
