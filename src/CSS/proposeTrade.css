@@ -105,10 +105,9 @@ color: #CBCBCB;
 .proposeTradeStatus{
 
     color: #064EA4;
-    fontSize: 16;
-    textDecoration: underline;
-    fontFamily: ''
-
+    font-size: 16;
+    text-decoration: underline;
+ 
 }
 
 .proposeTableDept{
@@ -209,7 +208,9 @@ color: #CBCBCB;
 
 	.proposeTradeButton {
 		color: white !important;
-		background-color: #000000 !important;
+		background-color:  rgb(79, 194, 115) !important;
+		border-radius: 0px;
+		font-family: 'Gilroy-Light';
 	}
 	.proposeTradePara {
 		font-size: 8px !important;
@@ -245,27 +246,32 @@ color: #CBCBCB;
     
         color: #064EA4;
         font-size: 8px !important;
-        text-decoration: underline;
+		text-decoration: underline;
+		font-family: 'Gilroy-Light';
         /* font-family;: '' */
     
     }
     
     .proposeTableDept{
         color: #064EA4;
-       font-size: 8px !important
+	   font-size: 8px !important;
+	   font-family: 'Gilroy-Light';
+	   
     }
     .proposeTableOPRK{
-        color: #03AC36;
+		color: #03AC36;
+		font-family: 'Gilroy-Light';
         font-size: 8px !important
     }
     .proposeTradeCard{
-        margin-right:5px !important;
+		margin-right:5px !important;
+		font-family: 'Gilroy-Light';
          margin-left:5px !important;
 	}
 	
 
 	.proposetableHead{
-
+		font-family: 'Gilroy-Light';
 
 		font-size: 12px;
 	}
