@@ -31,3 +31,35 @@
         letter-spacing: 1px;
  
      }
+
+     .mobDraftRound{
+        display: none;
+    }
+
+     @media screen and (max-width: 500px) {
+        .mobDraftRound{
+            display: block;
+        }
+        .webDraftRound{
+            display: none;
+        }
+        .table{
+            padding-left: 0px;
+            padding-right: 0px;
+        }
+        .table-striped{
+            overflow-x: auto;
+            display: block;
+            width: 100%;
+        }
+        .imageDraftRound{
+            width: 100%;
+         }
+        .playerNameDraftRound{
+            font-size: 8px;
+            text-decoration: underline;
+            font-family: 'Gilroy-Light';
+            color: '#064EA4',
+            
+        }
+     }

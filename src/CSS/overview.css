@@ -76,3 +76,22 @@ color: #CBCBCB;
         margin-left: 3px;
         margin-right: 3px;
     }
+
+    .webDraftRoundTable{
+        display: block;
+    }
+    .mobDraftRoundTable{
+        display: none;
+    }
+
+    @media screen and (max-width: 500px) {
+        .h5freeAgentsOverview{
+            display: none;
+        }
+        .webDraftRoundTable{
+            display: none;
+        }
+        .mobDraftRoundTable{
+            display: block;
+        }
+    }
