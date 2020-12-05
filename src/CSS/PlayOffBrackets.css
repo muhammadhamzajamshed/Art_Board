@@ -12,7 +12,7 @@
 
 hr.new5 {
 	font-family: 'Bebas Neue', cursive;
-	border: 2px solid #707070;
+	border: 1px solid #707070;
 	border-radius: 5px;
 	margin-left: 5px;
 	margin-right: 5px;
@@ -23,12 +23,14 @@ hr.new5 {
 	width: 310px;
 	height: 190px;
 	
-	border: 2px;
+	
+	border: 1px solid black;
 }
 
 .box1 {
 	width: 210px;
 	height: 80px;
+	
 }
 
 .circle {
@@ -75,7 +77,114 @@ hr.new5 {
 
    .boxshade {
 	width: 360px;
-	height: 170px;
+	height: 190px;
 	
 	border: 1px solid black;
+}
+
+
+@media only screen and (min-width: 250px) and (max-width: 1204px) {
+
+
+
+
+
+
+
+	.PlayOffBrackets {
+		/* margin-top: 25px; */
+		margin-bottom: 25px;
+		/* padding-top: 15px; */
+		padding-left: 20px;
+	
+		/* padding-right: 10px; */
+		font-family: 'Bebas Neue', cursive;
+		/* margin-left: 70px;
+		margin-right: 70px; */
+	}
+	
+	hr.new5 {
+		font-family: 'Bebas Neue', cursive;
+		border: 1px solid #707070;
+		border-radius: 5px;
+		margin-left: 5px;
+		margin-right: 5px;
+	
+	}
+	
+	.box {
+		width: 310px;
+		height: 190px;
+		
+		
+		border: 1px solid black;
+	}
+	
+	.box1 {
+		width: 210px;
+		height: 80px;
+		
+	}
+	
+	.circle {
+		margin-top: 10px;
+		margin-left: 5px;
+		margin-bottom: 5px;
+	}
+	.paraContent{
+	
+		font-family: 'Bebas Neue', cursive;
+		font-size: 23px;
+		color: #CBCBCB;
+		font-weight: bold;
+		margin-left: 10px;
+	
+	}
+	
+	
+	.verticalline {
+		border-left: 1px solid rgb(10, 10, 10);
+		height: 200px;
+		margin-top:150px ;
+		margin-bottom:150px ;
+	  }
+	
+	  .horzantalline{
+		font-family: 'Bebas Neue', cursive;
+		border: 2px solid solid rgb(10, 10, 10);
+		border-radius: 5px;
+		margin-left: 5px;
+		margin-right: 5px;
+	  }
+	
+	
+	  .playOffsH5{
+		font-size: 58px;
+		font-family: 'Bebas Neue', cursive;
+	  }
+	
+	  .h6PlayOffs{
+		font-size: 40px;
+		font-family: 'Bebas Neue', cursive;
+	   }
+	
+	   .boxshade {
+		width: 360px;
+		height: 190px;
+		
+		border: 1px solid black;
+	}
+	.circleImageSize{
+		width: 18px;
+		height:18px
+	}
+
+
+
+
+
+
+
+
+
 }

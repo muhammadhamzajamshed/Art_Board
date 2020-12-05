@@ -21,7 +21,12 @@ class MyTeamPage extends Component {
 <div className="col-lg-3 col-md-6"><div className="myteamWebHide1"><EditTeam className="myteamWebHide1"/></div>
 
 <br/>
-<CurrentMatchupWithHelmet/></div>            
+<CurrentMatchupWithHelmet/>
+
+<br/>
+<br/>
+
+</div>            
             
             
             

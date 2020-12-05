@@ -6,6 +6,8 @@ import dropDownArrow from "../../Assets/Images/dropIcon (2).png"
 import redHelmet from '../../Assets/Images/object2.png'
 
 import { FiSettings } from 'react-icons/fi';
+
+import background from '../../Assets/Images/LeagueMenu.png'
 class MyTeamOverView extends Component {
 	state = {};
 	render() {
@@ -52,6 +54,17 @@ class MyTeamOverView extends Component {
 			</div>
 
 </div>
+
+<div className="myWebHide">
+<div className="" >
+<br/>
+			
+			
+			</div>
+</div>
+
+
+
 <div className="myWebHide">
 <div className="row lg-12">
 <div className="col-3 mt-2"> 
