@@ -78,6 +78,23 @@
         font-family: 'Bebas Neue', cursive;
         letter-spacing: 1px;
     }
+    .homePage{
+        margin: 5px;
+    }
+    
+    .ant-collapse > .ant-collapse-item > .ant-collapse-header {
+        color: white;
+        background-color: rgb(0, 0, 46);
+        font-family: 'Bebas Neue', cursive;
+        font-size: 18px;
+    }
+    .ant-collapse > .ant-collapse-item > .ant-collapse-header .ant-collapse-arrow svg {
+
+        font-size: 18px;
+    }
+    .recentActivity{
+        display: none;
+    }
   }
 
 /* 

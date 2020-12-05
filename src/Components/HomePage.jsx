@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useState} from 'react'
 import "../CSS/homePage.css"
 import yellowHelmet from '../Assets/Images/object1.png'
 import redHelmet from '../Assets/Images/object2.png'
@@ -7,12 +7,21 @@ import blueHelmet from '../Assets/Images/object4.png'
 import whiteHelmet from '../Assets/Images/object6.png'
 import send from '../Assets/Images/email.png'
 import emoji from '../Assets/Images/happy.png'
+import topPicks from '../Assets/Images/11111.PNG'
+import {CaretRightOutlined} from '@ant-design/icons';
 import GMessage from "../Assets/Images/greenMessage.png"
 import WMessage from "../Assets/Images/whiteMessage.png"
-import { Divider } from 'antd'
+import { Divider,Collapse } from 'antd'
+
+
+const { Panel } = Collapse;
 function HomePage() {
+
+    const [expandIconPosition , setexpandIconPosition] = useState('right')
+
+
     return (
-        <div>
+        <div className="homePage">
             <div>
                 <div className="row">
                 <div className="col-3"></div>
@@ -245,14 +254,122 @@ function HomePage() {
                              }}>UPCOMING LEAGUE MATCHUPS</h3> */}
 
                              <div className="dropdownHome">
-                                 <h3 className="homeDropDownhead">GAME WEEK FIXTURES</h3>
-                                 <br/>
-                                 <h3 className="homeDropDownhead">RECENT ACTIVITY</h3>
-                                 <br/>
-                                 <h3 className="homeDropDownhead">TOP PICKS</h3>
+                             <Collapse
+                                bordered={false}
+                                defaultActiveKey={['3']}
+                                expandIcon={({ isActive }) => <CaretRightOutlined rotate={isActive ? 270 : 90} />}
+                                className="site-collapse-custom-collapse"
+                                expandIconPosition={expandIconPosition}
+                                // style={{
+                                //     color: 'white',
+                                // }}
+                             >
+                                <Panel header="GAMEWEEK FIXTURES" key="1" className="site-collapse-custom-panel"
+                                    // style={{
+                                    //     backgroundColor: 'rgb(0, 0, 46)',
+                                    //     textAlign: 'left',
+                                    //     color: 'white',
+                                    //     paddingTop: '10px',
+                                    //     paddingBottom: '10px',
+                                    //     fontFamily: 'Bebas Neue,cursive',
+                                    //     letterSpacing: '1px'
+                                    // }}
+                                    
+                                >
+                                {/* <p style={{
+                                    color: 'black',
+                                    backgroundColor: 'white'
+                                }}>Hello</p> */}
+                                <div style={{
+                                    backgroundColor: 'white'
+                                }}>
+                                    <p style={{
+                                        backgroundColor: 'rgb(241, 241, 241)',
+                                        padding: '10px',
+                                        textAlign: 'justify'
+                                    }}>Lorem ipsum dolor sit amet, consectetur adipisicing</p>
+                                    <p style={{
+                                        backgroundColor: 'rgb(241, 241, 241)',
+                                        padding: '10px',
+                                        textAlign: 'justify'
+                                    }}>Lorem ipsum dolor sit amet, consectetur adipisicing</p>
+                                    <p style={{
+                                        backgroundColor: 'rgb(241, 241, 241)',
+                                        padding: '10px',
+                                        textAlign: 'justify'
+                                    }}>Lorem ipsum dolor sit amet, consectetur adipisicing</p>
+                                    
+                                </div>
+                                </Panel>
+                                <Panel header="RECENT ACTIVITY" key="2" className="site-collapse-custom-panel" >
+                                <div className="container">
+                                <table class="table table-striped">
+                                    <thead className="homePagetableHeader">
+                                        <tr>
+                                        <th scope="col"></th>
+                                        <th scope="col">TRANSACTION</th>
+                                        <th scope="col">DETAILS</th>
+                                        
+                                        </tr>
+                                    </thead>
+                                    <tbody className="homePagetableBody">
+                                        <tr>
+                                        <th scope="row"></th>
+                                        <td>+</td>
+                                        <td>
+                                            Team Gordon added Player ABC,<br/>
+                                            Sea D/ST from Free Agency to Bench
+                                        </td>
+                                        
+                                        </tr>
+                                        <tr>
+                                            <th scope="row"></th>
+                                            <td>+</td>
+                                            <td>
+                                                Team Alan added Player XYZ,<br/>
+                                                ATL, QB from Free Agency to Bench
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row"></th>
+                                            <td>-</td>
+                                            <td>
+                                                Joes Club dropped Player XYZ,<br/>
+                                                NY, QB from Bench to Waivers
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row"></th>
+                                            <td>+-</td>
+                                            <td>
+                                                Team Alan dropped Player XYZ,ATL,QB<br/>
+                                                Team Alan Added Player XYZ,ATL,QB
+                                            </td>
+                                        </tr>
+                                        
+                                    </tbody>
+                                    </table>
+                                </div>
+                                </Panel>
+                                <Panel header="TOP PICKS" key="3" className="site-collapse-custom-panel">
+                                <div class="w3">
+                      
+                                    <div class="w3-card" >
+                                        <img src={topPicks} alt="" style={{
+                                            width : '400px'
+                                        }}/>
+                                    </div>
+                                </div>
+                                    
+                                </Panel>
+                            </Collapse>
                              </div>
+                            <br/>
 
-                      <div class="w3">
+                            <div className="recentActivity">
+
+                            
+                                <div class="w3">
                       
                       <div class="w3-card" >
                              <h3 style={{
@@ -315,9 +432,11 @@ function HomePage() {
                                 </div>
                             </div>
                       </div>
+                            </div>
                 </div>
                 <div className="col-3">
                 <div className="container">
+                    <div className="recentActivity">
                     <div class="w3-container">
                       
                       <div class="card" >
@@ -387,6 +506,7 @@ function HomePage() {
                             AD SPACE<br/>FOR HOMEPAGE
                         </p>
                         </div>
+                    </div>
                     </div>
                 </div>
             </div>

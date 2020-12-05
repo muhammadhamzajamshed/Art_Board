@@ -67,3 +67,36 @@ color:#03AC36 ;
 margin-left:"5px"
 }
 
+.GordonsSuperLeagueMobile{
+    display: none;
+}
+
+@media screen and (max-width: 500px) {
+    .GordonsSuperLeagueMobile{
+        display: block;
+    }
+    .h5GSL{
+        font-size: 26px;
+        font-weight: bold;
+        font-family: 'Bebas Neue', cursive;
+        margin-top: 10px;
+    }
+    .webLeague{
+        display: none;
+    }
+    .paragGSL{
+        font-size: 12px;
+    }
+    .h6GSL{
+        font-size: 16px
+    }
+    .mobileLeagueHead{
+        margin-left: 14px;
+    }
+    .tableHeader{
+        font-size: 12px;
+    }
+    .table, th, td {
+        font-size: 12px
+      }
+}

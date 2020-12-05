@@ -56,3 +56,15 @@
                 margin-left: 2px;
                 margin-right: 2px;
             }
+
+            .mobOverView{
+                display: none;
+            }
+            @media screen and (max-width: 500px) {
+                .mobOverView{
+                    display: block;
+                }
+                .webOverView{
+                    display: none;
+                }
+            }
