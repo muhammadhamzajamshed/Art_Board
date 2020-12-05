@@ -11,7 +11,8 @@ class DraftRounds extends Component {
 			<div>
 				<div className="webDraftRound">
 				<div  style={{  backgroundImage:`url(${background})`, backgroundRepeat:"no-repeat", backgroundSize:"cover"}}  >
-			<div style={{ marginLeft: '50px', marginRight: '50px', backgroundImage:`url(${background})`, backgroundRepeat:"no-repeat", backgroundSize:"cover"}}  >
+			<br/>
+				<div style={{ marginLeft: '50px', marginRight: '50px', backgroundImage:`url(${background})`, backgroundRepeat:"no-repeat", backgroundSize:"cover"}}  >
 				<div class="w3-card ml-3 mr-3" style={{ backgroundColor:"white"}}>
 					<h3
 						style={{
