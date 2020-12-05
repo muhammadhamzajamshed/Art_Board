@@ -83,6 +83,17 @@ hr.new5 {
 }
 
 
+.boxesMargin{
+
+	margin-top:50px; 
+	margin-bottom:50px
+}
+.playOffsGreyHeading{
+
+	color:#CBCBCB ; 
+	font-Size:58px
+}
+
 @media only screen and (min-width: 250px) and (max-width: 1204px) {
 
 
@@ -113,8 +124,10 @@ hr.new5 {
 	}
 	
 	.box {
-		width: 310px;
-		height: 190px;
+	
+			width: 192px;
+			height: 32px
+	;
 		
 		
 		border: 1px solid black;
@@ -122,22 +135,22 @@ hr.new5 {
 	
 	.box1 {
 		width: 210px;
-		height: 80px;
+		height:1px;
 		
 	}
 	
 	.circle {
-		margin-top: 10px;
+		margin-top: 2px;
 		margin-left: 5px;
-		margin-bottom: 5px;
+		margin-bottom: 2px;
 	}
 	.paraContent{
 	
 		font-family: 'Bebas Neue', cursive;
-		font-size: 23px;
+		font-size: 12px;
 		color: #CBCBCB;
 		font-weight: bold;
-		margin-left: 10px;
+		margin-left: 5px;
 	
 	}
 	
@@ -159,18 +172,16 @@ hr.new5 {
 	
 	
 	  .playOffsH5{
-		font-size: 58px;
+		font-size: 22px;
 		font-family: 'Bebas Neue', cursive;
 	  }
 	
 	  .h6PlayOffs{
-		font-size: 40px;
+		font-size: 16px;
 		font-family: 'Bebas Neue', cursive;
 	   }
 	
 	   .boxshade {
-		width: 360px;
-		height: 190px;
 		
 		border: 1px solid black;
 	}
@@ -179,11 +190,18 @@ hr.new5 {
 		height:18px
 	}
 
+	.boxSizeMobile{
+		width: 100px;
+		height: 46px
+	}
 
 
 
+	.playOffsGreyHeading{
 
-
+		color:#CBCBCB ; 
+		font-Size:22px
+	}
 
 
 
