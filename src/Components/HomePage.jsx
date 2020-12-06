@@ -11,7 +11,7 @@ import topPicks from '../Assets/Images/11111.PNG'
 import {CaretRightOutlined} from '@ant-design/icons';
 import GMessage from "../Assets/Images/greenMessage.png"
 import WMessage from "../Assets/Images/whiteMessage.png"
-import { Divider,Collapse } from 'antd'
+import { Divider,Collapse,Input } from 'antd'
 
 
 const { Panel } = Collapse;
@@ -452,27 +452,74 @@ function HomePage() {
                           
                           <div class="container">
                             <div className="row">
-                                <div className="col-1"></div>
-                                <div className="col-8"><img src={GMessage}/></div>
+                                <div className="col-2"></div>
+                                <div className="col-10">
+                                    <p style={{
+                                        backgroundColor : '#03ac36',
+                                        color : 'white',
+                                        // fontFamily: 'Bebas Neue,cursive',
+                                        borderRadius: '5px',
+                                        borderTopRightRadius: '0px',
+                                        padding : '5px',
+                                        fontStyle: 'italic'
+                                    }}>
+                                    Heard that before!<br/>I am actually the table topper. So relax.<br/>
+                                    We got this one
+                                    </p>
+                                </div>
                             </div>
                             <br/>
                             <div className="row">
-                                <img src={WMessage} />
+                                    <div className="col-10">
+                                    <p style={{
+                                        backgroundColor : '#e5e4e4',
+                                        color : 'black',
+                                        // fontFamily: 'Bebas Neue,cursive',
+                                        borderRadius: '5px',
+                                        borderTopLeftRadius: '0px',
+                                        padding : '5px',
+                                        fontStyle: 'italic'
+                                    }}>
+                                    Heard that before!<br/>I am actually the table topper. So relax.<br/>
+                                    We got this one
+                                    </p>
+                                    </div>
+                            </div>
+                            <div className="row">
+                                <div className="col-2"></div>
+                                <div className="col-10">
+                                    <p style={{
+                                        backgroundColor : '#03ac36',
+                                        color : 'white',
+                                        // fontFamily: 'Bebas Neue,cursive',
+                                        borderRadius: '5px',
+                                        borderTopRightRadius: '0px',
+                                        padding : '5px',
+                                        fontStyle: 'italic'
+                                    }}>
+                                    Heard that before!<br/>I am actually the table topper. So relax.<br/>
+                                    We got this one
+                                    </p>
+                                </div>
                             </div>
                             <br/>
                             <div className="row">
-                            <div className="col-1"></div>
-                                <div className="col-8"><img src={GMessage}/></div>
+                                    <div className="col-10">
+                                    <p style={{
+                                        backgroundColor : '#e5e4e4',
+                                        color : 'black',
+                                        // fontFamily: 'Bebas Neue,cursive',
+                                        borderRadius: '5px',
+                                        borderTopLeftRadius: '0px',
+                                        padding : '5px',
+                                        fontStyle: 'italic'
+                                    }}>
+                                    Heard that before!<br/>I am actually the table topper. So relax.<br/>
+                                    We got this one
+                                    </p>
+                                    </div>
                             </div>
-                            <br/>
-                            <div className="row">
-                                <img src={WMessage} />
-                            </div>
-                            <br/>
-                            <div className="row">
-                            <div className="col-1"></div>
-                                <div className="col-8"><img src={GMessage}/></div>
-                            </div>
+                           
                             
                           </div>
                             <Divider/>
@@ -480,9 +527,13 @@ function HomePage() {
                                 <div className="container">
                                     <div className="row">
                                         <div className="col-9">
-                                            <p style={{
+                                            {/* <p style={{
                                                 color: 'rgb(155, 155, 155)',
-                                            }}> Type a message...</p>
+                                            }}> Type a message...</p> */}
+                                            <Input placeholder=" Type a message..." style={{
+                                                border: '1px solid transparent',
+                                                marginTop: '-5px'
+                                            }}/>
                                         </div>
                                         <div className="col-1">
                                             <img src={emoji} style={{
