@@ -17,13 +17,14 @@ import msymbol from '../../Assets/Images/mSymbol.png';
 import mcup from '../../Assets/Images/mCup.png';
 import mball from '../../Assets/Images/mball.png';
 import mfootball from '../../Assets/Images/mfootball-shield-symbol.png';
+import newLogo from '../../Assets/Images/powerBallNewlogo.png'
 
 class Header extends Component {
 	render() {
 		const menu = (
 			<Menu style={{ backgroundColor: 'white' }}>
 				<Menu.Item key="0">
-					<a href="" style={{ color: 'black' }}>
+					<a href="###" style={{ color: 'black' }}>
 						Overview
 					</a>
 				</Menu.Item>
@@ -72,13 +73,13 @@ class Header extends Component {
 
 		const menu2 = (
 			<Menu style={{ backgroundColor: 'white' }}>
-				<Menu.Item key="0">
-					<a href="" style={{ color: 'black' }}>
+				<Menu.Item key="0" className="hoverProperty">
+					<a href="" className="hoverProperty" style={{ color: 'black' }}>
 						<img src={redHelmet} style={{ height: '25px', width: '30px', marginRight: '3px' }} />TEAM A
 					</a>
 				</Menu.Item>
 				<Menu.Item key="1">
-					<a href="" style={{ color: 'black' }}>
+					<a href="" style={{ color: 'white',backgroundColor:"black" }}>
 						<img src={redHelmet} style={{ height: '25px', width: '30px', marginRight: '3px' }} />TEAM A
 					</a>
 				</Menu.Item>
@@ -97,7 +98,7 @@ class Header extends Component {
 		return (
 			<React.Fragment>
 				<div className="headerContainer  " id="hideDesktopNav">
-					<img className="box-1 stack-top" src={logo} />
+					
 
 					<div className="row">
 						<div
@@ -109,24 +110,25 @@ class Header extends Component {
 							}}
 						>
 							<div className="row" style={{ paddingTop: '15px', paddingBottom: '15px' }}>
-								<div className="col-lg-2 col-md-2 col-sm-2  col-xs-2"> </div>
+								<div className="col-lg-2 col-md-2 col-sm-2  col-xs-2"> <img src={newLogo} style={{height:" 79px",
+									width: "200px"}} alt=""/></div>
 								<div className="col-lg-2 col-md-2 col-sm-2  col-xs-2">
-									<h4 style={{ color: 'white' }}> HOME</h4>
+									<h4 style={{ color: 'white' ,marginTop:"20px" }}> HOME</h4>
 								</div>
 								<div className="col-lg-2 col-md-2 col-sm-2  col-xs-2">
-									<h4 style={{ color: 'white' }}>NFL FIXTURES</h4>
+									<h4 style={{ color: 'white',marginTop:"20px"  }}>NFL FIXTURES</h4>
 								</div>
 								<div className="col-lg-2 col-md-2 col-sm-2  col-xs-2">
-									<h4 style={{ color: 'white' }}> SCORRING RULES</h4>
+									<h4 style={{ color: 'white' ,marginTop:"20px" }}> SCORRING RULES</h4>
 								</div>
 
 								<div className="col-lg-2 col-md-2 col-sm-2  col-xs-2">
-									<h4 style={{ color: 'white' }}>DRAFT RULES</h4>
+									<h4 style={{ color: 'white',marginTop:"20px"  }}>DRAFT RULES</h4>
 								</div>
 
 								<div className="col-lg-2 col-md-2 col-sm-2  col-xs-2">
 									{/*<Avatar size={44} style={{ color: '#f56a00', backgroundColor: '#141413' }}>U</Avatar>*/}
-									<img src={profilePic} style={{ height: '50px' }} />
+									<img src={profilePic} style={{ height: '50px' ,marginTop:"20px" }} alt=""/>
 								</div>
 							</div>
 						</div>
@@ -208,7 +210,7 @@ class Header extends Component {
 				>
 					<div class="topnav">
 						<a href="#home" className="active ml-5">
-							<img src={logo} style={{ width: '60px', height: '50px' }} />
+							<img src={newLogo} style={{ width: '60px', height: '50px' }} alt=""/>
 						</a>
 						<div id="myLinks">
 							<a href="#news">News</a>

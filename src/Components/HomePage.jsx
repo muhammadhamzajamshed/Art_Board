@@ -13,7 +13,7 @@ import GMessage from "../Assets/Images/greenMessage.png"
 import WMessage from "../Assets/Images/whiteMessage.png"
 import { Divider,Collapse,Input } from 'antd'
 
-
+import background from '../Assets/Images/LeagueMenu.png'
 const { Panel } = Collapse;
 function HomePage() {
 
@@ -21,8 +21,9 @@ function HomePage() {
 
 
     return (
-        <div className="homePage">
+        <div className="homePage"  style={{  backgroundImage:`url(${background})`, backgroundRepeat:"no-repeat", backgroundSize:"cover"}}>
             <div>
+            
                 <div className="row">
                 <div className="col-3"></div>
                 <div className="col-lg-6 col-xl-6 col-md-6 col-xs-12">
