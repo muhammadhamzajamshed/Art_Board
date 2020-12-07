@@ -206,12 +206,13 @@ class Header extends Component {
 					style={{
 						backgroundImage: `url(${mobileBackGround})`,
 						backgroundRepeat: 'no-repeat',
-						backgroundSize: 'cover'
+						backgroundSize: 'cover',
+				 height: '70px' 
 					}}
 				>
 					<div class="topnav">
 						<a href="#home" className="active ml-5">
-							<img src={newLogo} style={{ width: '60px', height: '40px' }} alt=""/>
+							<img src={newLogo} style={{ width: '60px', height: '50px' }} alt=""/>
 						</a>
 						<div id="myLinks">
 							<a href="#news">News</a>
@@ -221,7 +222,7 @@ class Header extends Component {
 						<a href=";" class="icon">
 							<i class="fa fa-bars" />
 						</a>
-						<div className="row mt-3 mb-4">
+						<div className="row mt-3 mb-6">
 <div className="col-1"></div>
 <div className="col-2"><img src={mHelmet} /><div><p style={{color:"black"}}>cup</p></div></div>
 <div className="col-2"><img src={mcup} /><p style={{color:"black"}}>League</p></div>
@@ -232,8 +233,13 @@ class Header extends Component {
 
 							
 						</div>
-					</div>
+				
+				
+						</div>
+						
+
 				</div>
+
 			</React.Fragment>
 		);
 	}
