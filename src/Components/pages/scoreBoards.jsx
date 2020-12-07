@@ -9,6 +9,8 @@ import '../../CSS/scoreBoards.css'
 import { Collapse } from 'antd';
 import {CaretRightOutlined} from '@ant-design/icons';
 
+import RealTimeStandings from './../subComponents/realTimeStandings';
+
 
 const { Panel } = Collapse;
 class Scoreboards extends Component {
@@ -23,7 +25,10 @@ class Scoreboards extends Component {
         const { expandIconPosition } = this.state;
         return ( 
             <div style={{ backgroundImage:`url(${background})`, backgroundRepeat:"no-repeat", backgroundSize:"cover"}}>
-                <div className="container-fluid">
+                
+            <br/>
+            <br/>
+            <div className="container-fluid">
                     <br/>
 					
                     <div className="webScoreBor">
@@ -33,7 +38,7 @@ class Scoreboards extends Component {
                         <div className="col-lg-6 col-md-6 col-sm-6 "><ScoreBoardOverview/></div>
                         <div className="col-lg-3 col-md-3 col-sm-3"><LiveNFLScore/>
 
-                        <br/><Standings/>
+                        <br/><RealTimeStandings/>
                         </div>
 
 

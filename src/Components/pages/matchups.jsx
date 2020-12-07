@@ -10,7 +10,8 @@ class MatchUps extends Component {
     state = {  }
     render() { 
         return ( <div style={{ backgroundImage:`url(${background})`, backgroundRepeat:"no-repeat", backgroundSize:"cover"}}>
-            <div className="row">
+        <br/><br/>    
+        <div className="row">
          
             <div className="col-lg-4"><TeamOverView/></div>
             <div className="col-lg-4"><LastMatchup/></div>

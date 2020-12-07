@@ -23,7 +23,7 @@ class FreeagentsOverView extends Component {
 						<span className="text-center">Starters</span>
 					</div>
 					<div className="col-lg-4 col-md-4 col-sm-4 col-xs-4 greenDivfreeAgentsOverview text-center">
-						<span className="text-center">NFL week 11</span>
+						<span className="text-center" style={{color:"black"}}>NFL week 11</span>
 					</div>
 					<div className="col-lg-4 col-md-4 col-sm-4 col-xs-4 greyDivfreeAgentsOverview text-center">
 						<span className="text-center">season 2020 <img src={dropIcon} style={{marginLeft:"5px"}}/></span>

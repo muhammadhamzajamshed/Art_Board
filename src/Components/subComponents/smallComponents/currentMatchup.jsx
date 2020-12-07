@@ -41,31 +41,33 @@ class CurrentMatchup extends Component {
 									<span style={{ color: 'green' }}>56.2</span>
 								</div>
 							</div>
+
+							<div
+							className="row "
+							style={{
+								padding: '10px',
+								textAlign: 'justify',
+								marginLeft: '10px',
+								marginRight: '10px',
+								marginBottom: '8px',
+								marginTop: '6px'
+							}}
+						>
+							<div className="col-lg-8 col-md-8 col-sm-8 ">
+								<span style={{ fontWeight: 'bold', float: 'left' }}>Harry's club</span>
+							</div>
+		
+							<div className="col-lg-4 col-md-4 col-sm-4">
+								<span style={{ }}>33.3</span>
+							</div>
+						
+					</div>
                         </div>
                         
 
 
 
-                        <div
-                        className="row "
-                        style={{
-                            padding: '10px',
-                            textAlign: 'justify',
-                            marginLeft: '10px',
-                            marginRight: '10px',
-                            marginBottom: '8px',
-                            marginTop: '6px'
-                        }}
-                    >
-                        <div className="col-lg-8 col-md-8 col-sm-8 ">
-                            <span style={{ fontWeight: 'bold', float: 'left' }}>Harry's club</span>
-                        </div>
-    
-                        <div className="col-lg-4 col-md-4 col-sm-4">
-                            <span style={{ }}>33.3</span>
-                        </div>
-                    
-                </div>
+                     
     
 
 						<footer class="w3-container">
@@ -74,7 +76,7 @@ class CurrentMatchup extends Component {
 									textAlign: 'center',
 									textDecoration:"underLine"
 								}}
-							> VIEW LAST MATCHUPS</p>
+							> {/*VIEW LAST MATCHUPS*/}</p>
 						</footer>
 					</div>
 				</div>

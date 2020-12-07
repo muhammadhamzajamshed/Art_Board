@@ -8,6 +8,8 @@ class FreeAgents extends Component {
         return (  
 
             <div style={{ backgroundImage:`url(${background})`, backgroundRepeat:"no-repeat", backgroundSize:"cover"}}>
+            <br/>
+            <br/>
             <div style={{marginLeft:"50px",marginRight:"50px"}} >
 
 
@@ -89,13 +91,7 @@ class FreeAgents extends Component {
         
 
 
-                    <footer class="w3-container">
-                        <p
-                            style={{
-                                textAlign: 'center'
-                            }}
-                        />
-                    </footer>
+                    
                 </div>
             </div>
         

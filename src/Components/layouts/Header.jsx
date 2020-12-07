@@ -18,6 +18,7 @@ import mcup from '../../Assets/Images/mCup.png';
 import mball from '../../Assets/Images/mball.png';
 import mfootball from '../../Assets/Images/mfootball-shield-symbol.png';
 import newLogo from '../../Assets/Images/powerBallNewlogo.png'
+import mobileBackGround from  '../../Assets/Images/mobileBackground.png'
 
 class Header extends Component {
 	render() {
@@ -203,14 +204,14 @@ class Header extends Component {
 					class="mobile-container"
 					id="fadeshow1"
 					style={{
-						backgroundImage: `url(${header})`,
+						backgroundImage: `url(${mobileBackGround})`,
 						backgroundRepeat: 'no-repeat',
 						backgroundSize: 'cover'
 					}}
 				>
 					<div class="topnav">
 						<a href="#home" className="active ml-5">
-							<img src={newLogo} style={{ width: '60px', height: '50px' }} alt=""/>
+							<img src={newLogo} style={{ width: '60px', height: '40px' }} alt=""/>
 						</a>
 						<div id="myLinks">
 							<a href="#news">News</a>
