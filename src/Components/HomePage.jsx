@@ -9,8 +9,8 @@ import send from '../Assets/Images/email.png'
 import emoji from '../Assets/Images/happy.png'
 import topPicks from '../Assets/Images/11111.PNG'
 import {CaretRightOutlined} from '@ant-design/icons';
-import GMessage from "../Assets/Images/greenMessage.png"
-import WMessage from "../Assets/Images/whiteMessage.png"
+import blueMen from "../Assets/Images/blueMen.png"
+import whiteMen from "../Assets/Images/whiteMen.png"
 import { Divider,Collapse,Input } from 'antd'
 
 
@@ -21,7 +21,9 @@ function HomePage() {
 
 
     return (
-        <div className="homePage">
+        <div style={{
+            backgroundColor : '#f1f1f1'
+        }}>
             <div>
                 <div className="row">
                 <div className="col-3"></div>
@@ -45,7 +47,9 @@ function HomePage() {
                     <div className="container">
                         <div class="w3-container">
                       
-                      <div class="w3-card" >
+                      <div class="w3-card" style={{
+                          backgroundColor : 'white'
+                      }}>
                              <h3 style={{
                                  backgroundColor: 'rgb(0, 0, 46)',
                                  color: 'white',
@@ -56,7 +60,9 @@ function HomePage() {
                                  letterSpacing: '1px'
                              }}>GAMEWEEK FIXTURES</h3>
                           
-                          <div class="container">
+                          <div class="container" style={{
+                          backgroundColor : 'white'
+                      }}>
                             <p style={{
                                 backgroundColor: 'rgb(241, 241, 241)',
                                 padding: '10px',
@@ -88,7 +94,9 @@ function HomePage() {
                 </div>
                 <div className="col-xs-12 col-lg-6 col-xl-6">
                     
-                <div class="w3">
+                <div class="w3" style={{
+                    backgroundColor : 'white'
+                }}>
                       
                       <div class="w3-card" >
                              <h3 style={{
@@ -354,10 +362,135 @@ function HomePage() {
                                 <Panel header="TOP PICKS" key="3" className="site-collapse-custom-panel">
                                 <div class="w3">
                       
-                                    <div class="w3-card" >
-                                        <img src={topPicks} alt="" style={{
-                                            width : '400px'
-                                        }}/>
+                                    <div class="w3-card">
+                                        <div className="container">
+                                        <div className="row">
+                                            <div className="col-6">
+                                                    <div className="row">
+                                                        <div className="col-3">
+                                                            <div>
+                                                                    <img src={whiteMen} style={{
+                                                                width : '60px'
+                                                            }}/>
+                                                            </div>
+                                                        </div>
+                                                        <div className="col-9" style={{
+                                                            fontFamily: 'Bebas Neue,cursive',
+                                                            textAlign : 'center' 
+                                                        }}>
+                                                        <h2 style={{
+                                                            fontSize : '16px'
+                                                        }}>
+                                                            K.MURRAY
+                                                            
+                                                        </h2>
+                                                            <span style={{
+                                                                color : 'green'
+                                                            }}>
+                                                                QUARTERBACK
+                                                            </span>
+                                                            (ARI)
+                                                        
+                                                        </div>
+                                                    </div>
+                                            </div>
+                                            <div className="col-6">
+                                            <div className="row">
+                                                        <div className="col-3">
+                                                            <div style={{
+                                                                paddingLeft : '15px'
+                                                            }}>
+                                                                    <img src={whiteMen} style={{
+                                                                width : '60px'
+                                                            }}/>
+                                                            </div>
+                                                        </div>
+                                                        <div className="col-9" style={{
+                                                            fontFamily: 'Bebas Neue,cursive',
+                                                            textAlign : 'center' 
+                                                        }}>
+                                                        <h2 style={{
+                                                            fontSize : '16px'
+                                                        }}>
+                                                            K.MURRAY
+                                                            
+                                                        </h2>
+                                                            <span style={{
+                                                                color : 'green'
+                                                            }}>
+                                                                QUARTERBACK
+                                                            </span>
+                                                            (ARI)
+                                                        
+                                                        </div>
+                                                    </div>
+                                            </div>
+                                        </div>
+                                        <br/>
+                                        <div className="row">
+                                            <div className="col-6">
+                                                    <div className="row">
+                                                        <div className="col-3">
+                                                            <div>
+                                                                    <img src={whiteMen} style={{
+                                                                width : '60px'
+                                                            }}/>
+                                                            </div>
+                                                        </div>
+                                                        <div className="col-9" style={{
+                                                            fontFamily: 'Bebas Neue,cursive',
+                                                            textAlign : 'center' 
+                                                        }}>
+                                                        <h2 style={{
+                                                            fontSize : '16px'
+                                                        }}>
+                                                            K.MURRAY
+                                                            
+                                                        </h2>
+                                                            <span style={{
+                                                                color : 'green'
+                                                            }}>
+                                                                QUARTERBACK
+                                                            </span>
+                                                            (ARI)
+                                                        
+                                                        </div>
+                                                    </div>
+                                            </div>
+                                            <div className="col-6">
+                                            <div className="row">
+                                                        <div className="col-3">
+                                                            <div style={{
+                                                                paddingLeft : '15px'
+                                                            }}>
+                                                                    <img src={whiteMen} style={{
+                                                                width : '60px'
+                                                            }}/>
+                                                            </div>
+                                                        </div>
+                                                        <div className="col-9" style={{
+                                                            fontFamily: 'Bebas Neue,cursive',
+                                                            textAlign : 'center' 
+                                                        }}>
+                                                        <h2 style={{
+                                                            fontSize : '16px'
+                                                        }}>
+                                                            K.MURRAY
+                                                            
+                                                        </h2>
+                                                            <span style={{
+                                                                color : 'green'
+                                                            }}>
+                                                                QUARTERBACK
+                                                            </span>
+                                                            (ARI)
+                                                        
+                                                        </div>
+                                                    </div>
+                                            </div>
+                                        </div>
+                                        
+                                        </div>
                                     </div>
                                 </div>
                                     
@@ -366,7 +499,9 @@ function HomePage() {
                              </div>
                             <br/>
 
-                            <div className="recentActivity">
+                            <div className="recentActivity" style={{
+                                backgroundColor : 'white'
+                            }}>
 
                             
                                 <div class="w3">
@@ -395,7 +530,18 @@ function HomePage() {
                         <tbody className="homePagetableBody">
                             <tr>
                             <th scope="row"></th>
-                            <td>+</td>
+                            <td>
+                                <h1 style={{
+                                    backgroundColor : '#0ebf02',
+                                    textAlign : 'center',
+                                    display: 'inline-grid',
+                                    padding: '10px 15px 10px 15px',
+                                    borderRadius: '50%',
+                                    color: 'white'
+                                }}>
+                                    +
+                                </h1>
+                            </td>
                             <td>
                                 Team Gordon added Player ABC,<br/>
                                 Sea D/ST from Free Agency to Bench
@@ -404,7 +550,18 @@ function HomePage() {
                             </tr>
                             <tr>
                                 <th scope="row"></th>
-                                <td>+</td>
+                                <td>
+                                <h1 style={{
+                                    backgroundColor : '#0ebf02',
+                                    textAlign : 'center',
+                                    display: 'inline-grid',
+                                    padding: '10px 15px 10px 15px',
+                                    borderRadius: '50%',
+                                    color: 'white'
+                                }}>
+                                    +
+                                </h1>
+                                </td>
                                 <td>
                                     Team Alan added Player XYZ,<br/>
                                     ATL, QB from Free Agency to Bench
@@ -412,7 +569,18 @@ function HomePage() {
                             </tr>
                             <tr>
                                 <th scope="row"></th>
-                                <td>-</td>
+                                <td>
+                                <h1 style={{
+                                    backgroundColor : '#f80501',
+                                    textAlign : 'center',
+                                    display: 'inline-grid',
+                                    padding: '10px 15px 10px 15px',
+                                    borderRadius: '50%',
+                                    color: 'white'
+                                }}>
+                                    -
+                                </h1>
+                                </td>
                                 <td>
                                     Joes Club dropped Player XYZ,<br/>
                                     NY, QB from Bench to Waivers
@@ -420,7 +588,30 @@ function HomePage() {
                             </tr>
                             <tr>
                                 <th scope="row"></th>
-                                <td>+-</td>
+                                <td>
+                                    <span>
+                                    <h1 style={{
+                                    backgroundColor : '#0dc200',
+                                    textAlign : 'center',
+                                    display: 'inline-grid',
+                                    padding: '10px 15px 10px 15px',
+                                    borderRadius: '50%',
+                                    color: 'white'
+                                    }}>
+                                        +
+                                    </h1>
+                                    <h1 style={{
+                                    backgroundColor : '#f80501',
+                                    textAlign : 'center',
+                                    display: 'inline-grid',
+                                    padding: '10px 15px 10px 15px',
+                                    borderRadius: '50%',
+                                    color: 'white'
+                                    }}>
+                                        -
+                                    </h1>
+                                    </span>
+                                </td>
                                 <td>
                                     Team Alan dropped Player XYZ,ATL,QB<br/>
                                     Team Alan Added Player XYZ,ATL,QB
@@ -429,6 +620,118 @@ function HomePage() {
                             
                         </tbody>
                         </table>
+                                </div>
+                            </div>
+                      </div>
+                            </div>
+                            
+                            <br/>
+                            <div className="recentActivity" style={{
+                                backgroundColor : 'white'
+                            }}>
+
+                            
+                                <div>
+                      
+                      <div class="w3-card" >
+                             <h3 style={{
+                                 backgroundColor: 'white',
+                                 color: 'rgb(0, 0, 46)',
+                                 textAlign: 'center',
+                                 paddingTop: '10px',
+                                 paddingBottom: '10px',
+                                 fontFamily: 'Bebas Neue,cursive',
+                                 letterSpacing: '1px',
+                                 paddingLeft : '20px'
+                             }}>TOP INFORM PICKS</h3>
+                          
+                                <div className="container">
+                                        <div className="row">
+                                            <div className="col-3">
+                                                    <div style={{
+                                                        textAlign : 'center'
+                                                    }}>
+                                                        <img src={whiteMen}/>
+                                                    </div>
+                                                    <h2 style={{
+                                                        fontFamily: 'Bebas Neue,cursive',
+                                                        textAlign : 'center'
+                                                    }}>
+                                                        K.MURRAY
+                                                    </h2>
+                                                    <p style={{
+                                                        textAlign : 'center',
+                                                        fontSize : '20px',
+                                                        fontFamily: 'Bebas Neue,cursive',
+                                                        fontWeight : '1px'
+                                                    }}>
+                                                        QUARTERBACK<br/>ARI
+                                                    </p>
+                                            </div> 
+                                            <div className="col-3">
+                                                    <div style={{
+                                                        textAlign : 'center'
+                                                    }}>
+                                                        <img src={blueMen}/>
+                                                    </div>
+                                                    <h2 style={{
+                                                        fontFamily: 'Bebas Neue,cursive',
+                                                        textAlign : 'center'
+                                                    }}>
+                                                        D.COOK
+                                                    </h2>
+                                                    <p style={{
+                                                        textAlign : 'center',
+                                                        fontSize : '20px',
+                                                        fontFamily: 'Bebas Neue,cursive',
+                                                        fontWeight : '1px'
+                                                    }}>
+                                                        RUNNINGBACK<br/>ARI
+                                                    </p>
+                                            </div> 
+                                            <div className="col-3">
+                                                    <div style={{
+                                                        textAlign : 'center'
+                                                    }}>
+                                                        <img src={whiteMen}/>
+                                                    </div>
+                                                    <h2 style={{
+                                                        fontFamily: 'Bebas Neue,cursive',
+                                                        textAlign : 'center'
+                                                    }}>
+                                                        J.DOE
+                                                    </h2>
+                                                    <p style={{
+                                                        textAlign : 'center',
+                                                        fontSize : '20px',
+                                                        fontFamily: 'Bebas Neue,cursive',
+                                                        fontWeight : '1px'
+                                                    }}>
+                                                        QUARTERBACK<br/>ARI
+                                                    </p>
+                                            </div> 
+                                            <div className="col-3">
+                                                    <div style={{
+                                                        textAlign : 'center'
+                                                    }}>
+                                                        <img src={blueMen}/>
+                                                    </div>
+                                                    <h2 style={{
+                                                        fontFamily: 'Bebas Neue,cursive',
+                                                        textAlign : 'center'
+                                                    }}>
+                                                        A.PLAYER
+                                                    </h2>
+                                                    <p style={{
+                                                        textAlign : 'center',
+                                                        fontSize : '20px',
+                                                        fontFamily: 'Bebas Neue,cursive',
+                                                        fontWeight : '1px'
+                                                    }}>
+                                                        RUNNINGBACK<br/>ARI
+                                                    </p>
+                                            </div> 
+                                        </div>
                                 </div>
                             </div>
                       </div>
