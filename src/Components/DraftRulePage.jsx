@@ -6,7 +6,7 @@ class DraftRulesPage extends Component {
     render() { 
         return ( 
             <div style={{backgroundColor:"#F1F1F1"}}>
-             
+             <br/>
 
             <div className="row" style={{ marginLeft:"5px",marginRight:"5px" ,paddingLeft:"150px" ,paddingRight:"150px"}} >
             
