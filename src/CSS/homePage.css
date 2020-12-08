@@ -80,6 +80,7 @@
     }
     .homePage{
         margin: 5px;
+        background-color: #f1f1f1;
     }
     
     .ant-collapse > .ant-collapse-item > .ant-collapse-header {

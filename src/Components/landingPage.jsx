@@ -6,7 +6,7 @@ import {
 import "../CSS/button.css"
 import "../CSS/landingPage.css"
 import Image from '../Assets/Images/playerBackground (2).png'
-import logo from '../Assets/Images/powerball logo.png';
+import logo from '../Assets/Images/powerBallNewlogo.png';
 function LandingPage() {
     return (
         <div className="landingBody">
