@@ -4,7 +4,6 @@ import React, { Component } from 'react';
 import PlayOffBrackets from './playoffsBracket';
 
 import RecentScores from './../subComponents/RecentScores';
-import Standings from './../subComponents/Standings';
 import background from '../../Assets/Images/LeagueMenu.png'
 
 import RealTimeStandings from './../subComponents/realTimeStandings';
