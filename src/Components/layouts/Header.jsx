@@ -19,7 +19,7 @@ import mball from '../../Assets/Images/mball.png';
 import mfootball from '../../Assets/Images/mfootball-shield-symbol.png';
 import newLogo from '../../Assets/Images/powerBallNewlogo.png'
 import mobileBackGround from  '../../Assets/Images/mobileBackground.png'
-
+import { Link } from 'react-router-dom';
 class Header extends Component {
 	render() {
 		const menu = (
@@ -30,14 +30,14 @@ class Header extends Component {
 					</a>
 				</Menu.Item>
 				<Menu.Item key="1">
-					<a href="" style={{ color: 'black' }}>
+				<Link to="/roster"><a href="" style={{ color: 'black' }}>
 						Rosters
-					</a>
+					</a></Link>
 				</Menu.Item>
 				<Menu.Item key="2">
-					<a href="" style={{ color: 'black' }}>
+					<Link to="/scoreboards"><a href="" style={{ color: 'black' }}>
 						ScoreBoards
-					</a>
+					</a></Link>
 				</Menu.Item>
 				<Menu.Item key="3">
 					<a href="" style={{ color: 'black' }}>
@@ -96,6 +96,32 @@ class Header extends Component {
 				</Menu.Item>
 			</Menu>
 		);
+
+		const menu3 = (
+			<Menu style={{ backgroundColor: 'white' }}>
+				<Menu.Item key="0">
+				<Link to="freeagents">	<a href="###" style={{ color: 'black' }}>
+						Free Agents
+					</a></Link>
+				</Menu.Item>
+				<Menu.Item key="1">
+				<Link to="/trade"><a href="" style={{ color: 'black' }}>
+						Trade
+					</a></Link>
+				</Menu.Item>
+				<Menu.Item key="2">
+					<Link to="/tradeConfirm"><a href="" style={{ color: 'black' }}>
+						Confirm Trade
+					</a></Link>
+				</Menu.Item>
+				<Menu.Item key="3">
+					<Link to="/matchups"><a href="" style={{ color: 'black' }}>
+						Matchups
+					</a></Link>
+				</Menu.Item>
+			</Menu>
+		);
+		
 		return (
 			<React.Fragment>
 				<div className="headerContainer  " id="hideDesktopNav">
@@ -110,21 +136,22 @@ class Header extends Component {
 								backgroundSize: 'cover'
 							}}
 						>
-							<div className="row" style={{ paddingTop: '15px', paddingBottom: '15px' }}>
-								<div className="col-lg-2 col-md-2 col-sm-2  col-xs-2"> <img src={newLogo} style={{height:" 79px",
+							<div className="row topHeaderNave" style={{ paddingTop: '15px', paddingBottom: '15px' }}>
+								<div className="col-2"> <img src={newLogo} style={{height:" 79px",
 									width: "200px"}} alt=""/></div>
 								<div className="col-lg-2 col-md-2 col-sm-2  col-xs-2">
-									<h4 style={{ color: 'white' ,marginTop:"20px" }}> HOME</h4>
-								</div>
+									<Link to="/home"><h4 style={{ color: 'white' ,marginTop:"20px" }}> HOME</h4>
+								</Link>
+									</div>
 								<div className="col-lg-2 col-md-2 col-sm-2  col-xs-2">
 									<h4 style={{ color: 'white',marginTop:"20px"  }}>NFL FIXTURES</h4>
 								</div>
 								<div className="col-lg-2 col-md-2 col-sm-2  col-xs-2">
-									<h4 style={{ color: 'white' ,marginTop:"20px" }}> SCORRING RULES</h4>
+									<Link to="/scoringRules"><h4 style={{ color: 'white' ,marginTop:"20px" }}> SCORRING RULES</h4></Link>
 								</div>
 
 								<div className="col-lg-2 col-md-2 col-sm-2  col-xs-2">
-									<h4 style={{ color: 'white',marginTop:"20px"  }}>DRAFT RULES</h4>
+								<Link to="/DraftRulePage"><h4 style={{ color: 'white',marginTop:"20px"  }}>DRAFT RULES</h4></Link>
 								</div>
 
 								<div className="col-lg-2 col-md-2 col-sm-2  col-xs-2">
@@ -134,9 +161,9 @@ class Header extends Component {
 							</div>
 						</div>
 					</div>
-					<div className="row" style={{ backgroundColor: '#FFFFFF' }}>
+					<div className="row" style={{ backgroundColor: '#FFFFFF'}}>
 						<div className="col-lg-2 col-md-2 col-sm-2  col-xs-2" />
-						<div className="col-lg-8 col-md-8 col-sm-8  col-xs-8 ">
+						<div className="col-lg-7 col-md-7 col-sm-7  col-xs-7 " style={{marginTop:"5px"}}>
 							<div className="row">
 								<div className="col-lg-3 col-md-3 col-sm-3  col-xs-3">
 									<div className="row lg-12">
@@ -155,10 +182,10 @@ class Header extends Component {
 									</div>
 								</div>
 								<div className="col-lg-2 col-md-2 col-sm-2  col-xs-2">
-									<h6>My Team</h6>
+									<Link to="/myTeamPage"><h6>My Team</h6></Link>
 								</div>
 								<div className="col-lg-2 col-md-2 col-sm-2 col-xs-2">
-									<Dropdown overlay={menu} trigger={[ 'click' ]}>
+									<Link to="league"><Dropdown overlay={menu} trigger={[ 'click' ]}>
 										<a
 											className="ant-dropdown-link"
 											onClick={(e) => e.preventDefault()}
@@ -166,10 +193,10 @@ class Header extends Component {
 										>
 											League <DownOutlined />
 										</a>
-									</Dropdown>
+									</Dropdown> </Link>
 								</div>
 								<div className="col-lg-2 col-md-2 col-sm-2  col-xs-2">
-									<Dropdown overlay={menu} trigger={[ 'click' ]}>
+								<Link to="/draftRounds"><Dropdown overlay={menu3} trigger={[ 'click' ]}>
 										<a
 											className="ant-dropdown-link"
 											onClick={(e) => e.preventDefault()}
@@ -177,7 +204,7 @@ class Header extends Component {
 										>
 											Draft <DownOutlined />
 										</a>
-									</Dropdown>
+									</Dropdown></Link>
 								</div>
 								<div className="col-lg-2 col-md-2 col-sm-2  col-xs-2">
 									<Dropdown overlay={menu1} trigger={[ 'click' ]}>
@@ -191,12 +218,12 @@ class Header extends Component {
 									</Dropdown>
 								</div>
 								<div className="col-lg-1 col-md-1 col-sm-1  col-xs-1">
-									<h6>PlayOffs</h6>
+									<Link to="/playoffs"><h6>PlayOffs</h6></Link>
 								</div>
 							</div>
 						</div>
 
-						<div className="col-lg-2 col-md-2 col-sm-2  col-xs-2" />
+						<div className="col-lg-3 col-md-3 col-sm-3  col-xs-3" />
 					</div>
 				</div>
 

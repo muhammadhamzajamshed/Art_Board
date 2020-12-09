@@ -60,7 +60,7 @@ function App() {
           <Switch>
            <Route path="/header" component={Header}/>
            <Route path="/DraftRulePage" component={DraftRulesPage}/>
-           <Route path="/" component={LandingPage}/>
+           <Route exact path="/" component={LandingPage}/>
            <Route path="/home" component={Home}/>
            <Route path="/viewRosters" component={ViewRoasters}/>
            <Route path="/league" component={League}/>

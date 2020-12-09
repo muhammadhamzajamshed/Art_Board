@@ -396,6 +396,9 @@ class ScoreBoardOverview extends Component {
 						</div>
 					</div>
 				</div>
+
+				<br/>
+				<br/>
 			</div>
 		);
 	}
