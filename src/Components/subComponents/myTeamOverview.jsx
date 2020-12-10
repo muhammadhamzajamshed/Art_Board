@@ -18,12 +18,12 @@ class MyTeamOverView extends Component {
 			<div className="row mt-6" style={{marginTop:"15px", }}>
             <div className="col-7">
             <div className="row lg-12 overviewInc">
-            <div className="col-1  text-center "><div className="myblueDivOverview myincDecButton"><span className=""> &#60;</span></div></div>
-            <div className="col-3 myoverviewFontColor"><span>NFL Week 1</span></div>
-            <div className="col-3 "><span>NFL Week 2</span></div>
-            <div className="col-3 myoverviewFontColor"><span>NFL Week 3</span></div>
-            <div className="col-1  text-center "><div className="myblueDivOverview myincDecButton"><span className=""> &#62;</span></div></div>
-            <div className="col-1 "><i class="fa fa-calendar" style={{fontSize:"36px",color:"#00002E"}}></i>
+            <div className=" text-center "><div className="myblueDivOverview myincDecButton"><span className=""> &#60;</span></div></div>
+            <div className="myoverviewFontColor"><span>NFL Week 1</span></div>
+            <div className="myoverviewFontColor" style={{color:"black"}}><span>NFL Week 2</span></div>
+            <div className="myoverviewFontColor"><span>NFL Week 3</span></div>
+            <div className=" text-center "><div className="myblueDivOverview myincDecButton"><span className=""> &#62;</span></div></div>
+            <div className=""><i class="fa fa-calendar" style={{fontSize:"36px",color:"#00002E"}}></i>
             </div>
             
             

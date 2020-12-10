@@ -137,34 +137,42 @@ class Header extends Component {
 							}}
 						>
 							<div className="row topHeaderNave" style={{ paddingTop: '15px', paddingBottom: '15px' }}>
-								<div className="col-2"> <img src={newLogo} style={{height:" 79px",
-									width: "200px"}} alt=""/></div>
-								<div className="col-lg-2 col-md-2 col-sm-2  col-xs-2">
-									<Link to="/home"><h4 style={{ color: 'white' ,marginTop:"20px" }}> HOME</h4>
+								<div className="col-2"> <img src={newLogo} style={{height:" 120px",
+									width: "168px"}} alt=""/></div>
+
+									<div className="col-8">
+									<div className="row lg-12 " style={{marginTop: "25px"}}>
+									
+									<div className="col-lg-3 col-md-3 col-sm-3  col-xs-3">
+									<Link to="/home"><h4 style={{ color: 'white' ,marginTop:"20px" ,textAlign:"center" }}> HOME</h4>
 								</Link>
 									</div>
-								<div className="col-lg-2 col-md-2 col-sm-2  col-xs-2">
+								<div className="col-lg-3 col-md-3 col-sm-3  col-xs-3">
 									<h4 style={{ color: 'white',marginTop:"20px"  }}>NFL FIXTURES</h4>
 								</div>
-								<div className="col-lg-2 col-md-2 col-sm-2  col-xs-2">
+								<div className="col-lg-3 col-md-3 col-sm-3  col-xs-3">
 									<Link to="/scoringRules"><h4 style={{ color: 'white' ,marginTop:"20px" }}> SCORRING RULES</h4></Link>
 								</div>
 
-								<div className="col-lg-2 col-md-2 col-sm-2  col-xs-2">
+								<div className="col-lg-3 col-md-3 col-sm-3  col-xs-3">
 								<Link to="/DraftRulePage"><h4 style={{ color: 'white',marginTop:"20px"  }}>DRAFT RULES</h4></Link>
 								</div>
 
+									</div>
+									</div>
+								
+
 								<div className="col-lg-2 col-md-2 col-sm-2  col-xs-2">
 									{/*<Avatar size={44} style={{ color: '#f56a00', backgroundColor: '#141413' }}>U</Avatar>*/}
-									<img src={profilePic} style={{ height: '50px' ,marginTop:"20px" }} alt=""/>
+									<img src={profilePic} style={{ height: '50px' ,marginTop:"45px",  }} alt=""/>
 								</div>
 							</div>
 						</div>
 					</div>
-					<div className="row" style={{ backgroundColor: '#FFFFFF'}}>
+					<div className="row " style={{ backgroundColor: '#FFFFFF'}}>
 						<div className="col-lg-2 col-md-2 col-sm-2  col-xs-2" />
 						<div className="col-lg-7 col-md-7 col-sm-7  col-xs-7 " style={{marginTop:"5px"}}>
-							<div className="row">
+							<div className="row subHeader">
 								<div className="col-lg-3 col-md-3 col-sm-3  col-xs-3">
 									<div className="row lg-12">
 										<div className="col-lg-4 col-md-4 col-sm-4 col-xs-4">
@@ -173,16 +181,16 @@ class Header extends Component {
 												<img src={redHelmet} style={{ width: '40px', height: '35px' }} />
 											</span>
 										</div>
-										<div className="col-lg-4 col-md-4 col-sm-4 col-xs-4">
-											<span>Joes_Club</span> <div>2-0-1</div>
+										<div className="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+											<span className="text-center" style={{color :"#C5C5C5"}}> Joes_Club</span> <div className="text-center" style={{color :"#C5C5C5"}}>2-0-1</div>
 										</div>
-										<div className="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+										<div className="col-lg-2 col-md-2 col-sm-2 col-xs-2">
 											<img src={line} />
 										</div>
 									</div>
 								</div>
-								<div className="col-lg-2 col-md-2 col-sm-2  col-xs-2">
-									<Link to="/myTeamPage"><h6>My Team</h6></Link>
+								<div className="col-lg-2 col-md-2 col-sm-2  col-xs-2 subHeader">
+									<Link to="/myTeamPage"><h6 className="subHeader"  style={{paddingTop:"5px"}}>My TEAM</h6></Link>
 								</div>
 								<div className="col-lg-2 col-md-2 col-sm-2 col-xs-2">
 									<Link to="league"><Dropdown overlay={menu} trigger={[ 'click' ]}>
@@ -217,8 +225,8 @@ class Header extends Component {
 										</a>
 									</Dropdown>
 								</div>
-								<div className="col-lg-1 col-md-1 col-sm-1  col-xs-1">
-									<Link to="/playoffs"><h6>PlayOffs</h6></Link>
+								<div className="col-lg-1 col-md-1 col-sm-1  col-xs-1 subHeader">
+									<Link to="/playoffs"><h6 className="subHeader" style={{paddingTop:"5px"}}>PlayOffs</h6></Link>
 								</div>
 							</div>
 						</div>
@@ -231,13 +239,14 @@ class Header extends Component {
 					class="mobile-container"
 					id="fadeshow1"
 					style={{
-						backgroundImage: `url(${mobileBackGround})`,
+						
 						backgroundRepeat: 'no-repeat',
 						backgroundSize: 'cover',
 				 height: '70px' 
 					}}
 				>
-					<div class="topnav">
+					<div class="topnav " style={{
+						backgroundImage: `url(${mobileBackGround})`}}>
 						<a href="#home" className="active ml-5">
 							<img src={newLogo} style={{ width: '60px', height: '50px' }} alt=""/>
 						</a>
@@ -249,13 +258,13 @@ class Header extends Component {
 						<a href=";" class="icon">
 							<i class="fa fa-bars" />
 						</a>
-						<div className="row mt-3 mb-6">
+						<div className="row mt-3 mb-6" style={{backgroundColor:"white"}}>
 <div className="col-1"></div>
-<div className="col-2"><img src={mHelmet} /><div><p style={{color:"black"}}>cup</p></div></div>
-<div className="col-2"><img src={mcup} /><p style={{color:"black"}}>League</p></div>
-<div className="col-2"><img src={mball} /><p style={{color:"black"}}>Draft</p></div>
-<div className="col-2"><img src={mfootball} /><p style={{color:"black"}}>Teams</p></div>
-<div className="col-2"><img  src={msymbol} /><p  style={{color:"black"}}>Playoffs</p></div>
+<div className="col-2 mt-2"><img src={mHelmet} /><div><p style={{color:"black"}}>cup</p></div></div>
+<div className="col-2 mt-2"><img src={mcup} /><p style={{color:"black"}}>League</p></div>
+<div className="col-2 mt-2"><img src={mball} /><p style={{color:"black"}}>Draft</p></div>
+<div className="col-2 mt-2"><img src={mfootball} /><p style={{color:"black"}}>Teams</p></div>
+<div className="col-2 mt-2"><img  src={msymbol} /><p  style={{color:"black"}}>Playoffs</p></div>
 <div className="col-1"></div>
 
 							

@@ -48,7 +48,7 @@ class Scoreboards extends Component {
 
                     <div className="mobScoreBor">
                     <div className="row">
-                        <div className="col-12 "><ScoreBoardOverview/><br/></div>
+                        <div className="col-12 "><ScoreBoardOverview/></div>
                     </div>
                     <div className="row">
                         <div className="col-12">

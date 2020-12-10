@@ -67,16 +67,15 @@
     }
 
     .myincDecButton{
-        margin-top: 3px;
-        margin-bottom: 3px;
-        margin-left: 3px;
-        margin-right: 3px;
+        margin:3px;
+        width:50px;
     }
 
     .myoverviewFontColor{
 color: #CBCBCB;
 font-size: 32px;
-
+display: flex;
+align-items: center;
 
     }
 

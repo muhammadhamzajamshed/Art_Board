@@ -62,7 +62,9 @@
 
     .overviewInc{
         font-size: 32px;
-        font-family:  'Bebas Neue', cursive;;
+        font-family:  'Bebas Neue', cursive;
+        display: flex;
+        justify-content: space-around;
     }
     .overviewFontColor{
 color: #CBCBCB;

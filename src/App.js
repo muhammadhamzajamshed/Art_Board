@@ -93,7 +93,7 @@ function App() {
            <Route path="scoreBoardOverview" component={ScoreBoardOverview}/>
            
           </Switch>
-          <br/><br/>
+          
           <Footer/>
         </div>
         
