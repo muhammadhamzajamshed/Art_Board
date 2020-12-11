@@ -22,3 +22,9 @@ code {
   font-family: 'Gilroy-ExtraBold';
   src: local('Gilroy-ExtraBold'), url(./Fonts/Gilroy-ExtraBold.otf) format('truetype');
 }
+.gxtoUe
+{
+background-color: white !important;
+border: 1px solid black !important;
+width:350px !important
+}

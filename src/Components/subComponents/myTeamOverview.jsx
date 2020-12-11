@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import player1 from '../../Assets/Images/teamPlayer.png';
 import '../../CSS/myTeamOverView.css';
 import arrow from '../../Assets/Images/4arrows.png'
-import dropDownArrow from "../../Assets/Images/dropIcon (2).png"
+import dropDownArrow from "../../Assets/Images/dropicon.png"
 import redHelmet from '../../Assets/Images/object2.png'
 
 import { FiSettings } from 'react-icons/fi';
@@ -94,10 +94,10 @@ class MyTeamOverView extends Component {
 						<span className="text-center">Starters</span>
 					</div>
 					<div className="col-4  mygreenDivOverview text-center">
-						<span className="text-center">NFL week 11</span>
+						<span className="text-center" style={{color:"black"}}>NFL week 11</span>
 					</div>
 					<div className="col-4  mygreyDivOverview text-center">
-						<span className="text-center">season 2020</span>
+						<span className="text-center" style={{color:"black"}}>season 2020 <img src={dropDownArrow} /></span>
 					</div>
 				</div>
 				<div className="row table">
@@ -130,10 +130,9 @@ class MyTeamOverView extends Component {
 										<div className="col-lg-5 col-md-12 col-sm-12 col-xs-12">
 											<img src={player1}  className="myTeamPalyerImage" />
 										</div>
-										<div className="col-lg-7 col-md-12 col-sm-12 col-xs-12" style={{ float: 'right' }}>
+										<div className="col-lg-12 col-md-12 col-sm-12 col-xs-12" style={{ float: 'right' }}>
 											<span
-											className="myTeamPlayerName"
-											>
+											className="myTeamPlayerName">
 												John DOE
 											</span>
 											<br />
@@ -141,8 +140,8 @@ class MyTeamOverView extends Component {
 										</div>
 									</div>
 								</td>
-								<td className="myTeamTabledotedLine">
-									<span className="webImageAction">
+								<td className="myTeamTabledotedLine" >
+									<span className="webImageAction" style={{display:"flex",justifyContent:"center"}} >
 										<img src={arrow} alt=""/>
 									</span>
 									<span className="mobileImageAction">
@@ -180,7 +179,7 @@ class MyTeamOverView extends Component {
 										<div className="col-lg-5 col-md-12 col-sm-12">
 											<img src={player1}  className="myTeamPalyerImage" />
 										</div>
-										<div className="col-lg-7 col-md-12 col-sm-12" style={{ float: 'right' }}>
+										<div className="col-lg-12 col-md-12 col-sm-12" style={{ float: 'right' }}>
 											<span
 											className="myTeamPlayerName"
 											>
@@ -191,7 +190,7 @@ class MyTeamOverView extends Component {
 										</div>
 									</div>
 								</td>
-            <td className="myTeamTabledotedLine"><span className="webImageAction">
+            <td className="myTeamTabledotedLine"><span className="webImageAction" style={{display:"flex",justifyContent:"center"}}>
 			<img src={arrow} alt=""/>
 		</span>
 		<span className="mobileImageAction">
@@ -228,7 +227,7 @@ class MyTeamOverView extends Component {
 										<div className="col-lg-5 col-md-12 col-sm-12">
 											<img src={player1} className="myTeamPalyerImage" />
 										</div>
-										<div className="col-lg-7 col-md-12 col-sm-12" style={{ float: 'right' }}>
+										<div className="col-lg-12 col-md-12 col-sm-12" style={{ float: 'right' }}>
 											<span
 											className="myTeamPlayerName"
 											>
@@ -239,7 +238,7 @@ class MyTeamOverView extends Component {
 										</div>
 									</div>
 								</td>
-            <td className="myTeamTabledotedLine"><span className="webImageAction">
+            <td className="myTeamTabledotedLine"><span className="webImageAction" style={{display:"flex",justifyContent:"center"}}>
 			<img src={arrow} alt=""/>
 		</span>
 		<span className="mobileImageAction">
@@ -270,10 +269,10 @@ class MyTeamOverView extends Component {
 
 							<tr>
 								<td></td>
-								<td className="myTeamTabledotedLine">
+								<td >
 									
 								</td>
-            <td className="myTeamTabledotedLine"></td>
+            <td ></td>
 
                                 <td>
                                
@@ -300,7 +299,7 @@ class MyTeamOverView extends Component {
 									<div className="col-lg-5 col-md-12 col-sm-12">
 										<img src={player1}  className="myTeamPalyerImage" />
 									</div>
-									<div className="col-lg-7 col-md-12 col-sm-12" style={{ float: 'right' }}>
+									<div className="col-lg-12 col-md-12 col-sm-12" style={{ float: 'right' }}>
 										<span
 										className="myTeamPlayerName"
 										>
@@ -311,7 +310,7 @@ class MyTeamOverView extends Component {
 									</div>
 								</div>
 							</td>
-		<td className="myTeamTabledotedLine"><span className="webImageAction">
+		<td className="myTeamTabledotedLine"><span className="webImageAction" style={{display:"flex",justifyContent:"center"}}>
 		<img src={arrow} alt=""/>
 	</span>
 	<span className="mobileImageAction">
@@ -345,7 +344,7 @@ class MyTeamOverView extends Component {
 										<div className="col-lg-5 col-md-12 col-sm-12">
 											<img src={player1}  className="myTeamPalyerImage" />
 										</div>
-										<div className="col-lg-7 col-md-12 col-sm-12" style={{ float: 'right' }}>
+										<div className="col-lg-12 col-md-12 col-sm-12" style={{ float: 'right' }}>
 											<span
 											className="myTeamPlayerName"
 											>
@@ -356,7 +355,7 @@ class MyTeamOverView extends Component {
 										</div>
 									</div>
 								</td>
-            <td className="myTeamTabledotedLine"><span className="webImageAction">
+            <td className="myTeamTabledotedLine"><span className="webImageAction" style={{display:"flex",justifyContent:"center"}}>
 			<img src={arrow} alt=""/>
 		</span>
 		<span className="mobileImageAction">
@@ -388,7 +387,7 @@ class MyTeamOverView extends Component {
 										<div className="col-lg-5 col-md-12 col-sm-12">
 											<img src={player1}  className="myTeamPalyerImage" />
 										</div>
-										<div className="col-lg-7 col-md-12 col-sm-12" style={{ float: 'right' }}>
+										<div className="col-lg-12 col-md-12 col-sm-12" style={{ float: 'right' }}>
 											<span
 												className="myTeamPlayerName"
 											>
@@ -399,7 +398,7 @@ class MyTeamOverView extends Component {
 										</div>
 									</div>
 								</td>
-            <td className="myTeamTabledotedLine"><span className="webImageAction">
+            <td className="myTeamTabledotedLine"><span className="webImageAction" style={{display:"flex",justifyContent:"center"}}>
 			<img src={arrow} alt=""/>
 		</span>
 		<span className="mobileImageAction">
@@ -429,10 +428,10 @@ class MyTeamOverView extends Component {
 
 							<tr className="myColFont">
 								<td></td>
-								<td className="myTeamTabledotedLine">
+								<td >
 									
 								</td>
-            <td className="myTeamTabledotedLine"></td>
+            <td ></td>
 
                                 <td>
                                

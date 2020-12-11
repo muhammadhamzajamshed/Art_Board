@@ -87,7 +87,7 @@ class Trade extends Component {
                             <td>QB</td>
                             <td className="proposeTabledotedLine">
                                 <div className="row">
-                                    <div className="col-lg-3">
+                                    <div className="col-lg-4">
                                         <img src={player1}  className="proposeTradePlayerImage" />
                                     </div>
                                     <div className="col-lg-8" style={{ float: 'left' }}>
@@ -101,7 +101,7 @@ class Trade extends Component {
                                     </div>
                                 </div>
                             </td>
-                            <td className="proposeTabledotedLine">
+                            <td className="proposeTabledotedLine " style={{display:"flex",justifyContent:"center"}}>
                            <button className="btn proposeTradeButton">TRADE</button>
                             
                             </td>

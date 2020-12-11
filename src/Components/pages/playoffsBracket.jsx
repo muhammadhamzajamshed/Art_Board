@@ -5,10 +5,43 @@ import circle from '../../Assets/Images/Ellipse.png';
 import line from '../../Assets/Images/Line.png';
 import vline from '../../Assets/Images/VLine.png';
 import playoffs from '../../Assets/Images/Playoffs.png';
+import { Bracket, RoundProps } from 'react-brackets';
+
+const rounds = [
+	{
+	  title: '',
+	  seeds: [
+		{
+		  id: 1,
+		  
+		  teams: [{ name: <img src={circle} className="circle circleImageSize" alt=""/> }, { name: <img src={circle} className="circle circleImageSize" alt=""/> }],
+		},
+		{
+		  id: 2,
+		  
+		  teams: [{ name: <img src={circle} className="circle circleImageSize" alt=""/> }, { name: <img src={circle} className="circle circleImageSize" alt=""/> }],
+		},
+	  ],
+	},
+	{
+	  title: '',
+	  seeds: [
+		{
+		  id: 3,
+		
+		  teams: [{ name: <img src={circle} className="circle circleImageSize" alt=""/> }, { name: <img src={circle} className="circle circleImageSize" alt=""/> }],
+		},
+	  ],
+	},
+  ];
 
 class PlayOffBrackets extends Component {
 	state = {};
 	render() {
+
+
+	
+
 		return (
 			<div className="card PlayOffBrackets ">
 				<div className="row">
@@ -30,38 +63,7 @@ class PlayOffBrackets extends Component {
 					</div>
 				</div>
 				<div className="row">
-					<div className="col-5 ">
-						<div className="box boxSizeMobile boxesMargin">
-							<div>
-								<img src={circle} className="circle circleImageSize" alt=""/>
-							</div>
-							<div>
-								<img src={circle} className="circle circleImageSize" alt="" />
-							</div>
-						</div>
-						<div className="box boxSizeMobile">
-							<div>
-								<img src={circle} className="circle circleImageSize" alt="" />
-							</div>
-							<div>
-								<img src={circle} className="circle circleImageSize" alt=""/>
-							</div>
-						</div>
-					</div>
-					<div className="col-7">
-						<div className="box1 boxesMargin" />
-						<div
-							className="box boxSizeMobile boxesMargin"
-							style={{ marginLeft: '35px', marginTop: '50px', marginBottom: '50px' }}
-						>
-							<div>
-								<img src={circle} className="circle circleImageSize" alt="" />
-							</div>
-							<div>
-								<img src={circle} className="circle circleImageSize" alt="" />
-							</div>
-						</div>
-					</div>
+					<Bracket rounds={rounds} mobileBreakpoint={2} style={{backgrundColor:"white" }} />
 					
 				</div>
 				<hr className="new5" />
