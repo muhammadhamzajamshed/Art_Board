@@ -6,7 +6,7 @@ import { FaFacebook } from 'react-icons/fa';
 import { AiFillInstagram, AiFillTwitterCircle } from 'react-icons/ai';
 import '../../CSS/footer.css'
 import newLogo from '../../Assets/Images/powerBallNewlogo.png'
-
+import footerImage from '../../Assets/Images/Group 150.png'
 
 class Footer extends Component {
 	state = {};
@@ -14,13 +14,13 @@ class Footer extends Component {
 		return (
 			<div
 				className="row footerWidth" 
-				style={{ backgroundImage: `url(${footer})`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover' }}
+				style={{ backgroundColor:"black"}}
 			>
 				<div className="col-lg-4 col-md-12 col-sm-12">
-					<div className=""><img src={newLogo} style={{ width: '140px', paddingTop: '10px', paddingLeft: '0px' }} /></div>
+					<div className="text-center footerLogo"><img src={newLogo} style={{ width: '140px', paddingTop: '20px', paddingLeft: '0px' }} /></div>
 				</div>
 				<div className="col-lg-4  col-md-12 col-sm-12 col-xs-12  text-center">
-				<div className=" footerCenter" >
+				<div className=" footerCenter"  style={{marginTop:"20px"}}>
 					<div><span className="" style={{ color: 'white' }}>
 						email us at:<strong>inquires@powerball.com</strong>
 					</span>
@@ -28,7 +28,7 @@ class Footer extends Component {
 					<div className="text-center">
 						<span style={{ color: 'white' }}> POWERBALL FANATASY 2020 ALL RIGHTS RESERVERD</span>
 					</div>
-					<div className="text-center">
+					<div className="text-center ">
 						<FaFacebook style={{ color: 'white', width: '20px', height: '20px' , marginRight:"2px"}} />{' '}
 						<AiFillInstagram style={{ color: 'white', width: '20px', height: '20px' , marginRight:"2px"}}/>
 						<AiFillTwitterCircle style={{ color: 'white', width: '20px', height: '20px' , marginRight:"2px"}}/>
@@ -37,6 +37,7 @@ class Footer extends Component {
 				</div>
 				<div className="col-lg-4">
 					<FontAwesomeIcon icon="check-square" />
+					<div className="text-center" ><img className="footerPlayerImage" src={footerImage}/></div>
 				</div>
 			</div>
 		);

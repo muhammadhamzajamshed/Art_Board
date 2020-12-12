@@ -67,25 +67,24 @@
     }
 
     .myincDecButton{
-        margin-top: 3px;
-        margin-bottom: 3px;
-        margin-left: 3px;
-        margin-right: 3px;
+        margin:3px;
+        width:50px;
     }
 
     .myoverviewFontColor{
 color: #CBCBCB;
 font-size: 32px;
-
+display: flex;
+align-items: center;
 
     }
 
     .myTeamPlayerName{
 
         color: #064EA4;
-        font-size: 24px;
+        font-size: 18px;
         text-decoration: 'underline';
-        font-family: sans-serif;
+        
 
     }
     .myTeamDept{

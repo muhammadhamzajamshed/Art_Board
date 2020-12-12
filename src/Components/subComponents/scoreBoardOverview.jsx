@@ -19,34 +19,21 @@ class ScoreBoardOverview extends Component {
 					<div className="col-lg-5 col-md-5 col-sm-5" />
 				</div>
 				<div className="row mt-6" style={{ marginTop: '15px' }}>
-					<div className="col-lg-10 col-md-10 col-sm-10 col-xs-10">
-						<div className="row lg-12 overviewInc">
-							<div className="col-lg-1 col-md-1 col-sm-1 col-xs-1  text-center ">
-								<div className="sboblueDiv sboincDecButton">
-									<span className=""> &#60;</span>
-								</div>
-							</div>
-							<div className="col-lg-3 col-md-3 col-sm-3 col-xs-3  scoreboardOverviewFontColor">
-								<span>NFL Week 10</span>
-							</div>
-							<div className="col-lg-3 col-md-3 col-sm-3 col-xs-3 ">
-								<span>
-									NFL Week 11 <img src={online} />
-								</span>
-							</div>
-							<div className="col-lg-3 col-md-3 col-sm-3 col-xs-3 scoreboardOverviewFontColor">
-								<span>NFL Week 12 </span>
-							</div>
-							<div className="col-lg-1 col-md-1 col-sm-1 col-xs-1  text-center ">
-								<div className="sboblueDiv sboincDecButton">
-									<span className=""> &#62;</span>
-								</div>
-							</div>
-							<div className="col-lg-1 col-md-1 col-sm-1 col-xs-1 " />
-						</div>
+					<div className="col-10 ml-4">
+					<div className="row lg-12 overviewInc">
+					
+					<div className=" text-center "><div className="myblueDivOverview myincDecButton"><span className=""> &#60;</span></div></div>
+					<div className="myoverviewFontColor"><span>NFL Week 1</span></div>
+					<div className="myoverviewFontColor" style={{color:"black"}}><span>NFL Week 2</span></div>
+					<div className="myoverviewFontColor"><span>NFL Week 3</span></div>
+					<div className=" text-center "><div className="myblueDivOverview myincDecButton"><span className=""> &#62;</span></div></div>
+					
+					<i class="fa fa-calendar" style={{fontSize:"36px",color:"#00002E", float:"right"}}></i>
+					
 					</div>
-					<div className="col-lg-2 col-md-2 col-sm-2 col-xs-2">
-						<i class="fa fa-calendar" style={{ fontSize: '36px', float: 'right', marginRight: '15px' }} />
+					</div>
+					<div className="col-2">
+					
 					</div>
 				</div>
 				</div>
@@ -109,7 +96,7 @@ class ScoreBoardOverview extends Component {
 									</div>
 									<div>
 										{' '}
-										<span style={{ color: '#00002E', fontWeight: 'bold' }}>JOE'S Club</span>
+										<span style={{ color: '#00002E', fontWeight: 'bold' }} className="scoreBoardPlayersNameFontSize">JOE'S Club</span>
 									</div>
 								</div>
 								<div className="col-4">
@@ -396,6 +383,9 @@ class ScoreBoardOverview extends Component {
 						</div>
 					</div>
 				</div>
+
+				<br/>
+				<br/>
 			</div>
 		);
 	}

@@ -10,15 +10,14 @@ class OverView extends Component {
             <div className="row mt-6" style={{marginTop:"15px", }}>
             <div className="col-lg-8 col-md-8 col-sm-8 col-xs-8">
             <div className="row lg-12 overviewInc">
-            <div className="col-lg-1 col-md-1 col-sm-1 col-xs-1  text-center "><div className="blueDivOverview incDecButton"><span className=""> &#60;</span></div></div>
-            <div className="col-lg-2 col-md-2 col-sm-2 col-xs-2  overviewFontColor"><span>NFL Week 10</span></div>
-            <div className="col-lg-2 col-md-2 col-sm-2 col-xs-2 "><span>NFL Week 11</span></div>
-            <div className="col-lg-2 col-md-2 col-sm-2 col-xs-2 overviewFontColor"><span>NFL Week 2</span></div>
-            <div className="col-lg-1 col-md-1 col-sm-1 col-xs-1  text-center "><div className="blueDivOverview incDecButton"><span className=""> &#62;</span></div></div>
-            <div className="col-lg-2 col-md-2 col-sm-2 col-xs-2 "><i class="fa fa-calendar" style={{fontSize:"36px"}}></i>
-			<div className="col-lg-2 col-md-2 col-sm-2 col-xs-2 overviewFontColor"></div>
-
-			</div>
+            <div className=" text-center "><div className="myblueDivOverview myincDecButton"><span className=""> &#60;</span></div></div>
+            <div className="myoverviewFontColor"><span>NFL Week 1</span></div>
+            <div className="myoverviewFontColor" style={{color:"black"}}><span>NFL Week 2</span></div>
+            <div className="myoverviewFontColor"><span>NFL Week 3</span></div>
+            <div className=" text-center "><div className="myblueDivOverview myincDecButton"><span className=""> &#62;</span></div></div>
+            <div className=""><i class="fa fa-calendar" style={{fontSize:"36px",color:"#00002E"}}></i>
+            </div>
+            
             
             </div>
             </div>

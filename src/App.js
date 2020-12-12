@@ -56,7 +56,7 @@ function App() {
         <div>
       
         <Header/>
-        <br/><br/><br/><br/>
+        
           <Switch>
            <Route path="/header" component={Header}/>
            <Route path="/DraftRulePage" component={DraftRulesPage}/>
@@ -93,7 +93,7 @@ function App() {
            <Route path="scoreBoardOverview" component={ScoreBoardOverview}/>
            
           </Switch>
-          <br/><br/>
+          
           <Footer/>
         </div>
         
