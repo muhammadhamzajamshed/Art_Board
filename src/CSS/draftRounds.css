@@ -32,6 +32,9 @@
  
      }
 
+     .webDraftRound{
+        display: block;
+    }
      .mobDraftRound{
         display: none;
     }

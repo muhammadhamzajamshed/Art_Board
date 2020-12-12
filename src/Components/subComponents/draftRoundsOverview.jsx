@@ -42,7 +42,7 @@ class DraftRoundsOverview extends Component {
 						<span className="text-center">season 2020 <img src={dropIcon} style={{marginLeft:"5px"}}/></span>
 					</div>
 				</div>
-				<div className="mobDraftRound">
+				<div>
 				<div className="row table">
 				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 table-responsive">
 					<table class="table table-striped ">
