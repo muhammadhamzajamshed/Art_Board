@@ -969,7 +969,8 @@ class DraftRoundsOverview extends Component {
 				</div>
 				</div>
                 
-                <div className="row">
+                <div className="webPagination">
+				<div className="row">
                 <div className="col-lg-3 col-md-3 col-sm-3 col-xs-3"></div>
                 <div className="col-lg-6 col-md-6 col-sm-6 col-xs-6">
                 <div className="row">
@@ -991,6 +992,7 @@ class DraftRoundsOverview extends Component {
                 
                 
                 </div>
+				</div>
                 </div>
                 
 

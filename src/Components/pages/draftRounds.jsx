@@ -95,9 +95,9 @@ class DraftRounds extends Component {
 					<br/>
 					<br/>
 					<br/>
-					<div className="container-fluid">
+					<div className="container-fluid mr-2">
 						<div className="row">
-									<div className="col-6">
+									<div className="col-6"  style={{paddingRight:"5px"}}>
 										<div class="w1-card ml-3" style={{ backgroundColor:"white"}}>
 										<h3
 											style={{
@@ -119,81 +119,101 @@ class DraftRounds extends Component {
 										</div>
 										</div>
 									</div>
-									<div className="col-6">
-										<div className="row">
-											<div className="col-lg-2 col-md-2 col-sm-2 col-xs-2  mr-3 draftTeamDiv" >
-											<div  style={{
-													textAlign : 'center'
-												}}>
-												<p style={{ fontSize: '12px'}}>PICK 1-ON THE CLOCK</p>
-												<span>
-													<img src={redHelmet} style={{ width: '36px' }} />
-													<span style={{fontSize: '12px' }}>TEAM XYZ</span>
-												</span>
+									<div className="col-6" style={{paddingLeft:"0px"}}>
+										<div className="container-fluid">
+											<div className="row">
+												<div className="col-12 draftTeamDiv" >
+												<div  style={{
+														textAlign : 'center'
+													}}>
+													<p style={{ fontSize: '12px'}}>PICK 1-ON THE CLOCK</p>
+													<span>
+														<img src={redHelmet} style={{ width: '36px' }} />
+														<span style={{fontSize: '12px' }}>TEAM XYZ</span>
+													</span>
+												</div>
+												</div>
 											</div>
+											<div className="row roundHelemts">
+												<div className="col-4" style={{
+													backgroundColor: '#cbcbcb',
+													fontFamily: 'Bebas Neue,cursive',
+													color: 'white',
+													fontSize: '8px',
+													paddingTop: '2px',
+													paddingBottom: '2px',
+													width : '32%',
+													marginRight : '1px'
+												}}>
+													<div className="row" style={{
+													textAlign: 'center',
+													marginLeft: '1%'
+													}}>
+														<div className="col-12">
+															Pick 2
+														</div>
+													</div>
+													<div className="row" style={{
+														marginLeft: '-5px'
+													}}>
+														<img src={redHelmet} style={{ width: '12px', marginRight : '5px' }} />
+														<span style={{fontSize: '10px' }}>TEAM XYZ</span>
+													</div>
+												</div>
+												
+												<div className="col-4" style={{
+													backgroundColor: '#cbcbcb',
+													fontFamily: 'Bebas Neue,cursive',
+													color: 'white',
+													fontSize: '8px',
+													paddingTop: '2px',
+													paddingBottom: '2px',
+													marginRight : '1px',
+													width : '31%',
+												}}>
+													<div className="row" style={{
+													textAlign: 'center',
+													marginLeft: '1%'
+													}}>
+														<div className="col-12">
+															Pick 2
+														</div>
+													</div>
+													<div className="row" style={{
+														marginLeft: '-5px'
+													}}>
+														<img src={redHelmet} style={{ width: '12px', marginRight : '5px' }} />
+														<span style={{fontSize: '10px' }}>TEAM XYZ</span>
+													</div>
+												</div>
+
+												<div className="col-4" style={{
+													backgroundColor: '#cbcbcb',
+													fontFamily: 'Bebas Neue,cursive',
+													color: 'white',
+													fontSize: '8px',
+													paddingTop: '2px',
+													paddingBottom: '2px',
+													
+												}}>
+													<div className="row" style={{
+													textAlign: 'center',
+													marginLeft: '1%'
+													}}>
+														<div className="col-12">
+															Pick 2
+														</div>
+													</div>
+													<div className="row" style={{
+														marginLeft: '-5px'
+													}}>
+														<img src={redHelmet} style={{ width: '12px', marginRight : '5px' }} />
+														<span style={{fontSize: '10px' }}>TEAM XYZ</span>
+													</div>
+												</div>
+												
 											</div>
 										</div>
-										<div className="row mr-1" style={{
-											marginTop: '6px'
-										}}>
-											<div className="col-4" style={{
-												backgroundColor: '#cbcbcb',
-												fontFamily: 'Bebas Neue,cursive',
-												color: 'white',
-												marginRight: '1px',
-												marginLeft: '-2px'
-											}}>
-												<div className="row ml-1" style={{
-													textAlign: 'center'
-												}}>
-													Pick 2
-												</div>
-												<div className="row" style={{
-													marginLeft: '0px'
-												}}>
-													<img src={redHelmet} style={{ width: '16px' }} />
-													<span style={{fontSize: '12px' }}>TEAM XYZ</span>
-												</div>
-											</div>
-
-											<div className="col-4" style={{
-												backgroundColor: '#cbcbcb',
-												fontFamily: 'Bebas Neue,cursive',
-												color: 'white',
-												marginRight: '1px',
-											}}>
-												<div className="row ml-1" style={{
-													textAlign: 'center'
-												}}>
-													Pick 2
-												</div>
-												<div className="row" style={{
-													marginLeft: '0px'
-												}}>
-													<img src={redHelmet} style={{ width: '16px' }} />
-													<span style={{fontSize: '12px' }}>TEAM XYZ</span>
-												</div>
-											</div>
-
-											<div className="col-4" style={{
-												backgroundColor: '#cbcbcb',
-												fontFamily: 'Bebas Neue,cursive',
-												color: 'white',
-											}}>
-												<div className="row ml-1" style={{
-													textAlign: 'center'
-												}}>
-													Pick 2
-												</div>
-												<div className="row" style={{
-													marginLeft: '0px'
-												}}>
-													<img src={redHelmet} style={{ width: '16px' }} />
-													<span style={{fontSize: '12px' }}>TEAM XYZ</span>
-												</div>
-											</div>
-										</div>
-										
 									</div>
 					</div>
 						<br/>

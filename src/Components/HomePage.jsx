@@ -310,8 +310,10 @@ function HomePage() {
                                 </div>
                                 </Panel>
                                 <Panel header="RECENT ACTIVITY" key="2" className="site-collapse-custom-panel" >
-                                <div className="container">
-                                <table class="table table-striped">
+                                {/* <div className="container"> */}
+                                <table class="table table-striped" style={{
+                                    display : 'table'
+                                }} >
                                     <thead className="homePagetableHeader">
                                         <tr>
                                         <th scope="col"></th>
@@ -357,7 +359,7 @@ function HomePage() {
                                         
                                     </tbody>
                                     </table>
-                                </div>
+                                {/* </div> */}
                                 </Panel>
                                 <Panel header="TOP PICKS" key="3" className="site-collapse-custom-panel">
                                 <div class="w3">
@@ -379,13 +381,14 @@ function HomePage() {
                                                             textAlign : 'center' 
                                                         }}>
                                                         <h2 style={{
-                                                            fontSize : '16px'
+                                                            fontSize : '12px'
                                                         }}>
                                                             K.MURRAY
                                                             
                                                         </h2>
                                                             <span style={{
-                                                                color : 'green'
+                                                                color : 'green',
+                                                                marginLeft : '24px'
                                                             }}>
                                                                 QUARTERBACK
                                                             </span>
@@ -394,40 +397,6 @@ function HomePage() {
                                                         </div>
                                                     </div>
                                             </div>
-                                            <div className="col-6">
-                                            <div className="row">
-                                                        <div className="col-3">
-                                                            <div style={{
-                                                                paddingLeft : '15px'
-                                                            }}>
-                                                                    <img src={whiteMen} style={{
-                                                                width : '60px'
-                                                            }}/>
-                                                            </div>
-                                                        </div>
-                                                        <div className="col-9" style={{
-                                                            fontFamily: 'Bebas Neue,cursive',
-                                                            textAlign : 'center' 
-                                                        }}>
-                                                        <h2 style={{
-                                                            fontSize : '16px'
-                                                        }}>
-                                                            K.MURRAY
-                                                            
-                                                        </h2>
-                                                            <span style={{
-                                                                color : 'green'
-                                                            }}>
-                                                                QUARTERBACK
-                                                            </span>
-                                                            (ARI)
-                                                        
-                                                        </div>
-                                                    </div>
-                                            </div>
-                                        </div>
-                                        <br/>
-                                        <div className="row">
                                             <div className="col-6">
                                                     <div className="row">
                                                         <div className="col-3">
@@ -442,13 +411,14 @@ function HomePage() {
                                                             textAlign : 'center' 
                                                         }}>
                                                         <h2 style={{
-                                                            fontSize : '16px'
+                                                            fontSize : '12px'
                                                         }}>
                                                             K.MURRAY
                                                             
                                                         </h2>
                                                             <span style={{
-                                                                color : 'green'
+                                                                color : 'green',
+                                                                marginLeft : '24px'
                                                             }}>
                                                                 QUARTERBACK
                                                             </span>
@@ -457,12 +427,13 @@ function HomePage() {
                                                         </div>
                                                     </div>
                                             </div>
-                                            <div className="col-6">
-                                            <div className="row">
+                                        </div>
+                                        <br/>
+                                        <div className="row">
+                                        <div className="col-6">
+                                                    <div className="row">
                                                         <div className="col-3">
-                                                            <div style={{
-                                                                paddingLeft : '15px'
-                                                            }}>
+                                                            <div>
                                                                     <img src={whiteMen} style={{
                                                                 width : '60px'
                                                             }}/>
@@ -473,13 +444,44 @@ function HomePage() {
                                                             textAlign : 'center' 
                                                         }}>
                                                         <h2 style={{
-                                                            fontSize : '16px'
+                                                            fontSize : '12px'
                                                         }}>
                                                             K.MURRAY
                                                             
                                                         </h2>
                                                             <span style={{
-                                                                color : 'green'
+                                                                color : 'green',
+                                                                marginLeft : '24px'
+                                                            }}>
+                                                                QUARTERBACK
+                                                            </span>
+                                                            (ARI)
+                                                        
+                                                        </div>
+                                                    </div>
+                                            </div>
+                                            <div className="col-6">
+                                                    <div className="row">
+                                                        <div className="col-3">
+                                                            <div>
+                                                                    <img src={whiteMen} style={{
+                                                                width : '60px'
+                                                            }}/>
+                                                            </div>
+                                                        </div>
+                                                        <div className="col-9" style={{
+                                                            fontFamily: 'Bebas Neue,cursive',
+                                                            textAlign : 'center' 
+                                                        }}>
+                                                        <h2 style={{
+                                                            fontSize : '12px'
+                                                        }}>
+                                                            K.MURRAY
+                                                            
+                                                        </h2>
+                                                            <span style={{
+                                                                color : 'green',
+                                                                marginLeft : '24px'
                                                             }}>
                                                                 QUARTERBACK
                                                             </span>

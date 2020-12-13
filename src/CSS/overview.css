@@ -96,4 +96,7 @@ color: #CBCBCB;
         .mobDraftRoundTable{
             display: block;
         }
+        .webPagination{
+            display: none
+        }
     }

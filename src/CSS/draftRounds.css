@@ -40,6 +40,10 @@
     }
 
      @media screen and (max-width: 500px) {
+         .roundHelemts{
+             flex-wrap: inherit;
+             margin-top: 1%;
+         }
         .mobDraftRound{
             display: block;
         }
