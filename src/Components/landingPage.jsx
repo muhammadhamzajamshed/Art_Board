@@ -5,7 +5,8 @@ import {
   } from '@ant-design/icons';
 import "../CSS/button.css"
 import "../CSS/landingPage.css"
-import Image from '../Assets/Images/playerBackground (2).png'
+import Image from '../Assets/Images/Group 150.png'
+import mobileHead from '../Assets/Images/mobileHead.jpeg'
 import logo from '../Assets/Images/powerBallNewlogo.png';
 function LandingPage() {
     return (
@@ -14,19 +15,71 @@ function LandingPage() {
             <br/>
             <br/>
                 <div className="container">
-                    <div className="container">
-                    <div className="row" style={{
-                        backgroundColor: 'black'
-                    }}>
-                        <img src={Image} className="landingHead"/>
-                        <img src={logo } className="landingLogo"/>
+                    <div className="mobLanding">
+                        <br/>
+                        <br/>
+                        <br/>
+                        <img src = {mobileHead} style={{
+                            width : '100%'
+                        }} />
                     </div>
+                    <div className="webLanding">
+                        <div className="container">
+                        <div className="row" style={{
+                            backgroundColor: 'black',
+                            overflow : 'hidden',
+                            verticalAlign : 'middle'
+                        }}>
+                            <div className="col-3">
+                                    <img src={logo } style={{
+                                        width : '100%',
+                                        marginLeft : '1%',
+                                        paddingBottom : '15px',
+                                        paddingTop : '35px'
+                                    }}/>
+                            </div>
+                            <div className="col-6" style={{
+                                textAlign : 'center',
+                                padding : '10px',
+                                paddingTop : '35px'
+                            }}>
+                                    
+                                    <p style={{
+                                        color : 'white',
+                                        fontSize : '40px',
+                                        letterSpacing : '1px'
+                                        }}>WELCOME TO POWERBALL</p>
+
+                                    <div style={{
+                                        color : 'white',
+                                        fontSize : '30px',
+                                        marginTop : '-50px',
+                                        letterSpacing : '3px'
+                                        }}>
+                                        FANTASY FOOTBALL - DONE RIGHT
+                                    </div>
+                            </div>
+
+                            <div className="col-3">
+                                    <img src={Image} style={{
+                                        width : '135%',
+                                        marginLeft : '-50%',
+                                        height : '130%'
+                                    }} />
+                            </div>   
+                                        
+                                     
+                                     
+                                    
+                          
+
+                        </div>
+                        </div>
                     </div>
                 <div className="innerLandingBody">
-                
+                <br/>
                 <div>
-                <br/><br/>
-            <div className="row">
+             <div className="row">
                 
             <div className="col-xl-5 col-lg-5 col-md-5 col-xs-12">
                 <div className="leftcol">

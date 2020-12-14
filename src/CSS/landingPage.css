@@ -5,6 +5,10 @@
   background-size: contain;
   
 }
+.landingHeadBack{
+  background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgb(213, 194, 194) 53%, rgb(255, 255, 255) 100%);
+
+}
 
 .innerLandingBody{
     justify-content: center;
@@ -47,7 +51,7 @@ input{
 }
 
 
-.landingHead{
+/* .landingHead{
   width: 100%;
   margin-left: -360px;
 }
@@ -57,13 +61,24 @@ input{
   margin-top: -80px;
   margin-bottom: -30px; 
   margin-left: 490px; 
-}
+} */
 
 
 /* rgb(5, 74, 23) */
-
+.webLanding{
+  display: block;
+}
+.mobLanding{
+  display: none;
+}
 @media screen and (max-width: 500px) {
 
+  .webLanding{
+    display: none
+  }
+  .mobLanding{
+    display: block;
+  }
   .landingPowerball{
     font-size: 16px;
     text-align: center;
